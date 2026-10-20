@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T14:38+00:00",
+ "generated_at": "2026-10-20T14:59+00:00",
  "reviews": [
   {
    "id": "test-2026-10-19",
@@ -67,6 +67,14 @@
   }
  ],
  "recent_runs": [
+  {
+   "date": "2026-10-20",
+   "status": "ok",
+   "alerts": null,
+   "agent_notes": null,
+   "intel": null,
+   "morning": null
+  },
   {
    "date": "2026-10-19",
    "status": "ok",
@@ -332,7 +340,367 @@
    }
   }
  ],
- "journal": [],
+ "journal": [
+  {
+   "entry": 433.7968,
+   "entry_date": "2026-10-20",
+   "expected": "ride the trend; exit below the 200-day or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "C-VLO-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 433.58,
+   "order_placed_at": "2026-10-19T22:26:11+00:00",
+   "pm_reason": null,
+   "portfolio": "C",
+   "position_value": 19999.98,
+   "review": null,
+   "shares": 46.1045,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "VLO",
+   "technical_at_signal": {
+    "close": 433.31,
+    "roc63": 0.3818,
+    "sma200_raw": 274.08,
+    "sma_slope": 0.1005
+   },
+   "votes": {}
+  },
+  {
+   "entry": 416.4981,
+   "entry_date": "2026-10-20",
+   "expected": "ride the trend; exit below the 200-day or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "C-TSM-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 416.29,
+   "order_placed_at": "2026-10-19T22:26:11+00:00",
+   "pm_reason": null,
+   "portfolio": "C",
+   "position_value": 19999.99,
+   "review": null,
+   "shares": 48.0194,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "TSM",
+   "technical_at_signal": {
+    "close": 420.22,
+    "roc63": -0.0077,
+    "sma200_raw": 394,
+    "sma_slope": 0.0418
+   },
+   "votes": {}
+  },
+  {
+   "entry": 226.7783,
+   "entry_date": "2026-10-20",
+   "expected": "ride the trend; exit below the 200-day or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "C-CRWD-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 226.665,
+   "order_placed_at": "2026-10-19T22:26:11+00:00",
+   "pm_reason": null,
+   "portfolio": "C",
+   "position_value": 20000.01,
+   "review": null,
+   "shares": 88.1919,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "CRWD",
+   "technical_at_signal": {
+    "close": 228.1,
+    "roc63": 0.1933,
+    "sma200_raw": 161.11,
+    "sma_slope": 0.0918
+   },
+   "votes": {}
+  },
+  {
+   "entry": 181.0905,
+   "entry_date": "2026-10-20",
+   "expected": "ride the trend; exit below the 200-day or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "C-ANET-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 181,
+   "order_placed_at": "2026-10-19T22:26:11+00:00",
+   "pm_reason": null,
+   "portfolio": "C",
+   "position_value": 20000,
+   "review": null,
+   "shares": 110.442,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "ANET",
+   "technical_at_signal": {
+    "close": 182.95,
+    "roc63": 0.0479,
+    "sma200_raw": 162.9,
+    "sma_slope": 0.0475
+   },
+   "votes": {}
+  },
+  {
+   "entry": 530.285,
+   "entry_date": "2026-10-20",
+   "expected": "ride the trend; exit below the 200-day or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "C-AMD-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 530.02,
+   "order_placed_at": "2026-10-19T22:26:11+00:00",
+   "pm_reason": null,
+   "portfolio": "C",
+   "position_value": 20000.02,
+   "review": null,
+   "shares": 37.7156,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "AMD",
+   "technical_at_signal": {
+    "close": 538.05,
+    "roc63": -0.0117,
+    "sma200_raw": 395.87,
+    "sma_slope": 0.11
+   },
+   "votes": {}
+  },
+  {
+   "entry": 334.137,
+   "entry_date": "2026-10-20",
+   "expected": "ride a 3-month trend; exit below the 200-day, 10% below entry (A, B) or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "B-JPM-2026-10-20",
+   "independent_review": "manual ChatGPT review 2026-10-19",
+   "open_price": 333.97,
+   "order_placed_at": "2026-10-19T22:39:14+00:00",
+   "pm_reason": "Accepted. Rule met (3-month change -2.9%, inside the band; 200-day rising, though only +0.7% over 20 sessions, the weakest slope of the four). Already reported Oct 13, so no earnings inside the first weeks; Fed decision Oct 28 is the known event. Exit is tight (200-day 4.2% below), which limits the loss if the reviewer's trend-strength concern proves right.",
+   "portfolio": "B",
+   "position_value": 20000,
+   "review": {
+    "summary": "Rule met; interest-income outlook supports it; 200-day slope only +0.69%/20 sessions; earnings miss and Oct 19 dip add short-term uncertainty.",
+    "verdict": "APPROVE WITH CONCERNS"
+   },
+   "shares": 59.8557,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "JPM",
+   "technical_at_signal": {
+    "adjclose": 333.53,
+    "close": 333.53,
+    "roc63": -0.0291,
+    "sma200_raw": 319.55,
+    "sma_slope": 0.0069
+   },
+   "votes": {
+    "fundamental": "ok",
+    "sentiment": "ok"
+   }
+  },
+  {
+   "entry": 257.6087,
+   "entry_date": "2026-10-20",
+   "expected": "ride a 3-month trend; exit below the 200-day, 10% below entry (A, B) or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "B-JNJ-2026-10-20",
+   "independent_review": "manual ChatGPT review 2026-10-19",
+   "open_price": 257.48,
+   "order_placed_at": "2026-10-19T22:39:14+00:00",
+   "pm_reason": "Accepted. Rule met at the Oct 19 close (price 4.6% above a rising 200-day, 3-month change +1.8%). I accept the correction: the $5.5B talc settlement still needs 95% claimant participation, so litigation risk is reduced, not gone. Nearest exit of the four (200-day at -4.4%); the 10% stop will rarely be the binding exit here. Earnings are in late January, outside the hold.",
+   "portfolio": "B",
+   "position_value": 19999.99,
+   "review": {
+    "summary": "Rule met; raised guidance supports it; talc settlement is conditional, not resolved; exit level is near but losses can exceed it.",
+    "verdict": "APPROVE WITH CONCERNS"
+   },
+   "shares": 77.6371,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "JNJ",
+   "technical_at_signal": {
+    "adjclose": 253.79,
+    "close": 253.79,
+    "roc63": 0.0177,
+    "sma200_raw": 242.55,
+    "sma_slope": 0.0241
+   },
+   "votes": {
+    "fundamental": "ok",
+    "sentiment": "ok"
+   }
+  },
+  {
+   "entry": 181.0905,
+   "entry_date": "2026-10-20",
+   "expected": "ride a 3-month trend; exit below the 200-day, 10% below entry (A, B) or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "B-ANET-2026-10-20",
+   "independent_review": "manual ChatGPT review 2026-10-19",
+   "open_price": 181,
+   "order_placed_at": "2026-10-19T22:39:14+00:00",
+   "pm_reason": "Challenge overridden, with the concentration point addressed by skipping AMD. The rule is met (price 12% above a rising 200-day, 3-month change +4.8% after a +15% run). The reviewer's own note that the CEO's sales were a pre-arranged plan removes the main bearish item; the Oct 16 BNP Paribas upgrade and the Oct 7 rack-scale Ethernet launch are the catalysts. Risk: 200-day exit 11% below and the 10% stop in between; earnings Nov 3 inside the hold is accepted as a known risk, consistent with the no-earnings-exit decision. Waiting for 'stabilization' is not a defined rule and would make B untestable.",
+   "portfolio": "B",
+   "position_value": 20000,
+   "review": {
+    "summary": "16% decline from the Oct 9 high; one-day rebound does not prove stabilization; insider sales were under a pre-arranged plan (not a discretionary negative); earnings risk Nov 3.",
+    "verdict": "CHALLENGE"
+   },
+   "shares": 110.442,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "ANET",
+   "technical_at_signal": {
+    "adjclose": 182.95,
+    "close": 182.95,
+    "roc63": 0.0479,
+    "sma200_raw": 162.9,
+    "sma_slope": 0.0475
+   },
+   "votes": {
+    "fundamental": "ok",
+    "sentiment": "ok"
+   }
+  },
+  {
+   "entry": 334.137,
+   "entry_date": "2026-10-20",
+   "expected": "ride a 3-month trend; exit below the 200-day, 10% below entry (A, B) or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "A-JPM-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 333.97,
+   "order_placed_at": "2026-10-19T21:49:01+00:00",
+   "pm_reason": null,
+   "portfolio": "A",
+   "position_value": 20000,
+   "review": null,
+   "shares": 59.8557,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "JPM",
+   "technical_at_signal": {
+    "close": 333.53,
+    "roc63": -0.0291,
+    "sma200_raw": 319.55,
+    "sma_slope": 0.0069
+   },
+   "votes": {}
+  },
+  {
+   "entry": 257.6087,
+   "entry_date": "2026-10-20",
+   "expected": "ride a 3-month trend; exit below the 200-day, 10% below entry (A, B) or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "A-JNJ-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 257.48,
+   "order_placed_at": "2026-10-19T21:49:01+00:00",
+   "pm_reason": null,
+   "portfolio": "A",
+   "position_value": 19999.99,
+   "review": null,
+   "shares": 77.6371,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "JNJ",
+   "technical_at_signal": {
+    "close": 253.79,
+    "roc63": 0.0177,
+    "sma200_raw": 242.55,
+    "sma_slope": 0.0241
+   },
+   "votes": {}
+  },
+  {
+   "entry": 77.2586,
+   "entry_date": "2026-10-20",
+   "expected": "ride a 3-month trend; exit below the 200-day, 10% below entry (A, B) or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "A-GM-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 77.22,
+   "order_placed_at": "2026-10-19T21:49:01+00:00",
+   "pm_reason": null,
+   "portfolio": "A",
+   "position_value": 19999.99,
+   "review": null,
+   "shares": 258.8707,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "GM",
+   "technical_at_signal": {
+    "close": 82.75,
+    "roc63": 0.0427,
+    "sma200_raw": 80.42,
+    "sma_slope": 0.0023
+   },
+   "votes": {}
+  },
+  {
+   "entry": 181.0905,
+   "entry_date": "2026-10-20",
+   "expected": "ride a 3-month trend; exit below the 200-day, 10% below entry (A, B) or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "A-ANET-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 181,
+   "order_placed_at": "2026-10-19T21:49:01+00:00",
+   "pm_reason": null,
+   "portfolio": "A",
+   "position_value": 20000,
+   "review": null,
+   "shares": 110.442,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "ANET",
+   "technical_at_signal": {
+    "close": 182.95,
+    "roc63": 0.0479,
+    "sma200_raw": 162.9,
+    "sma_slope": 0.0475
+   },
+   "votes": {}
+  },
+  {
+   "entry": 530.285,
+   "entry_date": "2026-10-20",
+   "expected": "ride a 3-month trend; exit below the 200-day, 10% below entry (A, B) or at 63 sessions",
+   "fill_mode": "fill-only run before the close (owner-requested); evening run marks and signals",
+   "filled_at": "2026-10-20T14:58:11+00:00",
+   "id": "A-AMD-2026-10-20",
+   "independent_review": "n/a (mechanical portfolio)",
+   "open_price": 530.02,
+   "order_placed_at": "2026-10-19T21:49:01+00:00",
+   "pm_reason": null,
+   "portfolio": "A",
+   "position_value": 20000.02,
+   "review": null,
+   "shares": 37.7156,
+   "signal_date": "2026-10-19",
+   "stage": "entry",
+   "sym": "AMD",
+   "technical_at_signal": {
+    "close": 538.05,
+    "roc63": -0.0117,
+    "sma200_raw": 395.87,
+    "sma_slope": 0.11
+   },
+   "votes": {}
+  }
+ ],
  "social_evidence": [
   {
    "baseline": {

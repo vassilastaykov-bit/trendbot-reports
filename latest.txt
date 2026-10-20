@@ -1,45 +1,23 @@
 # TrendBot — latest status
-Generated 2026-10-20T14:38+00:00 (UTC). Software version 7 (trading rules unchanged since 2026-10-19). Data as of close 2026-10-19. Paper trading only; no real money.
+Generated 2026-10-20T14:59+00:00 (UTC). Software version 7 (trading rules unchanged since 2026-10-19). Data as of close 2026-10-19. Paper trading only; no real money.
 
 ## Performance (price-only benchmarks, same start date)
 | Portfolio | Strategy | Equity | Return | Cash | Invested | Max DD | Closed trades |
 |---|---|---|---|---|---|---|---|
-| A | technical rule with reset (10% stop from 2026-10-20) | $100,000 | +0.0% | $100,000 | +0.0% | +0.0% | 0 |
-| B | technical rule with reset + agent veto + independent review + portfolio manager (10% stop from 2026-10-20) | $100,000 | +0.0% | $100,000 | +0.0% | +0.0% | 0 |
-| C | trend only (above rising 200-day), strongest slope first, no reset; hypothesis portfolio | $100,000 | +0.0% | $100,000 | +0.0% | +0.0% | 0 |
+| A | technical rule with reset (10% stop from 2026-10-20) | $100,000 | +0.0% | $0 | +0.0% | +0.0% | 0 |
+| B | technical rule with reset + agent veto + independent review + portfolio manager (10% stop from 2026-10-20) | $100,000 | +0.0% | $40,000 | +0.0% | +0.0% | 0 |
+| C | trend only (above rising 200-day), strongest slope first, no reset; hypothesis portfolio | $100,000 | +0.0% | $0 | +0.0% | +0.0% | 0 |
 | SPY | benchmark | | +0.0% | | | | |
 | QQQ | benchmark | | +0.0% | | | | |
 
 ## Holdings and orders
-- **A**: held none; orders for next open: buy AMD, buy ANET, buy JNJ, buy JPM, buy GM; proposed (B only): none
-- **B**: held none; orders for next open: buy ANET, buy JNJ, buy JPM; proposed (B only): none
-- **C**: held none; orders for next open: buy AMD, buy VLO, buy CRWD, buy ANET, buy TSM; proposed (B only): none
+- **A**: held AMD (in 2026-10-20 @ 530.285, 0s, +0.0%), ANET (in 2026-10-20 @ 181.0905, 0s, +0.0%), JNJ (in 2026-10-20 @ 257.6087, 0s, +0.0%), JPM (in 2026-10-20 @ 334.137, 0s, +0.0%), GM (in 2026-10-20 @ 77.2586, 0s, +0.0%); orders for next open: none; proposed (B only): none
+- **B**: held ANET (in 2026-10-20 @ 181.0905, 0s, +0.0%), JNJ (in 2026-10-20 @ 257.6087, 0s, +0.0%), JPM (in 2026-10-20 @ 334.137, 0s, +0.0%); orders for next open: none; proposed (B only): none
+- **C**: held AMD (in 2026-10-20 @ 530.285, 0s, +0.0%), VLO (in 2026-10-20 @ 433.7968, 0s, +0.0%), CRWD (in 2026-10-20 @ 226.7783, 0s, +0.0%), ANET (in 2026-10-20 @ 181.0905, 0s, +0.0%), TSM (in 2026-10-20 @ 416.4981, 0s, +0.0%); orders for next open: none; proposed (B only): none
 
-## Latest run (2026-10-19) — status: ok
-- [A] BUY AMD: Setup at the close ($538.05, 3-mo change -1.2%, 200-day $395.87 rising +11.0%/20d); buys at tomorrow's open.
-- [A] BUY ANET: Setup at the close ($182.95, 3-mo change +4.8%, 200-day $162.9 rising +4.8%/20d); buys at tomorrow's open.
-- [A] BUY JNJ: Setup at the close ($253.79, 3-mo change +1.8%, 200-day $242.55 rising +2.4%/20d); buys at tomorrow's open.
-- [A] BUY JPM: Setup at the close ($333.53, 3-mo change -2.9%, 200-day $319.55 rising +0.7%/20d); buys at tomorrow's open.
-- [A] BUY GM: Setup at the close ($82.75, 3-mo change +4.3%, 200-day $80.42 rising +0.2%/20d); buys at tomorrow's open.
-- [B] BUY AMD: Proposed buy ($538.05, 3-mo change -1.2%, above rising 200-day $395.87). Waiting for the independent review; no order until the morning decision.
-- [B] BUY ANET: Proposed buy ($182.95, 3-mo change +4.8%, above rising 200-day $162.9). Waiting for the independent review; no order until the morning decision.
-- [B] BUY JNJ: Proposed buy ($253.79, 3-mo change +1.8%, above rising 200-day $242.55). Waiting for the independent review; no order until the morning decision.
-- [B] BUY JPM: Proposed buy ($333.53, 3-mo change -2.9%, above rising 200-day $319.55). Waiting for the independent review; no order until the morning decision.
-- [B] WATCH GM: Setup vetoed by the fundamental agent: Q3 earnings scheduled for Oct 20, 2026 before the open (inside the 5-trading-day blackout).
-- [both] WATCH : Day one, restated twice tonight: (1) fills moved from the signal close to the next open; (2) Portfolio B now waits for the independent review before buying. Nothing is held yet. The superseded records are archived, not overwritten.
-- [C] BUY : Portfolio C (trend only, strongest slope first): orders for AMD, VLO, CRWD, ANET, TSM at the Oct 20 open. No reset condition, no stop-loss. Hypothesis test approved Oct 19.
-- [both] WATCH : From Oct 20, A and B sell when a close is 10% or more below entry (fills next open). Approved Oct 19 after verifying gap handling in tests. C has no stop.
+## Latest run (2026-10-20) — status: ok
 
 ## Agent intelligence (ranked)
-- (high) Fundamentals — GM: Q3 earnings tomorrow before the open (Oct 20); options price a ~6% move. Technical setup is valid but B vetoed the entry; A will buy at the open regardless. [https://investor.gm.com/news-releases/news-release-details/gm-announces-third-quarter-2026-earnings-conference-call-details] (2026-10-19 17:00 ET)
-- (high) Technical — AMD: Momentum reset: 3-month change -1.2% after a +15% run, price 36% above a 200-day average rising 11% per 20 sessions. Exit level is 26% below, the widest risk of the five. (2026-10-19 close)
-- (medium) Sentiment — ANET: 17-18% pullback from the Oct 9 record driven by insider selling (CEO ~$34M) and a Weiss downgrade; BNP Paribas upgraded to Strong Buy Oct 16. Mood cautious, no specific negative catalyst. [https://moneycheck.com/arista-networks-anet-stock-falls-3-after-ceo-sells-34m-in-stock] (2026-10-19 17:05 ET)
-- (medium) Smart money — ANET: SEC Form 4 (primary source): CEO Jayshree Ullal sold roughly 715,000 shares Oct 6-9 at $211-$217 under a Rule 10b5-1 plan adopted Nov 14, 2025 (scheduled, not discretionary). No insider buys in 30 days. Congress: McCaul sale published Oct 16 was executed Aug 3 (71-day lag); Khanna small buys Jul-Aug. [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532&type=4] (2026-10-19 21:25 ET)
-- (medium) Sentiment — AMD: StockTwits flipped bearish Oct 12-14 during the chip selloff; r/wallstreetbets still bullish (38 mentions Oct 19). Earnings Nov 3 fall inside the holding period. [https://altindex.com/wallstreetbets] (2026-10-19 17:05 ET)
-- (medium) Fundamentals — JPM: Reported Oct 13: first EPS miss since 2022 on a $658M securities loss, but raised 2026/2027 net-interest-income outlook. Fed decision Oct 28 is the next catalyst. [https://finance.yahoo.com/markets/article/jpmorgan-profit-misses-analyst-estimates-as-jamie-dimon-warns-economic-forces-shift-under-the-surface-112446859.html] (2026-10-19 17:05 ET)
-- (medium) Catalyst — JNJ: Beat-and-raise on Oct 13 but fell 4-6% on weak MedTech. Upcoming: LIBREXIA-STROKE Phase 3 readout by year-end; Dec 8 investor event with 2027 guidance. [https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q3-2026-results-raises-2026-guidance/default.aspx] (2026-10-19 17:05 ET)
-- (low) Sentiment — ANET: StockTwits (read directly): sentiment 52/neutral, 50% bullish, normal message volume; dip-buying language after the Oct 15 drop, no specific negative catalyst. Reddit is blocked in the browser pane; X needs the owner to sign in. [https://stocktwits.com/symbol/ANET] (2026-10-19 21:25 ET)
-- (low) Catalyst / seasonality — : Q3 earnings season (Oct 10-Nov 15) has been the strongest tested window on SPY since 1993: +3.3% mean vs +1.2% normal, 85% positive, n=33. November and Nov-Apr also test strong. Context only. (2026-10-19)
 
 ## Seasonality (context only)
 Q3 earnings season (active, bullish, strong: mean +3.3% vs normal +1.2%, 85% positive, n=33); November (upcoming, bullish, strong: mean +2.5% vs normal +1.0%, 76% positive, n=33); Nov-Apr (upcoming, bullish, strong: mean +7.3% vs normal +6.0%, 79% positive, n=33); May-Oct (active, bearish, moderate: mean +4.3% vs normal +6.0%, 79% positive, n=33)
@@ -64,13 +42,13 @@ As of 2026-10-19 — 0 completed trades; 1 agent veto (GM) and 1 portfolio-manag
 Weekly summary: No completed trades yet. One manual independent review has been received and decided (Oct 19). The first weekly evaluation runs Saturday Oct 24 and will report counts only; conclusions need at least 10 closed trades per portfolio to be called preliminary and 30+ to be called convincing.
 
 ## System health
-- Last successful run: 2026-10-19 (manual day-one run) (ok — Oct 20 morning run completed 8:53 am ET (no proposals to decide; health updated). Orders for A, B, C were locked Oct 19 evening (21:49Z / 22:39Z / 22:26Z) before the Oct 20 open; fills are recorded by the 4:35 pm run from the actual opening prices.)
+- Last successful run: 2026-10-19 (manual day-one run) (ok — Oct 20 11:05 am ET: owner-requested fill-only run executed the 13 orders placed Oct 19 at the actual Oct 20 opening prices (+0.05%): A 5 buys, B 3 buys, C 5 buys; pending lists now empty so the 4:35 pm run cannot fill them again.)
 - Next runs: Wed Oct 21, 8:50 am ET (cloud) / Tue Oct 20, 4:35 pm ET (needs the owner's PC on)
 - Agents: {'catalyst+seasonality': 'ok', 'fundamentals': 'ok', 'sentiment': 'ok (StockTwits + X via owner Chrome + news; Reddit unavailable)', 'smart_money': 'ok (SEC Form 4 + Capitol Trades, primary sources)', 'technical': 'ok'}
 - Sources: {'Congressional disclosures (capitoltrades, browser pane)': 'ok', 'OpenAI API': 'authenticated, no credits (parked by owner)', 'Reddit (browser pane)': 'blocked by platform safety restriction', 'Reddit JSON (cloud)': "blocked by Reddit (tested 2026-10-20 10:16 ET after www.reddit.com was allowed: connection reaches Reddit, HTTP 403 'You've been blocked by network security' on every public endpoint; Reddit refuses cloud data-centre addresses; not bypassed)", 'SEC EDGAR Form 4 (browser pane)': 'ok', 'StockTwits (browser pane)': 'ok', 'Web news search': 'ok', "X (owner's Chrome)": 'ok (verified 2026-10-19 21:42 ET, signed-in Chrome extension; needs Chrome open at run time)', 'Yahoo Finance prices (via the owner's PC)': 'ok'}
 - Pending reviews: 0; errors: []
 - Bridge: {'allowed_domain': True, 'last_review': '2026-10-19 (manual: ChatGPT reply pasted by the owner)', 'last_test': '2026-10-19 21:35 ET failed: no credits', 'model': 'gpt-5', 'paid_usage_approved': False, 'status': 'error'}
-- Notes: B policy: agents_and_pm (approved Oct 20). Blocked: OpenAI credits (parked), GitHub push access pending, Reddit unavailable from both the cloud and the browser pane (platform blocks; not bypassed). Reddit mentions reach the sentiment agent only second-hand via web search.
+- Notes: B policy: agents_and_pm (approved Oct 20). Public reports live on GitHub (approved Oct 20); the evening run republishes daily. Blocked: OpenAI credits (parked), Reddit unavailable (platform blocks; not bypassed).
 
 ## Rules (unchanged unless the owner approves)
 Above a rising 200-day SMA; buy signal when ROC63 was ≥ +15% in the last 60 sessions and is now in −3%…+5%; fills next open +0.05%; exits: close < SMA200, close ≤ entry −10% (A, B; from 2026-10-20), or 63 sessions; equal weight, max 5. C: trend only, slope-ranked, no reset, no stop. B: agents veto buys, independent review, portfolio manager decides and records why.

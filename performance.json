@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T14:38+00:00",
+ "generated_at": "2026-10-20T14:59+00:00",
  "strategy_version": 7,
  "data_as_of": "2026-10-19",
  "portfolios": {
@@ -9,44 +9,59 @@
    "start_cash": 100000,
    "equity": 100000,
    "return": 0,
-   "cash": 100000,
+   "cash": 0.0,
    "invested_pct": 0,
    "realized_pnl": 0,
    "unrealized_pnl": 0,
    "max_drawdown": 0,
-   "open_positions": {},
-   "pending_orders": [
-    {
-     "side": "buy",
-     "sym": "AMD",
+   "open_positions": {
+    "AMD": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T21:49:01+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 530.285,
+     "shares": 37.7156,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "ANET",
+    "ANET": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T21:49:01+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 181.0905,
+     "shares": 110.442,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "JNJ",
+    "JNJ": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T21:49:01+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 257.6087,
+     "shares": 77.6371,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "JPM",
+    "JPM": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T21:49:01+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 334.137,
+     "shares": 59.8557,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "GM",
+    "GM": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T21:49:01+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 77.2586,
+     "shares": 258.8707,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     }
-   ],
+   },
+   "pending_orders": [],
    "proposed": [],
    "equity_curve": [
     [
@@ -62,32 +77,41 @@
    "start_cash": 100000,
    "equity": 100000,
    "return": 0,
-   "cash": 100000,
+   "cash": 40000.01,
    "invested_pct": 0,
    "realized_pnl": 0,
    "unrealized_pnl": 0,
    "max_drawdown": 0,
-   "open_positions": {},
-   "pending_orders": [
-    {
-     "side": "buy",
-     "sym": "ANET",
+   "open_positions": {
+    "ANET": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T22:39:14+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 181.0905,
+     "shares": 110.442,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "JNJ",
+    "JNJ": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T22:39:14+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 257.6087,
+     "shares": 77.6371,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "JPM",
+    "JPM": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T22:39:14+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 334.137,
+     "shares": 59.8557,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     }
-   ],
+   },
+   "pending_orders": [],
    "proposed": [],
    "equity_curve": [
     [
@@ -103,44 +127,59 @@
    "start_cash": 100000,
    "equity": 100000,
    "return": 0,
-   "cash": 100000,
+   "cash": 0.0,
    "invested_pct": 0,
    "realized_pnl": 0,
    "unrealized_pnl": 0,
    "max_drawdown": 0,
-   "open_positions": {},
-   "pending_orders": [
-    {
-     "side": "buy",
-     "sym": "AMD",
+   "open_positions": {
+    "AMD": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T22:26:11+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 530.285,
+     "shares": 37.7156,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "VLO",
+    "VLO": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T22:26:11+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 433.7968,
+     "shares": 46.1045,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "CRWD",
+    "CRWD": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T22:26:11+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 226.7783,
+     "shares": 88.1919,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "ANET",
+    "ANET": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T22:26:11+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 181.0905,
+     "shares": 110.442,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     },
-    {
-     "side": "buy",
-     "sym": "TSM",
+    "TSM": {
      "signal_date": "2026-10-19",
-     "placed_at": "2026-10-19T22:26:11+00:00"
+     "entry_date": "2026-10-20",
+     "entry": 416.4981,
+     "shares": 48.0194,
+     "mfe": 0.0,
+     "mae": 0.0,
+     "sessions_held": 0
     }
-   ],
+   },
+   "pending_orders": [],
    "proposed": [],
    "equity_curve": [
     [
