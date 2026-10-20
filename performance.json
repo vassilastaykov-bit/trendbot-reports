@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-20T14:59+00:00",
- "strategy_version": 7,
+ "generated_at": "2026-10-20T15:40+00:00",
+ "strategy_version": 9,
  "data_as_of": "2026-10-19",
  "portfolios": {
   "A": {
@@ -9,56 +9,56 @@
    "start_cash": 100000,
    "equity": 100000,
    "return": 0,
-   "cash": 0.0,
+   "cash": 0,
    "invested_pct": 0,
    "realized_pnl": 0,
    "unrealized_pnl": 0,
    "max_drawdown": 0,
    "open_positions": {
     "AMD": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 530.285,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 37.7156,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
     },
     "ANET": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 181.0905,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 110.442,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
-    },
-    "JNJ": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
-     "entry": 257.6087,
-     "shares": 77.6371,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
-    },
-    "JPM": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
-     "entry": 334.137,
-     "shares": 59.8557,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
     },
     "GM": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 77.2586,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 258.8707,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
+    },
+    "JNJ": {
+     "entry": 257.6087,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
+     "shares": 77.6371,
+     "signal_date": "2026-10-19"
+    },
+    "JPM": {
+     "entry": 334.137,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
+     "shares": 59.8557,
+     "signal_date": "2026-10-19"
     }
    },
    "pending_orders": [],
@@ -84,31 +84,31 @@
    "max_drawdown": 0,
    "open_positions": {
     "ANET": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 181.0905,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 110.442,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
     },
     "JNJ": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 257.6087,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 77.6371,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
     },
     "JPM": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 334.137,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 59.8557,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
     }
    },
    "pending_orders": [],
@@ -127,56 +127,56 @@
    "start_cash": 100000,
    "equity": 100000,
    "return": 0,
-   "cash": 0.0,
+   "cash": 0,
    "invested_pct": 0,
    "realized_pnl": 0,
    "unrealized_pnl": 0,
    "max_drawdown": 0,
    "open_positions": {
     "AMD": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 530.285,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 37.7156,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
-    },
-    "VLO": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
-     "entry": 433.7968,
-     "shares": 46.1045,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
-    },
-    "CRWD": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
-     "entry": 226.7783,
-     "shares": 88.1919,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
     },
     "ANET": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 181.0905,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 110.442,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
+    },
+    "CRWD": {
+     "entry": 226.7783,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
+     "shares": 88.1919,
+     "signal_date": "2026-10-19"
     },
     "TSM": {
-     "signal_date": "2026-10-19",
-     "entry_date": "2026-10-20",
      "entry": 416.4981,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
      "shares": 48.0194,
-     "mfe": 0.0,
-     "mae": 0.0,
-     "sessions_held": 0
+     "signal_date": "2026-10-19"
+    },
+    "VLO": {
+     "entry": 433.7968,
+     "entry_date": "2026-10-20",
+     "mae": 0,
+     "mfe": 0,
+     "sessions_held": 0,
+     "shares": 46.1045,
+     "signal_date": "2026-10-19"
     }
    },
    "pending_orders": [],

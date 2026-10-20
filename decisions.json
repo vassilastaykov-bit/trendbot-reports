@@ -1,6 +1,52 @@
 {
- "generated_at": "2026-10-20T14:59+00:00",
+ "generated_at": "2026-10-20T15:40+00:00",
  "reviews": [
+  {
+   "id": "test-2026-10-20",
+   "date": "2026-10-20",
+   "status": "passed",
+   "automated": true,
+   "reviewer": "OpenAI gpt-5 via API",
+   "created_at": null,
+   "response_at": "2026-10-20T15:06:39+00:00",
+   "decided_at": null,
+   "proposed": null,
+   "packet": null,
+   "reviewer_response": "XYZ: APPROVE WITH CONCERNS \u2014 Meets the rule cleanly: price is 20% above a rising 200-day (+3.1% slope) and the 3-month ROC has cooled to +2.4% after a +19% peak 35 sessions ago. However, a discretionary CFO sale on Oct 9 (not 10b5-1) alongside a StockTwits attention spike post product news raises near-term topping risk, and both the Oct 28 launch and Nov 12 earnings add gap risk versus a 10% stop. Analyst target raises and +4% EPS revision are supportive, but volatility is likely and the 10% stop will probably trigger before any 200-day breach (-16.7% below).\n\nABC: CHALLENGE \u2014 It only narrowly fits the band (current 3-month ROC -2.9% after a +15.5% peak 58 sessions ago) and sits just 1.5% above a nearly flat 200-day (+0.2% slope), which is classic whipsaw terrain. Earnings arrive in 3 sessions with neutral social sentiment and no smart-money signals, so the setup lacks confirmation and carries immediate event/gap risk. The weak trend quality makes the risk/reward poor relative to alternatives that meet the rules with stronger slope and breadth.\n\nOVERALL: Proposed sizing at ~$20k each is consistent with equal-weight across a 5-slot, $100k portfolio; adding both would bring you to 4/5 positions and leave ~$20k cash, which is reasonable. However, both adds cluster earnings/event risk within the next few weeks (ABC Oct 22, XYZ Nov 12), compounding gap risk against a 10% stop that can be exceeded at the open. Correlation and sector exposure are undisclosed, so concentration risk is unknown; consider diversifying catalysts and sectors. Sentiment and \u201csmart money\u201d data are thin (X/Reddit unavailable; one insider sale on XYZ), and the seasonality note is index-level context, not a substitute for name-specific confirmation.",
+   "reviewer_verdicts": {
+    "ABC": {
+     "reasoning": "It only narrowly fits the band (current 3-month ROC -2.9% after a +15.5% peak 58 sessions ago) and sits just 1.5% above a nearly flat 200-day (+0.2% slope), which is classic whipsaw terrain. Earnings arrive in 3 sessions with neutral social sentiment and no smart-money signals, so the setup lacks confirmation and carries immediate event/gap risk. The weak trend quality makes the risk/reward poor relative to alternatives that meet the rules with stronger slope and breadth.",
+     "verdict": "CHALLENGE"
+    },
+    "XYZ": {
+     "reasoning": "Meets the rule cleanly: price is 20% above a rising 200-day (+3.1% slope) and the 3-month ROC has cooled to +2.4% after a +19% peak 35 sessions ago. However, a discretionary CFO sale on Oct 9 (not 10b5-1) alongside a StockTwits attention spike post product news raises near-term topping risk, and both the Oct 28 launch and Nov 12 earnings add gap risk versus a 10% stop. Analyst target raises and +4% EPS revision are supportive, but volatility is likely and the 10% stop will probably trigger before any 200-day breach (-16.7% below).",
+     "verdict": "APPROVE WITH CONCERNS"
+    }
+   },
+   "pm_decisions": null,
+   "decision_summary": null,
+   "bridge_status": "received",
+   "request_id": "resp_0c944d0a499bb205006ad7835b8f8487d2bd0d4e2c29ba6da9",
+   "model": "gpt-5-2025-08-07",
+   "usage": {
+    "input_tokens": 1110,
+    "input_tokens_details": {
+     "cache_write_tokens": 0,
+     "cached_tokens": 1024
+    },
+    "output_tokens": 2919,
+    "output_tokens_details": {
+     "reasoning_tokens": 2432
+    },
+    "total_tokens": 4029
+   },
+   "cost_usd_est": 0.0306,
+   "claude_provisional": null,
+   "operational_questions": null,
+   "operational_answer": null,
+   "claude_operational_response": null,
+   "tag": null
+  },
   {
    "id": "test-2026-10-19",
    "date": "2026-10-19",
@@ -16,7 +62,16 @@
    "reviewer_verdicts": {},
    "pm_decisions": null,
    "decision_summary": null,
-   "bridge_status": "unavailable"
+   "bridge_status": "unavailable",
+   "request_id": null,
+   "model": "gpt-5",
+   "usage": null,
+   "cost_usd_est": null,
+   "claude_provisional": null,
+   "operational_questions": null,
+   "operational_answer": null,
+   "claude_operational_response": null,
+   "tag": null
   },
   {
    "id": "review-2026-10-19",
@@ -63,18 +118,19 @@
     }
    },
    "decision_summary": "Buy ANET, JNJ, JPM at the Oct 20 open; skip AMD. Reviewer followed on JNJ, JPM (approve with concerns) and AMD (challenge accepted: widest exit distance, earnings inside hold, AI concentration); reviewer overridden on ANET (challenge; pre-arranged insider sales, upgrade, tighter exit). AMD is logged as a PM rejection and will be followed for comparison; Portfolio A buys it anyway.",
-   "bridge_status": null
+   "bridge_status": null,
+   "request_id": null,
+   "model": null,
+   "usage": null,
+   "cost_usd_est": null,
+   "claude_provisional": null,
+   "operational_questions": null,
+   "operational_answer": null,
+   "claude_operational_response": null,
+   "tag": null
   }
  ],
  "recent_runs": [
-  {
-   "date": "2026-10-20",
-   "status": "ok",
-   "alerts": null,
-   "agent_notes": null,
-   "intel": null,
-   "morning": null
-  },
   {
    "date": "2026-10-19",
    "status": "ok",
