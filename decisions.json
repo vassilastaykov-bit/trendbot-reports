@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T15:58+00:00",
+ "generated_at": "2026-10-20T21:22+00:00",
  "reviews": [
   {
    "id": "test-2026-10-20",
@@ -131,6 +131,306 @@
   }
  ],
  "recent_runs": [
+  {
+   "date": "2026-10-20",
+   "status": "ok",
+   "alerts": [
+    {
+     "kind": "sell",
+     "portfolio": "A",
+     "sym": "GM",
+     "text": "Exit signal at the close (close below 200-day); sells at tomorrow's open. Automated rule, not subject to review."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "A",
+     "sym": "PM",
+     "text": "Setup at the close ($199.90, 3-mo change +3.8%, 200-day $177.59 rising +2.5%/20d); buys at tomorrow's open."
+    },
+    {
+     "kind": "watch",
+     "portfolio": "B",
+     "sym": "PM",
+     "text": "Setup vetoed by the fundamental agent: Earnings release 2026-10-21 before the open falls inside the next 5 trading days (confirmed by PMI's own 2026-10-14 press release). | rule check: earnings 2026-10-21 is 1 trading session(s) away (blackout 5)"
+    },
+    {
+     "kind": "watch",
+     "portfolio": "C",
+     "sym": "VLO",
+     "text": "Valero reports Q3 on Thu Oct 22 before the open (consensus EPS $20.83 on $43.4B). C has no earnings rule and no stop; the only exit is a close below the 200-day ($275.44, 36% below) or 63 sessions."
+    },
+    {
+     "kind": "watch",
+     "portfolio": "A/B",
+     "sym": "JPM",
+     "text": "Rule state SETUP -> NEAR (3-month change -3.2%, just below the band). Nearest exit is the 200-day 4.9% below ($319.63). Research rating 2/5, view SELL (observational; the rule holds)."
+    },
+    {
+     "kind": "watch",
+     "portfolio": "A/C",
+     "sym": "AMD",
+     "text": "Rule state SETUP -> NEAR (3-month change -3.2%); 5-session change -11.7% in the chip sell-off. Stop at $477.26 is 12% below; 200-day 34.6% below."
+    },
+    {
+     "kind": "watch",
+     "portfolio": "-",
+     "sym": "CSCO",
+     "text": "Still NEAR (3-month change -4.5%, needs >= -3% to become a setup); 7.6% above a rising 200-day."
+    },
+    {
+     "kind": "watch",
+     "portfolio": "-",
+     "sym": "X",
+     "text": "X (owner's Chrome) showed a login page at 16:48 ET; X evidence recorded as unavailable for all six researched names. No sign-in attempted."
+    }
+   ],
+   "agent_notes": {
+    "AMD": {
+     "against": "The stock is still 34.6% above its 200-day at ~199x trailing / ~40x forward earnings while chips post their longest losing streak since 2008 on $100 oil, a 5.1% 10-year and growing doubts about $1T hyperscaler capex; late-October hyperscaler earnings could cut capex expectations before AMD even reports, and Nov 3 is a binary print where 'demand ahead of forecast' is already in the price, with the $477.26 stop only ~11% below.",
+     "catalyst_score": 1,
+     "catalysts": "Q3 2026 earnings on Nov 3 (Helios ramp, Q4 guide, 2027 data-center doubling confirmation), hyperscaler capex prints in late October, UBS (Dec 1) and Barclays (Dec 9) tech conferences, and Arm/Qualcomm bench-trial closing arguments next week as sector noise.",
+     "confidence": "normal",
+     "earnings_date": "2026-11-03",
+     "fundamental": "AMD's own IR press release (Oct 6, 2026) sets Q3 2026 results for Tuesday Nov 3, 2026 after the close (call 5 p.m. ET) - 10 trading sessions away, outside the 5-session veto window. No guidance cut: Q3 guide is ~$13B revenue, management says Helios demand is running ahead of forecast and data-center revenue should more than double in 2027. Last two weeks saw target raises (Citi $575->$800 and Mizuho $580->$705 on Oct 6; KeyBanc $725 maintained Oct 15; Wedbush $600 and Truist Buy reiterated Oct 20); consensus Strong Buy, 55 analysts, avg target $636; BofA $720 (Oct 14) and BNP $960 headlines seen but not verified.",
+     "fundamental_score": 1,
+     "fundamental_vote": "ok",
+     "next_catalyst": "Q3 2026 earnings 2026-11-03 after close",
+     "rating": 4,
+     "research_view": "HOLD",
+     "sentiment": "Mood is cooling, not broken: StockTwits (primary) reads 49/Neutral, 44% bullish, LOW message volume - attention faded after the Sep-Oct run; Form 4 and Capitol Trades were primary; X and Reddit were unavailable. Bear case (news last 7 days): 8-session SOX losing streak (longest since 2008), AMD -18.6% from its Oct 6 close at one point, driven by oil >$100, 10-yr 5.10%, BofA strategist warning on $1T hyperscaler capex, plus Arm/Qualcomm verdict noise on Oct 16 - all sector/macro, no AMD-specific negative catalyst found. Bull case: 2 GW Anthropic MI450 deployment, OpenAI/Meta commitments, Helios shipping, 2027 DC doubling; Street still raising targets. No verified lawsuit/regulatory/customer-loss event, so no sentiment veto.",
+     "sentiment_direction": "down",
+     "sentiment_vote": "ok",
+     "smart_money": "SEC Form 4: EVP Forrest Norrod sold 17,262 sh on 2026-10-15 at $535-543 (filed 2026-10-19) under a Rule 10b5-1 plan adopted 2026-05-20, a monthly exercise-and-sell identical to his 2026-09-15 sale; CEO Lisa Su sold ~94,900 sh on 2026-09-10 under a 10b5-1 plan adopted 2026-06-08. All scheduled, none discretionary, and no open-market insider purchase in 30 days. Capitol Trades: Rep. Ro Khanna small BUY (1K-15K) traded 2026-09-04, published 2026-10-09 (33-day lag); otherwise mixed small Aug-Sep trades, no cluster.",
+     "smart_money_score": 0,
+     "social_changes": "first observation; baseline starts today",
+     "sources_unavailable": "X (login wall, not signed in) and Reddit (HTTP 403) per the collected packet; fxleaders.com (BofA $720 target, Oct 14) blocked by robots so that target raise is unverified; BNP Paribas $960 target date/figure unverified; no Q3 quarterly consensus revision history obtained (stockanalysis shows annual estimates only); first social-baseline observation so no 'changes vs baseline' available.",
+     "status": "held",
+     "veto_reason": ""
+    },
+    "ANET": {
+     "against": "The position was entered after an 18% macro/sector-driven drawdown with no company news to anchor the bounce, and the binary Nov 3 print falls inside the hold window with the Street already bracing for a sub-$3.6B Q4 guide; TD Cowen just cut its target 18% and the 10% stop ($162.98) sits on top of the 200-day ($163.13), so a weak guide could gap through both exits at once.",
+     "catalyst_score": 0,
+     "catalysts": "Q3 2026 earnings and Q4 guide on 2026-11-03 (Street bar ~$3.6B Q4 revenue), Etherlink SU-144/1.6T 7060XE7 ramp commentary, and neocloud/AI-capex sentiment swings into year-end.",
+     "confidence": "normal",
+     "earnings_date": "2026-11-03",
+     "fundamental": "Arista's own IR press release (dated 2026-10-06) sets Q3 2026 results for Tuesday 2026-11-03 after the close (call 1:30 PM PT), i.e. 10 trading sessions away, outside the 5-session window. No guidance change in the last 2 weeks: Q3 guide stands at ~$3.3B revenue, 62-64% non-GAAP GM, 48-49% op margin; Street expects Q3 $3.33B/$1.08 EPS and Q4 $3.6B/$1.15. One analyst move this week: TD Cowen cut its target $250 to $205 on 2026-10-20 (Buy kept); consensus still Buy (2 Strong Buy/20 Buy/2 Hold, avg target ~$233), so a target trim rather than an estimate or guidance cut - scored 0.",
+     "fundamental_score": 0,
+     "fundamental_vote": "ok",
+     "next_catalyst": "Q3 2026 earnings + Q4 guide 2026-11-03 after close",
+     "rating": 3,
+     "research_view": "WATCH",
+     "sentiment": "Mood is shaken but not broken: the stock fell 18% from its 2026-10-09 record ($216.74) to $176.98 on 10-16 on neocloud credit worries (CoreWeave bond yields ~15%), hot inflation/oil and an 8-day chip-index slide, with no Arista-specific shortfall, guidance cut, lawsuit or customer loss; it bounced +3.4% on 10-19 and slipped -1% today. Bull case: debt-free, $13.3B cash, ~40% growth, SU-144 rack-scale Ethernet with Meta/Microsoft as partners, P/E compressed to ~38x NTM; bear case: Nvidia Spectrum-X bundling, hyperscaler concentration (Microsoft/Meta), neocloud customer financing strain and heavy 10b5-1 insider selling. Primary sources: StockTwits (score 53 Neutral, 49% bullish, normal volume, dip-buyers, no change vs baseline), SEC Form 4, Capitol Trades; X and Reddit unavailable; news from Yahoo/TIKR, Motley Fool, MarketBeat, TradingKey (opinion/secondary).",
+     "sentiment_direction": "down",
+     "sentiment_vote": "ok",
+     "smart_money": "Form 4s filed 2026-10-08/09/13 show CEO Jayshree Ullal selling ~716K shares on 2026-10-06 to 10-09 at $211-$217 under a Rule 10b5-1 plan adopted 2025-11-14 (scheduled, not discretionary); MarketBeat also lists 10b5-1 sales by Kenneth Duda (09-21) and director Mark Templeton (10-01), and no open-market insider buy in 30 days (SEC EDGAR CIK 0001596532). Congress: Rep. McCaul SELL $15K-50K executed 2026-08-04 but disclosed 2026-10-16 (71-day lag, stale), Rep. Khanna small BUYs 07-20 and 08-24; no cluster (Capitol Trades). Score 0: no discretionary sale inside 10 days, no buy.",
+     "smart_money_score": 0,
+     "social_changes": "no material change vs baseline",
+     "sources_unavailable": "X (not signed in) and Reddit (HTTP 403) per social_ANET.json; no paywalled sell-side notes read directly (TD Cowen cut via MarketBeat); no consensus-revision history database checked.",
+     "status": "held",
+     "veto_reason": ""
+    },
+    "GM": {
+     "against": "The stock just broke below its 200-day on its worst day in 15 months after management effectively told the Street that Q4 and 2027 carry $1-1.5B of extra cost inflation, no repeat of IEEPA refunds and softer pickup volumes, so forward estimates are likelier to fall than rise; the retail crowd being 75% bullish into that tape is a contrarian warning, not support.",
+     "catalyst_score": 0,
+     "catalysts": "Positive: GM Forward product/investor event on 2026-10-21 (per Barra on the call), execution of the new open-ended $20B buyback, Super Cruise installed base +~50% next year, Q4 2026 results and first FY2027 guidance around 2027-01-26 (est.); negative/known risk: ~$2B 2026 commodity inflation mostly hitting Q4, extra $1.0-1.5B commodity headwind flagged for 2027, non-repeat of the $600-800M IEEPA tariff benefit, Fort Wayne 4-week truck downtime from mid-December ahead of Q1/Q2 2027 launches, and continued tariff exposure (gross $2.5-3.5B range, low end).",
+     "confidence": "normal",
+     "earnings_date": "2027-01-26",
+     "fundamental": "Q3 2026 (reported 2026-10-20 06:30 ET) beat: revenue $50.0B vs ~$48.7B est, adj. EPS $3.70 vs $3.56-3.69 est, EBIT-adj $4.1B (+21.6%), adj. auto FCF $5.9B (+40%); FY26 EBIT-adj narrowed to $14.5-15.5B (midpoint unchanged at $15.0B), adj. EPS raised at the low end to $12.75-13.75, adj. auto FCF raised to $11.5-12.5B, new $20B open-ended buyback after completing the $6B program, dividend $0.18 (record 2026-12-04). The market sold it (-6.84%, worst day since July 2025) because the EBIT midpoint did not rise, ~$2B of 2026 commodity/logistics/DRAM inflation lands mostly in Q4 (implied Q4 EPS ~$1.78-2.78, Q4 FCF roughly flat/negative, ~35k fewer full-size pickups), GMI EBIT was only $28M vs $130M est, US deliveries -5.5% with share 16.1% vs 16.8%, and management warned of an extra $1.0-1.5B commodity headwind in 2027 with the $600-800M IEEPA tariff benefit not repeating. Pre-report sell-side moves were positive (Goldman PT $103->$112 Buy on 2026-10-06; consensus Buy, avg PT ~$97 from 21 analysts); no rating changes were recorded as of the morning of 2026-10-20, but the 2027 cost commentary points to downward forward revisions. Next earnings: Q4 2026 results estimated 2027-01-26 (MarketScreener calendar; not yet confirmed by GM IR), with FY2027 guidance promised in January.",
+     "fundamental_score": 0,
+     "fundamental_vote": "ok",
+     "next_catalyst": "GM Forward event 2026-10-21; then Q4 2026 results / FY2027 guidance ~2027-01-26 (est.)",
+     "rating": 2,
+     "research_view": "SELL",
+     "sentiment": "Mood is split: StockTwits (primary, read 2026-10-20 16:50 ET) is 'Extremely Bullish' (score 77, 75% bullish, extremely high message volume) with dip-buyers citing ~6x forward P/E, $12B+ FCF and the $20B buyback (bull case), while the tape says the opposite: -6.84% today and -8.2% over 5 sessions on the flat EBIT midpoint, Q4 cost hit, 2027 commodity/IEEPA headwinds and falling US share (bear case); the collected packet flags this crowd-vs-price divergence as a negative signal (-1). Nothing verified in the last 7 days qualifies as a sentiment veto (no lawsuit, regulatory action, recall or customer loss found). Primary: StockTwits, SEC EDGAR Form 4, Capitol Trades (from the packet); unavailable: X (not signed in) and Reddit (HTTP 403); news context from the earnings release, call transcript and Benzinga.",
+     "sentiment_direction": "down",
+     "sentiment_vote": "ok",
+     "smart_money": "SEC Form 4 (EDGAR, packet): last filings are executive sales under 10b5-1 plans - Rory Harvey 8,882 sh at $86.95 traded 2026-07-27 (filed 2026-07-29), Grant Dixton 40,000 sh at $88.44 traded 2026-07-30/08-03 (filed 2026-08-03), plus Sterling Anderson's RSU vest/tax withholding 2026-07-29 (no sale); nothing since early August, no open-market purchase in 30 days, no discretionary sale in 10 days. Congressional (Capitol Trades, packet): Sen. Alan Armstrong BUY $1-15K traded 2026-03-27 but published 2026-07-22 (116-day lag), Rep. Ro Khanna BUY traded 2026-04-13 (published 2026-05-13) after a SELL traded 2026-02-05; nothing published since July, so no read-through to the Q3 report.",
+     "smart_money_score": 0,
+     "social_changes": "crowd 75% bullish while price -8.2% over 5 sessions",
+     "sources_unavailable": "X (login wall, not signed in) and Reddit (HTTP 403) per the packet; CNBC article failed to fetch; GM IR has not yet published a confirmed Q4 2026 earnings date (2027-01-26 is a MarketScreener calendar estimate); no post-report analyst rating/PT changes were found as of the Oct 20 morning sources.",
+     "status": "held",
+     "veto_reason": ""
+    },
+    "JNJ": {
+     "against": "Q3 exposed the two things the bull case needs to be clean - MedTech ('below the standard we set internally') and ~$1.36/share of 2027 dilution - and the stock has already bounced 4% off the post-earnings low to within ~6% of the ~$274 consensus target while still below its 50-day (~$266); if the Dec 8 review guides 2027 below consensus, a retest of ~$248 is plausible.",
+     "catalyst_score": 1,
+     "catalysts": "Dec 8, 2026 Enterprise Business Review (orthopaedics/DePuy Synthes separation detail and 2027 framing), ex-dividend Nov 24 ($1.34), Icotyde launch ramp, talc settlement participation (95% threshold) and expected Q4 earnings ~Jan 20, 2027 (unconfirmed).",
+     "confidence": "normal",
+     "earnings_date": "unknown",
+     "fundamental": "Q3 2026 reported 2026-10-13: sales $25.40B (+5.9%, 6.1% adj. operational), adj. EPS $2.59 vs $2.80 (-7.5%, hit by $0.64 of Firefly Bio/SAIL acquisition IPR&D costs); FY2026 adj. EPS guidance raised to $11.05-11.15 (midpoint +$0.06) and sales to $101.0-101.4B. Negatives: MedTech grew only 2.5% ($8.6B vs ~$8.71B est.), management flagged ~$1.36/share of 2027 deal dilution, and a $5.5B talc special charge took GAAP EPS to $0.09; the stock fell ~6% on the print to ~$248 before recovering. Sell-side mixed since: Bernstein $261->$270, Wells Fargo to $287, Morgan Stanley $294->$292 (Overweight), RBC $290->$280, UBS $270; consensus ~Moderate Buy, avg target ~$274. Next (Q4) earnings call not yet announced; by pattern it falls ~2027-01-20 (last year's invitation was issued 2025-12-15 for a 2026-01-21 call), so no earnings inside 5 sessions.",
+     "fundamental_score": 0,
+     "fundamental_vote": "ok",
+     "next_catalyst": "Enterprise Business Review 2026-12-08",
+     "rating": 5,
+     "research_view": "BUY",
+     "sentiment": "Bull: beat-and-raise quarter, Tremfya +68% to $2.4B, oncology +17%, guidance up, talc overhang priced via one-time charge, Dec 8 Enterprise Business Review and defensive-rotation pieces (24/7 Wall St 10/19) framing JNJ as a defensive play; bear: MedTech miss, 2027 dilution, Stelara -54%, talc deal still needs 95% claimant participation. Mood: recovering - 5-session price +4.32% after the 10/13 drop, +2.19% today; StockTwits (primary) is Neutral 52/50% bullish on normal volume and polluted by SELLAS (SLS) takeover promoters (unverified rumour, low quality). Primary sources: StockTwits, SEC EDGAR Form 4, Capitol Trades; X and Reddit unavailable; no social baseline yet (day 0).",
+     "sentiment_direction": "up",
+     "sentiment_vote": "ok",
+     "smart_money": "SEC Form 4 (EDGAR, read 2026-10-20): newest filings 2026-09-10 are director DSU fee-deferral awards (Pinto, Woods, Hewson, code A, 2026-09-08, $276.31) - no open-market insider buy or sale in the last 30 days; secondary source (Defense World 10/16) cites EVP Timothy Schmid selling 33,597 sh on 2026-09-02 at $274.74 and EVP Jennifer Taubert 15,000 sh on 2026-08-17 at $263.36, both well outside the 10-day window and plan status not verified. Capitol Trades: 3 small House buys (Khanna 15K-50K traded 09-04 and 1K-15K traded 09-25, published 10-09; Doggett 1K-15K traded 09-08, published 10-06) plus Kean/Boozman sells traded 08-20/08-27 - a 'congress_cluster' flag but small tickets with 12-33 day disclosure lags and no predictive value.",
+     "smart_money_score": 0,
+     "social_changes": "3 congressional buys published in 30 days (trade dates lag disclosures)",
+     "sources_unavailable": "Q4 2026 earnings date not yet published by J&J (IR events page fetch failed); X (login wall) and Reddit (403) per primary packet; no StockTwits baseline (day 0); insider sale 10b5-1 status not verified from the Form 4 text; Wells Fargo/Bernstein note dates only approximately dated (mid-October).",
+     "status": "held",
+     "veto_reason": ""
+    },
+    "JPM": {
+     "against": "The quarter missed on EPS and revenue with expenses growing 12% against 8% revenue growth, management is slowing buybacks, and the stock is the weakest-trending name in the list (-3.2% over 3 months, 200-day slope only +0.7%) while inflation re-accelerates to 3.7% - a stagflation scenario that pressures both credit and the multiple; a fresh Sell downgrade (Oct 19) and two target cuts show the post-earnings tone has cooled rather than improved.",
+     "catalyst_score": 0,
+     "catalysts": "Q4 2026 earnings on 2027-01-14 (JPM IR) is the only dated company catalyst inside 3 months, with the preliminary 2027 NII ex-Markets guide (~$107B vs ~$97.2B for 2026) the main positive thread, offset by macro risk from re-accelerating inflation (CPI 3.7% in September), stagflation commentary and UK bank windfall-tax talk.",
+     "confidence": "normal",
+     "earnings_date": "2027-01-14",
+     "fundamental": "Q3 2026 (reported 2026-10-13) was a headline miss: adjusted EPS $5.75 vs ~$5.93 consensus on managed revenue $50.9B (+8% y/y), but net income was $15.3B, ROTCE 20%, NII $27.1B (+13%) and credit costs a modest $2.7B; management guided FY2026 NII ex-Markets ~$97.2B and adjusted expenses ~$108.6B and gave a preliminary 2027 NII ex-Markets view of ~$107B (whether FY26 guidance was raised vs the prior quarter could not be verified). Analyst moves since the print are mixed: Citi (Hold, $360->$350) and Phillip (Buy, $380->$370) trimmed targets on Oct 15, Freedom Capital upgraded to Buy ($370), and a minor shop (JL Pascual) downgraded to Sell $305 on Oct 19; consensus remains Buy (26 analysts, avg target $372.57). Next earnings 2027-01-14 per JPM's own IR release, far outside the 5-session window, so no fundamental veto; expenses growing faster than revenue (+12% vs +8%, overhead ratio 54%) and slowing buybacks keep the score at 0 rather than +1.",
+     "fundamental_score": 0,
+     "fundamental_vote": "ok",
+     "next_catalyst": "Q4 2026 earnings 2027-01-14 (8:30am ET call)",
+     "rating": 2,
+     "research_view": "SELL",
+     "sentiment": "Primary sources: StockTwits (score 36, 'Bearish' label, 47% bullish, normal volume; no baseline yet) and SEC Form 4/Capitol Trades records; X (not signed in) and Reddit (403) were unavailable. Bull case: 20% ROTCE, NII and markets strength, ~$30B excess capital, 2027 NII guide ~$107B, Dimon (Oct 19 WSJ interview) calling the US economy 'booming'; bear case: EPS/revenue miss vs consensus, expense growth outpacing revenue, buybacks dialed back, CPI re-accelerating to 3.7% with stagflation chatter, a Sell downgrade on Oct 19, and UK windfall-tax talk (Oct 6). Mood is cautious-neutral: retail label is bearish but the stock is +1.16% over 5 sessions and closed +0.52% today with no company-specific negative news in the last 7 days; the Oct 20 StockTwits claim that JPM named Bitcoin its top asset is unverified rumour.",
+     "sentiment_direction": "down",
+     "sentiment_vote": "ok",
+     "smart_money": "SEC Form 4 (issuer CIK 0000019617, 3 filings read): Director Stephen Burke gifted 30,000 shares to a non-profit on 2026-10-14 (filed 10-15, code G, not a sale); Directors Rometty and Novakovic each received 121 shares as retainer deferrals on 2026-09-30 (filed 10-01) - no open-market purchase and no discretionary or 10b5-1 sale in the last 30 days. Congress (Capitol Trades): Sen. Whitehouse two sells of $15K-50K traded 2026-09-04 (published 10-01, 27-day lag) and Rep. Franklin two sells of $1K-15K traded 2026-08-20 (published 09-18), versus larger buys by Reps. Khanna ($100K-250K, traded 08-27) and Cohen ($100K-250K, traded 08-05); all transactions predate the Q3 print by weeks and are mixed, so no signal - score 0.",
+     "smart_money_score": 0,
+     "social_changes": "2 congressional sells published in 30 days",
+     "sources_unavailable": "X (login wall, not signed in), Reddit (HTTP 403); CNBC bank-earnings live blog failed to fetch; prior-quarter guidance baseline not retrieved so the direction of the FY2026 guidance change is unverified; no StockTwits baseline (day 0).",
+     "status": "held",
+     "veto_reason": ""
+    },
+    "PM": {
+     "against": "Buying tonight means holding a binary earnings event tomorrow morning where the Street expects ~$2.30 vs management's $2.20-2.25 guide, with the stock at ~29x trailing earnings, 12.6% above its 200-day and days off a 52-week high with overbought momentum readings; any ZYN volume wobble or U.S. margin disappointment could trigger a sharp gap down.",
+     "catalyst_score": 0,
+     "catalysts": "Q3 2026 results and guidance update tomorrow 2026-10-21 (~7:00 ET, webcast 9:00 ET) are the dominant 3-month catalyst, with the $1.60 dividend paid 2026-10-26, continued ZYN ULTRA/flavor rollout and any FY26 guidance tweak; the print is two-sided because consensus (~$2.30) is above the company's own $2.20-2.25 guide.",
+     "confidence": "normal",
+     "earnings_date": "2026-10-21",
+     "fundamental": "PMI's own IR press release (dated 2026-10-14) confirms Q3 2026 results will be issued Wednesday 2026-10-21 at ~7:00 a.m. ET with a 9:00 a.m. ET webcast, i.e. before tomorrow's open and inside the 5-session window, so the deterministic rule blocks entry. Setup into the print is mixed: consensus Q3 EPS ~$2.29-2.32 on ~$11.3-11.4B revenue sits ABOVE management's own Q3 guide of $2.20-2.25, after two small currency-driven FY26 adjusted-EPS trims (Apr 22: $8.38-8.53 to $8.36-8.51; Jul 22: $8.31-8.46 to $8.26-8.41, ex-currency unchanged at $8.11-8.26). Recent analyst moves are modestly positive (UBS PT $182 to $192 Neutral on 2026-09-23; Weiss upgrade to B+ on 2026-10-08; consensus Moderate Buy, avg PT ~$203-207), but no guidance cut or negative fundamental event in the last 2 weeks.",
+     "fundamental_score": -1,
+     "fundamental_vote": "veto",
+     "next_catalyst": "Q3 2026 earnings 2026-10-21 ~07:00 ET (webcast 09:00 ET)",
+     "pm_decision": "none required: the fundamental agent vetoed and the deterministic rule check (earnings 2026-10-21, 1 session away, blackout 5) blocks B's entry. A buys at tomorrow's open regardless (rule only).",
+     "rating": 3,
+     "research_view": "WATCH",
+     "sentiment": "Primary source was StockTwits (score 69 Bullish, 50% of votes bullish, normal message volume; posts focus on tomorrow's print and the 2026-10-15 breakout to a new 52-week high around $207.76); X and Reddit were unavailable and this is the first observation so there is no baseline for a 'change' reading. Bull case: IQOS/ZYN smoke-free growth, ZYN U.S. shipments back to growth (+1.8% in Q2 after -23% in Q1), FDA MRTP for 20 ZYN products (June 30), dividend raised to $1.60/qtr, long record of beats. Bear case: consensus sits above the company's Q3 guide, U.S. margin pressure (Q2 U.S. adj. gross margin -6 pts), trailing P/E ~29x well above 5-year median, RSI ~70/overbought after the 52-week high, EU nicotine-pouch/flavor restrictions. Mood: bullish but not frenzied; no verified negative catalyst (no lawsuit, regulatory action, recall or customer loss) found in the last 7 days.",
+     "sentiment_direction": "flat",
+     "sentiment_vote": "ok",
+     "smart_money": "SEC EDGAR Form 4s (read 2026-10-20): newest filings are 2026-05-08 director stock awards (code A, 1,119 shares each at $169.93 to Combes, Geissler, Morparia, transaction date 2026-05-06); no open-market insider buy or sale filed in the last 30 days, so no 10b5-1 question arises. Capitol Trades: last disclosures were small (1K-15K) Khanna buys/sell (traded May-Jun 2026, published Jun-Jul) and an Armstrong buy traded 2026-03-27 published 2026-07-22 (116-day lag); nothing published in the last 30 days, no cluster, no signal.",
+     "smart_money_score": 0,
+     "social_changes": "first observation; baseline starts today",
+     "sources_unavailable": "X (not signed in, no sign-in attempted); Reddit (HTTP 403 / platform block); no sentiment baseline (first observation); alphastreet preview page failed to fetch; options-implied move and full sell-side preview notes not checked; bullstory.io showed a conflicting Oct 20 date which is superseded by the company's own release.",
+     "status": "candidate",
+     "veto_reason": "Earnings release 2026-10-21 before the open falls inside the next 5 trading days (confirmed by PMI's own 2026-10-14 press release)."
+    }
+   },
+   "intel": [
+    {
+     "agent": "Technical",
+     "importance": "high",
+     "rank": 1,
+     "source": "prices.json / runner.py",
+     "sym": "GM",
+     "text": "Exit signal for Portfolio A: GM closed $77.09, 4.1% below its 200-day ($80.41) after falling 6.8% on the Q3 report; sells at Wednesday's open (automated rule, one session after the buy). B had vetoed GM on Oct 19 for the earnings date.",
+     "time": "2026-10-20 close"
+    },
+    {
+     "agent": "Fundamentals",
+     "importance": "high",
+     "rank": 2,
+     "source": "https://www.pmi.com/investor-relations/press-releases-and-events/press-releases-overview/press-release-details?newsId=30436",
+     "sym": "PM",
+     "text": "Philip Morris reports Q3 Wednesday Oct 21 ~7:00 ET (PMI press release Oct 14). Setup is valid, so A buys at the open; B is blocked by the agent veto and the deterministic 5-session earnings check. Consensus (~$2.30) sits above the company's own $2.20-2.25 Q3 guide.",
+     "time": "2026-10-14"
+    },
+    {
+     "agent": "Fundamentals",
+     "importance": "high",
+     "rank": 3,
+     "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-gm-beats-q3-2026-estimates-but-shares-fall-5-93CH-4960352",
+     "sym": "GM",
+     "text": "Q3 beat (rev $50.0B, adj. EPS $3.70, FCF $5.9B, new $20B buyback) but the FY26 EBIT midpoint stayed at $15.0B, ~$2B of commodity/DRAM inflation lands in Q4, and management flagged a further $1.0-1.5B headwind for 2027 with no repeat of the IEEPA tariff benefit. Worst day since July 2025.",
+     "time": "2026-10-20 09:40"
+    },
+    {
+     "agent": "Smart money",
+     "importance": "medium",
+     "rank": 4,
+     "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=4&owner=include",
+     "sym": "AMD",
+     "text": "SEC Form 4 filed Oct 19: EVP Forrest Norrod exercised options and sold 17,262 shares on Oct 15 at $535-543 under a 10b5-1 plan adopted May 20, 2026 (same monthly pattern as Sep 15; scheduled, not discretionary). No insider buys in 30 days.",
+     "time": "2026-10-19"
+    },
+    {
+     "agent": "Fundamentals",
+     "importance": "medium",
+     "rank": 5,
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-arista-networks-nyse-anet-price-target-cut-to-20500-by-analysts-at-td-cowen-2026-10-20/",
+     "sym": "ANET",
+     "text": "TD Cowen cut its target to $205 from $250 (Buy kept) on Oct 20; no company guidance change; Q3 results Nov 3 after the close (Arista IR, Oct 6), inside the hold window for A, B and C.",
+     "time": "2026-10-20"
+    },
+    {
+     "agent": "Sentiment",
+     "importance": "medium",
+     "rank": 6,
+     "source": "https://stocktwits.com/symbol/GM",
+     "sym": "GM",
+     "text": "StockTwits primary source: 'Extremely Bullish' (score 77, 75% bullish) on extremely high message volume while the stock fell 6.8% and 8.2% over 5 sessions - social.py flags a crowd-vs-price divergence (severity -1). First observation for GM; baseline starts today.",
+     "time": "2026-10-20 16:40 ET"
+    },
+    {
+     "agent": "Fundamentals",
+     "importance": "medium",
+     "rank": 7,
+     "source": "https://www.marketbeat.com/instant-alerts/upcoming-valero-energy-vlo-projected-to-announce-earnings-on-thursday-2026-10-15/",
+     "sym": "VLO",
+     "text": "Valero (held in C) reports Q3 Thursday Oct 22 before the open; consensus EPS $20.83 on $43.36B revenue; targets raised by Barclays ($441) and Mizuho ($434) in early October.",
+     "time": "2026-10-15"
+    },
+    {
+     "agent": "Smart money",
+     "importance": "medium",
+     "rank": 8,
+     "source": "https://www.capitoltrades.com/issuers/432782",
+     "sym": "JNJ",
+     "text": "Capitol Trades: three small House buys published Oct 6-9 (Khanna 15K-50K traded Sep 4, Khanna 1K-15K traded Sep 25, Doggett 1K-15K traded Sep 8) - a 'congress_cluster' change (+1) on the first JNJ observation. Form 4: only director fee deferrals; no insider trades in 30 days.",
+     "time": "2026-10-20 16:45 ET"
+    },
+    {
+     "agent": "Sentiment",
+     "importance": "medium",
+     "rank": 9,
+     "source": "https://stocktwits.com/symbol/JPM",
+     "sym": "JPM",
+     "text": "StockTwits score 36 (Bearish label, 47% bullish) after the Oct 13 headline miss; two Whitehouse sells (traded Sep 4, published Oct 1) count as a congressional sell cluster (-1); JL Pascual downgrade to Sell $305 on Oct 19 vs consensus Buy ($373 avg). Research rating 2/5 - observational, the position follows the rule.",
+     "time": "2026-10-20 16:35 ET"
+    },
+    {
+     "agent": "Technical",
+     "importance": "medium",
+     "rank": 10,
+     "source": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-just-fell-8-161520543.html",
+     "sym": "AMD",
+     "text": "Rule state SETUP -> NEAR: 3-month change -3.2% after an 8-session SOX losing streak (longest since 2008); still 34.6% above a 200-day rising 10.8%/20 sessions. StockTwits attention LOW (44% bullish) - the crowd has moved on. Earnings Nov 3 after the close.",
+     "time": "2026-10-17"
+    },
+    {
+     "agent": "Catalyst / seasonality",
+     "importance": "low",
+     "rank": 11,
+     "source": "seasonality.py (SPY 1993-2026)",
+     "sym": "SPY",
+     "text": "Q3 earnings season (active, bullish, strong: mean +3.3% vs normal +1.2%, 85% positive, n=33); November (upcoming, bullish, strong: mean +2.5% vs normal +1.0%, 76% positive, n=33); Nov-Apr (upcoming, bullish, strong: mean +7.3% vs normal +6.0%, 79% positive, n=33); May-Oct (active, bearish, moderate: mean +4.3% vs normal +6.0%, 79% positive, n=33). Context only; no trade is added, blocked or sized by it.",
+     "time": "2026-10-20"
+    },
+    {
+     "agent": "Sentiment",
+     "importance": "low",
+     "rank": 12,
+     "source": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-still-priced-perfection-144433046.html",
+     "sym": "CRWD",
+     "text": "CrowdStrike (held in C) fell 7% on Oct 16 to $227.39 after a 110% six-month run; commentary centres on valuation (~208x forward earnings), no company-specific event found. Monitoring only (not in today's research set).",
+     "time": "2026-10-20 10:44"
+    }
+   ],
+   "morning": null
+  },
   {
    "date": "2026-10-19",
    "status": "ok",
@@ -405,6 +705,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "C-VLO-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 433.58,
    "order_placed_at": "2026-10-19T22:26:11+00:00",
    "pm_reason": null,
@@ -421,6 +722,19 @@
     "sma200_raw": 274.08,
     "sma_slope": 0.1005
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 57.36,
+     "date": "2026-10-20",
+     "last": 433.42,
+     "mae": -0.0009,
+     "mfe": 0,
+     "note": "evening mark; no exit signal",
+     "ret": -0.0009,
+     "roc63": 0.3994,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -431,6 +745,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "C-TSM-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 416.29,
    "order_placed_at": "2026-10-19T22:26:11+00:00",
    "pm_reason": null,
@@ -447,6 +762,19 @@
     "sma200_raw": 394,
     "sma_slope": 0.0418
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 7.74,
+     "date": "2026-10-20",
+     "last": 425.08,
+     "mae": 0,
+     "mfe": 0.0206,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0206,
+     "roc63": 0.0119,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -457,6 +785,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "C-CRWD-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 226.665,
    "order_placed_at": "2026-10-19T22:26:11+00:00",
    "pm_reason": null,
@@ -473,6 +802,19 @@
     "sma200_raw": 161.11,
     "sma_slope": 0.0918
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 40.63,
+     "date": "2026-10-20",
+     "last": 227.37,
+     "mae": 0,
+     "mfe": 0.0026,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0026,
+     "roc63": 0.2067,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -483,6 +825,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "C-ANET-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 181,
    "order_placed_at": "2026-10-19T22:26:11+00:00",
    "pm_reason": null,
@@ -499,6 +842,19 @@
     "sma200_raw": 162.9,
     "sma_slope": 0.0475
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 11.07,
+     "date": "2026-10-20",
+     "last": 181.19,
+     "mae": 0,
+     "mfe": 0.0005,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0005,
+     "roc63": 0.0361,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -509,6 +865,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "C-AMD-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 530.02,
    "order_placed_at": "2026-10-19T22:26:11+00:00",
    "pm_reason": null,
@@ -525,6 +882,19 @@
     "sma200_raw": 395.87,
     "sma_slope": 0.11
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 34.55,
+     "date": "2026-10-20",
+     "last": 534.74,
+     "mae": 0,
+     "mfe": 0.0084,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0084,
+     "roc63": -0.0318,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -535,6 +905,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "B-JPM-2026-10-20",
    "independent_review": "manual ChatGPT review 2026-10-19",
+   "last_update": "2026-10-20",
    "open_price": 333.97,
    "order_placed_at": "2026-10-19T22:39:14+00:00",
    "pm_reason": "Accepted. Rule met (3-month change -2.9%, inside the band; 200-day rising, though only +0.7% over 20 sessions, the weakest slope of the four). Already reported Oct 13, so no earnings inside the first weeks; Fed decision Oct 28 is the known event. Exit is tight (200-day 4.2% below), which limits the loss if the reviewer's trend-strength concern proves right.",
@@ -555,6 +926,19 @@
     "sma200_raw": 319.55,
     "sma_slope": 0.0069
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 4.89,
+     "date": "2026-10-20",
+     "last": 335.26,
+     "mae": 0,
+     "mfe": 0.0034,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0034,
+     "roc63": -0.0324,
+     "sessions_held": 0
+    }
+   },
    "votes": {
     "fundamental": "ok",
     "sentiment": "ok"
@@ -568,6 +952,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "B-JNJ-2026-10-20",
    "independent_review": "manual ChatGPT review 2026-10-19",
+   "last_update": "2026-10-20",
    "open_price": 257.48,
    "order_placed_at": "2026-10-19T22:39:14+00:00",
    "pm_reason": "Accepted. Rule met at the Oct 19 close (price 4.6% above a rising 200-day, 3-month change +1.8%). I accept the correction: the $5.5B talc settlement still needs 95% claimant participation, so litigation risk is reduced, not gone. Nearest exit of the four (200-day at -4.4%); the 10% stop will rarely be the binding exit here. Earnings are in late January, outside the hold.",
@@ -588,6 +973,19 @@
     "sma200_raw": 242.55,
     "sma_slope": 0.0241
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 6.81,
+     "date": "2026-10-20",
+     "last": 259.36,
+     "mae": 0,
+     "mfe": 0.0068,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0068,
+     "roc63": 0.0196,
+     "sessions_held": 0
+    }
+   },
    "votes": {
     "fundamental": "ok",
     "sentiment": "ok"
@@ -601,6 +999,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "B-ANET-2026-10-20",
    "independent_review": "manual ChatGPT review 2026-10-19",
+   "last_update": "2026-10-20",
    "open_price": 181,
    "order_placed_at": "2026-10-19T22:39:14+00:00",
    "pm_reason": "Challenge overridden, with the concentration point addressed by skipping AMD. The rule is met (price 12% above a rising 200-day, 3-month change +4.8% after a +15% run). The reviewer's own note that the CEO's sales were a pre-arranged plan removes the main bearish item; the Oct 16 BNP Paribas upgrade and the Oct 7 rack-scale Ethernet launch are the catalysts. Risk: 200-day exit 11% below and the 10% stop in between; earnings Nov 3 inside the hold is accepted as a known risk, consistent with the no-earnings-exit decision. Waiting for 'stabilization' is not a defined rule and would make B untestable.",
@@ -621,6 +1020,19 @@
     "sma200_raw": 162.9,
     "sma_slope": 0.0475
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 11.07,
+     "date": "2026-10-20",
+     "last": 181.19,
+     "mae": 0,
+     "mfe": 0.0005,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0005,
+     "roc63": 0.0361,
+     "sessions_held": 0
+    }
+   },
    "votes": {
     "fundamental": "ok",
     "sentiment": "ok"
@@ -634,6 +1046,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "A-JPM-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 333.97,
    "order_placed_at": "2026-10-19T21:49:01+00:00",
    "pm_reason": null,
@@ -650,6 +1063,19 @@
     "sma200_raw": 319.55,
     "sma_slope": 0.0069
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 4.89,
+     "date": "2026-10-20",
+     "last": 335.26,
+     "mae": 0,
+     "mfe": 0.0034,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0034,
+     "roc63": -0.0324,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -660,6 +1086,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "A-JNJ-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 257.48,
    "order_placed_at": "2026-10-19T21:49:01+00:00",
    "pm_reason": null,
@@ -676,6 +1103,19 @@
     "sma200_raw": 242.55,
     "sma_slope": 0.0241
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 6.81,
+     "date": "2026-10-20",
+     "last": 259.36,
+     "mae": 0,
+     "mfe": 0.0068,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0068,
+     "roc63": 0.0196,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -686,6 +1126,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "A-GM-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 77.22,
    "order_placed_at": "2026-10-19T21:49:01+00:00",
    "pm_reason": null,
@@ -702,6 +1143,19 @@
     "sma200_raw": 80.42,
     "sma_slope": 0.0023
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": -4.12,
+     "date": "2026-10-20",
+     "last": 77.09,
+     "mae": -0.0022,
+     "mfe": 0,
+     "note": "evening mark; EXIT SIGNALLED: close below 200-day; sells next open",
+     "ret": -0.0022,
+     "roc63": -0.0594,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -712,6 +1166,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "A-ANET-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 181,
    "order_placed_at": "2026-10-19T21:49:01+00:00",
    "pm_reason": null,
@@ -728,6 +1183,19 @@
     "sma200_raw": 162.9,
     "sma_slope": 0.0475
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 11.07,
+     "date": "2026-10-20",
+     "last": 181.19,
+     "mae": 0,
+     "mfe": 0.0005,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0005,
+     "roc63": 0.0361,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   },
   {
@@ -738,6 +1206,7 @@
    "filled_at": "2026-10-20T14:58:11+00:00",
    "id": "A-AMD-2026-10-20",
    "independent_review": "n/a (mechanical portfolio)",
+   "last_update": "2026-10-20",
    "open_price": 530.02,
    "order_placed_at": "2026-10-19T21:49:01+00:00",
    "pm_reason": null,
@@ -754,11 +1223,1291 @@
     "sma200_raw": 395.87,
     "sma_slope": 0.11
    },
+   "updates": {
+    "2026-10-20": {
+     "above_sma_pct": 34.55,
+     "date": "2026-10-20",
+     "last": 534.74,
+     "mae": 0,
+     "mfe": 0.0084,
+     "note": "evening mark; no exit signal",
+     "ret": 0.0084,
+     "roc63": -0.0318,
+     "sessions_held": 0
+    }
+   },
    "votes": {}
   }
  ],
- "assessments": [],
+ "assessments": [
+  {
+   "close": 199.9,
+   "components": {
+    "catalyst": 0,
+    "fundamentals": -1,
+    "sentiment": 0,
+    "smart_money": 0,
+    "technical": 1
+   },
+   "confidence": "normal",
+   "criteria": "v1 (2026-10-20)",
+   "date": "2026-10-20",
+   "fwd_20": null,
+   "fwd_5": null,
+   "id": "2026-10-20-PM",
+   "rating": 3,
+   "reasons": {
+    "against": "Buying tonight means holding a binary earnings event tomorrow morning where the Street expects ~$2.30 vs management's $2.20-2.25 guide, with the stock at ~29x trailing earnings, 12.6% above its 200-day and days off a 52-week high with overbought momentum readings; any ZYN volume wobble or U.S. margin disappointment could trigger a sharp gap down.",
+    "catalysts": "Q3 2026 results and guidance update tomorrow 2026-10-21 (~7:00 ET, webcast 9:00 ET) are the dominant 3-month catalyst, with the $1.60 dividend paid 2026-10-26, continued ZYN ULTRA/flavor rollout and any FY26 guidance tweak; the print is two-sided because consensus (~$2.30) is above the company's own $2.20-2.25 guide.",
+    "earnings_date": "2026-10-21",
+    "fundamental": "PMI's own IR press release (dated 2026-10-14) confirms Q3 2026 results will be issued Wednesday 2026-10-21 at ~7:00 a.m. ET with a 9:00 a.m. ET webcast, i.e. before tomorrow's open and inside the 5-session window, so the deterministic rule blocks entry. Setup into the print is mixed: consensus Q3 EPS ~$2.29-2.32 on ~$11.3-11.4B revenue sits ABOVE management's own Q3 guide of $2.20-2.25, after two small currency-driven FY26 adjusted-EPS trims (Apr 22: $8.38-8.53 to $8.36-8.51; Jul 22: $8.31-8.46 to $8.26-8.41, ex-currency unchanged at $8.11-8.26). Recent analyst moves are modestly positive (UBS PT $182 to $192 Neutral on 2026-09-23; Weiss upgrade to B+ on 2026-10-08; consensus Moderate Buy, avg PT ~$203-207), but no guidance cut or negative fundamental event in the last 2 weeks.",
+    "next_catalyst": "Q3 2026 earnings 2026-10-21 ~07:00 ET (webcast 09:00 ET)",
+    "sentiment": "Primary source was StockTwits (score 69 Bullish, 50% of votes bullish, normal message volume; posts focus on tomorrow's print and the 2026-10-15 breakout to a new 52-week high around $207.76); X and Reddit were unavailable and this is the first observation so there is no baseline for a 'change' reading. Bull case: IQOS/ZYN smoke-free growth, ZYN U.S. shipments back to growth (+1.8% in Q2 after -23% in Q1), FDA MRTP for 20 ZYN products (June 30), dividend raised to $1.60/qtr, long record of beats. Bear case: consensus sits above the company's Q3 guide, U.S. margin pressure (Q2 U.S. adj. gross margin -6 pts), trailing P/E ~29x well above 5-year median, RSI ~70/overbought after the 52-week high, EU nicotine-pouch/flavor restrictions. Mood: bullish but not frenzied; no verified negative catalyst (no lawsuit, regulatory action, recall or customer loss) found in the last 7 days.",
+    "smart_money": "SEC EDGAR Form 4s (read 2026-10-20): newest filings are 2026-05-08 director stock awards (code A, 1,119 shares each at $169.93 to Combes, Geissler, Morparia, transaction date 2026-05-06); no open-market insider buy or sale filed in the last 30 days, so no 10b5-1 question arises. Capitol Trades: last disclosures were small (1K-15K) Khanna buys/sell (traded May-Jun 2026, published Jun-Jul) and an Armstrong buy traded 2026-03-27 published 2026-07-22 (116-day lag); nothing published in the last 30 days, no cluster, no signal."
+   },
+   "recorded_at": "2026-10-20T21:00:25+00:00",
+   "research_view": "WATCH",
+   "rule_action": "A: ORDER BUY next open",
+   "score": 0,
+   "sentiment_basis": "agent",
+   "sentiment_direction": "flat",
+   "source_times": {
+    "https://bullstory.io/en/stocks/pm/earnings/2026-q3": "2026-10-20",
+    "https://stocktwits.com/symbol/PM": "2026-10-20 16:50",
+    "https://www.capitoltrades.com/issuers/434055": "2026-10-20 16:50",
+    "https://www.insidermonkey.com/blog/why-did-philip-morris-pm-rise-after-cutting-its-2026-profit-forecast-again-1803717/": "2026-07-27",
+    "https://www.marketbeat.com/instant-alerts/upcoming-philip-morris-international-pm-projected-to-post-earnings-on-wednesday-2026-10-14/": "2026-10-14",
+    "https://www.nasdaq.com/articles/philip-morris-intl-trims-fy26-outlook-update": "2026-04-22",
+    "https://www.pmi.com/investor-relations/press-releases-and-events/press-releases-overview/press-release-details?newsId=30436": "2026-10-14",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001413329&type=4&owner=include": "2026-10-20 16:50",
+    "https://www.tradingkey.com/news/market-movers/262217073-market-movers-pm-20261014": "2026-10-14"
+   },
+   "sources": [
+    "https://www.pmi.com/investor-relations/press-releases-and-events/press-releases-overview/press-release-details?newsId=30436",
+    "https://www.marketbeat.com/instant-alerts/upcoming-philip-morris-international-pm-projected-to-post-earnings-on-wednesday-2026-10-14/",
+    "https://www.tradingkey.com/news/market-movers/262217073-market-movers-pm-20261014",
+    "https://www.insidermonkey.com/blog/why-did-philip-morris-pm-rise-after-cutting-its-2026-profit-forecast-again-1803717/",
+    "https://www.nasdaq.com/articles/philip-morris-intl-trims-fy26-outlook-update",
+    "https://bullstory.io/en/stocks/pm/earnings/2026-q3",
+    "https://stocktwits.com/symbol/PM",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001413329&type=4&owner=include",
+    "https://www.capitoltrades.com/issuers/434055"
+   ],
+   "state": "SETUP",
+   "sym": "PM",
+   "unknown": [],
+   "veto_reason": "Earnings release 2026-10-21 before the open falls inside the next 5 trading days (confirmed by PMI's own 2026-10-14 press release).",
+   "vetoed": true
+  },
+  {
+   "close": 335.26,
+   "components": {
+    "catalyst": 0,
+    "fundamentals": 0,
+    "sentiment": -1,
+    "smart_money": 0,
+    "technical": 0
+   },
+   "confidence": "normal",
+   "criteria": "v1 (2026-10-20)",
+   "date": "2026-10-20",
+   "fwd_20": null,
+   "fwd_5": null,
+   "id": "2026-10-20-JPM",
+   "rating": 2,
+   "reasons": {
+    "against": "The quarter missed on EPS and revenue with expenses growing 12% against 8% revenue growth, management is slowing buybacks, and the stock is the weakest-trending name in the list (-3.2% over 3 months, 200-day slope only +0.7%) while inflation re-accelerates to 3.7% - a stagflation scenario that pressures both credit and the multiple; a fresh Sell downgrade (Oct 19) and two target cuts show the post-earnings tone has cooled rather than improved.",
+    "catalysts": "Q4 2026 earnings on 2027-01-14 (JPM IR) is the only dated company catalyst inside 3 months, with the preliminary 2027 NII ex-Markets guide (~$107B vs ~$97.2B for 2026) the main positive thread, offset by macro risk from re-accelerating inflation (CPI 3.7% in September), stagflation commentary and UK bank windfall-tax talk.",
+    "earnings_date": "2027-01-14",
+    "fundamental": "Q3 2026 (reported 2026-10-13) was a headline miss: adjusted EPS $5.75 vs ~$5.93 consensus on managed revenue $50.9B (+8% y/y), but net income was $15.3B, ROTCE 20%, NII $27.1B (+13%) and credit costs a modest $2.7B; management guided FY2026 NII ex-Markets ~$97.2B and adjusted expenses ~$108.6B and gave a preliminary 2027 NII ex-Markets view of ~$107B (whether FY26 guidance was raised vs the prior quarter could not be verified). Analyst moves since the print are mixed: Citi (Hold, $360->$350) and Phillip (Buy, $380->$370) trimmed targets on Oct 15, Freedom Capital upgraded to Buy ($370), and a minor shop (JL Pascual) downgraded to Sell $305 on Oct 19; consensus remains Buy (26 analysts, avg target $372.57). Next earnings 2027-01-14 per JPM's own IR release, far outside the 5-session window, so no fundamental veto; expenses growing faster than revenue (+12% vs +8%, overhead ratio 54%) and slowing buybacks keep the score at 0 rather than +1.",
+    "next_catalyst": "Q4 2026 earnings 2027-01-14 (8:30am ET call)",
+    "sentiment": "Primary sources: StockTwits (score 36, 'Bearish' label, 47% bullish, normal volume; no baseline yet) and SEC Form 4/Capitol Trades records; X (not signed in) and Reddit (403) were unavailable. Bull case: 20% ROTCE, NII and markets strength, ~$30B excess capital, 2027 NII guide ~$107B, Dimon (Oct 19 WSJ interview) calling the US economy 'booming'; bear case: EPS/revenue miss vs consensus, expense growth outpacing revenue, buybacks dialed back, CPI re-accelerating to 3.7% with stagflation chatter, a Sell downgrade on Oct 19, and UK windfall-tax talk (Oct 6). Mood is cautious-neutral: retail label is bearish but the stock is +1.16% over 5 sessions and closed +0.52% today with no company-specific negative news in the last 7 days; the Oct 20 StockTwits claim that JPM named Bitcoin its top asset is unverified rumour.",
+    "smart_money": "SEC Form 4 (issuer CIK 0000019617, 3 filings read): Director Stephen Burke gifted 30,000 shares to a non-profit on 2026-10-14 (filed 10-15, code G, not a sale); Directors Rometty and Novakovic each received 121 shares as retainer deferrals on 2026-09-30 (filed 10-01) - no open-market purchase and no discretionary or 10b5-1 sale in the last 30 days. Congress (Capitol Trades): Sen. Whitehouse two sells of $15K-50K traded 2026-09-04 (published 10-01, 27-day lag) and Rep. Franklin two sells of $1K-15K traded 2026-08-20 (published 09-18), versus larger buys by Reps. Khanna ($100K-250K, traded 08-27) and Cohen ($100K-250K, traded 08-05); all transactions predate the Q3 print by weeks and are mixed, so no signal - score 0."
+   },
+   "recorded_at": "2026-10-20T21:00:25+00:00",
+   "research_view": "SELL",
+   "rule_action": "A: FILLED today; B: FILLED today",
+   "score": -1,
+   "sentiment_basis": "agent",
+   "sentiment_direction": "down",
+   "source_times": {
+    "https://ca.finance.yahoo.com/news/dimon-says-us-economy-booming-175016214.html": "2026-10-19",
+    "https://stockanalysis.com/stocks/jpm/forecast/": "2026-10-19",
+    "https://stocktwits.com/symbol/JPM": "2026-10-20 16:50",
+    "https://www.bloomberg.com/news/articles/2026-10-06/dimon-says-a-uk-windfall-tax-on-domestic-banks-wouldn-t-be-fair": "2026-10-06",
+    "https://www.capitoltrades.com/issuers/432796": "2026-10-20 16:50",
+    "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html": "2026-10-13",
+    "https://www.investing.com/news/company-news/jpmorgan-q3-2026-slides-strong-profit-growth-fortress-balance-sheet-93CH-4947004": "2026-10-13 09:50",
+    "https://www.jpmorganchase.com/ir/events": "2026-10-20",
+    "https://www.jpmorganchase.com/ir/news/2025/jpmc-announces-conference-calls-to-review-first-quarter-second-quarter-third-quarter-and-fourth-quarter-2026-earnings": "2025-05-21",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019617&type=4&owner=only": "2026-10-20 16:50"
+   },
+   "sources": [
+    "https://www.jpmorganchase.com/ir/news/2025/jpmc-announces-conference-calls-to-review-first-quarter-second-quarter-third-quarter-and-fourth-quarter-2026-earnings",
+    "https://www.investing.com/news/company-news/jpmorgan-q3-2026-slides-strong-profit-growth-fortress-balance-sheet-93CH-4947004",
+    "https://stockanalysis.com/stocks/jpm/forecast/",
+    "https://ca.finance.yahoo.com/news/dimon-says-us-economy-booming-175016214.html",
+    "https://www.bloomberg.com/news/articles/2026-10-06/dimon-says-a-uk-windfall-tax-on-domestic-banks-wouldn-t-be-fair",
+    "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+    "https://www.jpmorganchase.com/ir/events",
+    "https://stocktwits.com/symbol/JPM",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019617&type=4&owner=only",
+    "https://www.capitoltrades.com/issuers/432796"
+   ],
+   "state": "NEAR",
+   "sym": "JPM",
+   "unknown": [],
+   "veto_reason": "",
+   "vetoed": false
+  },
+  {
+   "close": 259.36,
+   "components": {
+    "catalyst": 1,
+    "fundamentals": 0,
+    "sentiment": 1,
+    "smart_money": 0,
+    "technical": 1
+   },
+   "confidence": "normal",
+   "criteria": "v1 (2026-10-20)",
+   "date": "2026-10-20",
+   "fwd_20": null,
+   "fwd_5": null,
+   "id": "2026-10-20-JNJ",
+   "rating": 5,
+   "reasons": {
+    "against": "Q3 exposed the two things the bull case needs to be clean - MedTech ('below the standard we set internally') and ~$1.36/share of 2027 dilution - and the stock has already bounced 4% off the post-earnings low to within ~6% of the ~$274 consensus target while still below its 50-day (~$266); if the Dec 8 review guides 2027 below consensus, a retest of ~$248 is plausible.",
+    "catalysts": "Dec 8, 2026 Enterprise Business Review (orthopaedics/DePuy Synthes separation detail and 2027 framing), ex-dividend Nov 24 ($1.34), Icotyde launch ramp, talc settlement participation (95% threshold) and expected Q4 earnings ~Jan 20, 2027 (unconfirmed).",
+    "earnings_date": "unknown",
+    "fundamental": "Q3 2026 reported 2026-10-13: sales $25.40B (+5.9%, 6.1% adj. operational), adj. EPS $2.59 vs $2.80 (-7.5%, hit by $0.64 of Firefly Bio/SAIL acquisition IPR&D costs); FY2026 adj. EPS guidance raised to $11.05-11.15 (midpoint +$0.06) and sales to $101.0-101.4B. Negatives: MedTech grew only 2.5% ($8.6B vs ~$8.71B est.), management flagged ~$1.36/share of 2027 deal dilution, and a $5.5B talc special charge took GAAP EPS to $0.09; the stock fell ~6% on the print to ~$248 before recovering. Sell-side mixed since: Bernstein $261->$270, Wells Fargo to $287, Morgan Stanley $294->$292 (Overweight), RBC $290->$280, UBS $270; consensus ~Moderate Buy, avg target ~$274. Next (Q4) earnings call not yet announced; by pattern it falls ~2027-01-20 (last year's invitation was issued 2025-12-15 for a 2026-01-21 call), so no earnings inside 5 sessions.",
+    "next_catalyst": "Enterprise Business Review 2026-12-08",
+    "sentiment": "Bull: beat-and-raise quarter, Tremfya +68% to $2.4B, oncology +17%, guidance up, talc overhang priced via one-time charge, Dec 8 Enterprise Business Review and defensive-rotation pieces (24/7 Wall St 10/19) framing JNJ as a defensive play; bear: MedTech miss, 2027 dilution, Stelara -54%, talc deal still needs 95% claimant participation. Mood: recovering - 5-session price +4.32% after the 10/13 drop, +2.19% today; StockTwits (primary) is Neutral 52/50% bullish on normal volume and polluted by SELLAS (SLS) takeover promoters (unverified rumour, low quality). Primary sources: StockTwits, SEC EDGAR Form 4, Capitol Trades; X and Reddit unavailable; no social baseline yet (day 0).",
+    "smart_money": "SEC Form 4 (EDGAR, read 2026-10-20): newest filings 2026-09-10 are director DSU fee-deferral awards (Pinto, Woods, Hewson, code A, 2026-09-08, $276.31) - no open-market insider buy or sale in the last 30 days; secondary source (Defense World 10/16) cites EVP Timothy Schmid selling 33,597 sh on 2026-09-02 at $274.74 and EVP Jennifer Taubert 15,000 sh on 2026-08-17 at $263.36, both well outside the 10-day window and plan status not verified. Capitol Trades: 3 small House buys (Khanna 15K-50K traded 09-04 and 1K-15K traded 09-25, published 10-09; Doggett 1K-15K traded 09-08, published 10-06) plus Kean/Boozman sells traded 08-20/08-27 - a 'congress_cluster' flag but small tickets with 12-33 day disclosure lags and no predictive value."
+   },
+   "recorded_at": "2026-10-20T21:00:25+00:00",
+   "research_view": "BUY",
+   "rule_action": "A: FILLED today; B: FILLED today",
+   "score": 3,
+   "sentiment_basis": "agent",
+   "sentiment_direction": "up",
+   "source_times": {
+    "https://247wallst.com/investing/2026/10/14/jj-beat-and-raised-the-stock-fell-anyway-heres-what-the-target-says/": "2026-10-14 07:15",
+    "https://247wallst.com/investing/2026/10/19/johnson-johnson-stock-could-be-a-defensive-play-for-the-years-ahead": "2026-10-19",
+    "https://stocktwits.com/symbol/JNJ": "2026-10-20 16:50",
+    "https://www.businesswire.com/news/home/20251215079601/en/Johnson-Johnson-to-Host-Investor-Conference-Call-on-Fourth-Quarter-Results": "2025-12-15",
+    "https://www.capitoltrades.com/issuers/432782": "2026-10-20 16:50",
+    "https://www.defenseworld.net/2026/10/16/johnson-johnson-nysejnj-given-new-292-00-price-target-at-morgan-stanley.html": "2026-10-16",
+    "https://www.gurufocus.com/news/9128006/jnj-maintained-by-wells-fargo-price-target-raised-to-287": "2026-10 (mid-month)",
+    "https://www.investing.com/news/analyst-ratings/bernstein-raises-johnson--johnson-stock-price-target-on-solid-q3-93CH-4951860": "2026-10 (mid-month)",
+    "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q3-2026-results-raises-2026-guidance/default.aspx": "2026-10-13",
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-a-proposed-resolution-of-ovarian-talc-litigation": "2026-07-27",
+    "https://www.marketscreener.com/news/johnson-johnson-s-enterprise-review-expected-to-sharpen-outlook-morgan-stanley-says-ce785dd2de8af121": "2026-10",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000200406&type=4&owner=include": "2026-10-20 16:50"
+   },
+   "sources": [
+    "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q3-2026-results-raises-2026-guidance/default.aspx",
+    "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-a-proposed-resolution-of-ovarian-talc-litigation",
+    "https://247wallst.com/investing/2026/10/14/jj-beat-and-raised-the-stock-fell-anyway-heres-what-the-target-says/",
+    "https://www.defenseworld.net/2026/10/16/johnson-johnson-nysejnj-given-new-292-00-price-target-at-morgan-stanley.html",
+    "https://www.investing.com/news/analyst-ratings/bernstein-raises-johnson--johnson-stock-price-target-on-solid-q3-93CH-4951860",
+    "https://www.gurufocus.com/news/9128006/jnj-maintained-by-wells-fargo-price-target-raised-to-287",
+    "https://www.marketscreener.com/news/johnson-johnson-s-enterprise-review-expected-to-sharpen-outlook-morgan-stanley-says-ce785dd2de8af121",
+    "https://247wallst.com/investing/2026/10/19/johnson-johnson-stock-could-be-a-defensive-play-for-the-years-ahead",
+    "https://www.businesswire.com/news/home/20251215079601/en/Johnson-Johnson-to-Host-Investor-Conference-Call-on-Fourth-Quarter-Results",
+    "https://stocktwits.com/symbol/JNJ",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000200406&type=4&owner=include",
+    "https://www.capitoltrades.com/issuers/432782"
+   ],
+   "state": "SETUP",
+   "sym": "JNJ",
+   "unknown": [],
+   "veto_reason": "",
+   "vetoed": false
+  },
+  {
+   "close": 77.09,
+   "components": {
+    "catalyst": 0,
+    "fundamentals": 0,
+    "sentiment": -1,
+    "smart_money": 0,
+    "technical": -1
+   },
+   "confidence": "normal",
+   "criteria": "v1 (2026-10-20)",
+   "date": "2026-10-20",
+   "fwd_20": null,
+   "fwd_5": null,
+   "id": "2026-10-20-GM",
+   "rating": 2,
+   "reasons": {
+    "against": "The stock just broke below its 200-day on its worst day in 15 months after management effectively told the Street that Q4 and 2027 carry $1-1.5B of extra cost inflation, no repeat of IEEPA refunds and softer pickup volumes, so forward estimates are likelier to fall than rise; the retail crowd being 75% bullish into that tape is a contrarian warning, not support.",
+    "catalysts": "Positive: GM Forward product/investor event on 2026-10-21 (per Barra on the call), execution of the new open-ended $20B buyback, Super Cruise installed base +~50% next year, Q4 2026 results and first FY2027 guidance around 2027-01-26 (est.); negative/known risk: ~$2B 2026 commodity inflation mostly hitting Q4, extra $1.0-1.5B commodity headwind flagged for 2027, non-repeat of the $600-800M IEEPA tariff benefit, Fort Wayne 4-week truck downtime from mid-December ahead of Q1/Q2 2027 launches, and continued tariff exposure (gross $2.5-3.5B range, low end).",
+    "earnings_date": "2027-01-26",
+    "fundamental": "Q3 2026 (reported 2026-10-20 06:30 ET) beat: revenue $50.0B vs ~$48.7B est, adj. EPS $3.70 vs $3.56-3.69 est, EBIT-adj $4.1B (+21.6%), adj. auto FCF $5.9B (+40%); FY26 EBIT-adj narrowed to $14.5-15.5B (midpoint unchanged at $15.0B), adj. EPS raised at the low end to $12.75-13.75, adj. auto FCF raised to $11.5-12.5B, new $20B open-ended buyback after completing the $6B program, dividend $0.18 (record 2026-12-04). The market sold it (-6.84%, worst day since July 2025) because the EBIT midpoint did not rise, ~$2B of 2026 commodity/logistics/DRAM inflation lands mostly in Q4 (implied Q4 EPS ~$1.78-2.78, Q4 FCF roughly flat/negative, ~35k fewer full-size pickups), GMI EBIT was only $28M vs $130M est, US deliveries -5.5% with share 16.1% vs 16.8%, and management warned of an extra $1.0-1.5B commodity headwind in 2027 with the $600-800M IEEPA tariff benefit not repeating. Pre-report sell-side moves were positive (Goldman PT $103->$112 Buy on 2026-10-06; consensus Buy, avg PT ~$97 from 21 analysts); no rating changes were recorded as of the morning of 2026-10-20, but the 2027 cost commentary points to downward forward revisions. Next earnings: Q4 2026 results estimated 2027-01-26 (MarketScreener calendar; not yet confirmed by GM IR), with FY2027 guidance promised in January.",
+    "next_catalyst": "GM Forward event 2026-10-21; then Q4 2026 results / FY2027 guidance ~2027-01-26 (est.)",
+    "sentiment": "Mood is split: StockTwits (primary, read 2026-10-20 16:50 ET) is 'Extremely Bullish' (score 77, 75% bullish, extremely high message volume) with dip-buyers citing ~6x forward P/E, $12B+ FCF and the $20B buyback (bull case), while the tape says the opposite: -6.84% today and -8.2% over 5 sessions on the flat EBIT midpoint, Q4 cost hit, 2027 commodity/IEEPA headwinds and falling US share (bear case); the collected packet flags this crowd-vs-price divergence as a negative signal (-1). Nothing verified in the last 7 days qualifies as a sentiment veto (no lawsuit, regulatory action, recall or customer loss found). Primary: StockTwits, SEC EDGAR Form 4, Capitol Trades (from the packet); unavailable: X (not signed in) and Reddit (HTTP 403); news context from the earnings release, call transcript and Benzinga.",
+    "smart_money": "SEC Form 4 (EDGAR, packet): last filings are executive sales under 10b5-1 plans - Rory Harvey 8,882 sh at $86.95 traded 2026-07-27 (filed 2026-07-29), Grant Dixton 40,000 sh at $88.44 traded 2026-07-30/08-03 (filed 2026-08-03), plus Sterling Anderson's RSU vest/tax withholding 2026-07-29 (no sale); nothing since early August, no open-market purchase in 30 days, no discretionary sale in 10 days. Congressional (Capitol Trades, packet): Sen. Alan Armstrong BUY $1-15K traded 2026-03-27 but published 2026-07-22 (116-day lag), Rep. Ro Khanna BUY traded 2026-04-13 (published 2026-05-13) after a SELL traded 2026-02-05; nothing published since July, so no read-through to the Q3 report."
+   },
+   "recorded_at": "2026-10-20T21:00:25+00:00",
+   "research_view": "SELL",
+   "rule_action": "A: ORDER SELL next open; A: FILLED today",
+   "score": -2,
+   "sentiment_basis": "agent",
+   "sentiment_direction": "down",
+   "source_times": {
+    "http://www.prnewswire.com/news-releases/gm-releases-2026-third-quarter-results-and-updates-full-year-2026-guidance-board-approves-new-20-billion-share-repurchase-authorization-declares-quarterly-dividend-302913358.html": "2026-10-20 06:30",
+    "https://ca.marketscreener.com/quote/stock/GENERAL-MOTORS-COMPANY-6873535/calendar/": "2026-10-20",
+    "https://qz.com/gm-earnings-20-billion-stock-buyback-guidance-102026": "2026-10-20 11:18 UTC",
+    "https://stocktwits.com/symbol/GM": "2026-10-20 16:50",
+    "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62315048/general-motors-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call": "2026-10-13 04:09",
+    "https://www.benzinga.com/markets/equities/26/10/62465696/gm-stock-worst-day-15-months-third-quarter-earnings-beat-20-billion-buyback": "2026-10-20 09:07",
+    "https://www.capitoltrades.com/issuers/431946": "2026-10-20 16:50",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-gm-beats-q3-2026-estimates-but-shares-fall-5-93CH-4960352": "2026-10-20 09:40",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467858&type=4&owner=include": "2026-10-20 16:50"
+   },
+   "sources": [
+    "http://www.prnewswire.com/news-releases/gm-releases-2026-third-quarter-results-and-updates-full-year-2026-guidance-board-approves-new-20-billion-share-repurchase-authorization-declares-quarterly-dividend-302913358.html",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-gm-beats-q3-2026-estimates-but-shares-fall-5-93CH-4960352",
+    "https://www.benzinga.com/markets/equities/26/10/62465696/gm-stock-worst-day-15-months-third-quarter-earnings-beat-20-billion-buyback",
+    "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62315048/general-motors-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+    "https://qz.com/gm-earnings-20-billion-stock-buyback-guidance-102026",
+    "https://ca.marketscreener.com/quote/stock/GENERAL-MOTORS-COMPANY-6873535/calendar/",
+    "https://stocktwits.com/symbol/GM",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467858&type=4&owner=include",
+    "https://www.capitoltrades.com/issuers/431946"
+   ],
+   "state": "NO TREND",
+   "sym": "GM",
+   "unknown": [],
+   "veto_reason": "",
+   "vetoed": false
+  },
+  {
+   "close": 181.19,
+   "components": {
+    "catalyst": 0,
+    "fundamentals": 0,
+    "sentiment": -1,
+    "smart_money": 0,
+    "technical": 1
+   },
+   "confidence": "normal",
+   "criteria": "v1 (2026-10-20)",
+   "date": "2026-10-20",
+   "fwd_20": null,
+   "fwd_5": null,
+   "id": "2026-10-20-ANET",
+   "rating": 3,
+   "reasons": {
+    "against": "The position was entered after an 18% macro/sector-driven drawdown with no company news to anchor the bounce, and the binary Nov 3 print falls inside the hold window with the Street already bracing for a sub-$3.6B Q4 guide; TD Cowen just cut its target 18% and the 10% stop ($162.98) sits on top of the 200-day ($163.13), so a weak guide could gap through both exits at once.",
+    "catalysts": "Q3 2026 earnings and Q4 guide on 2026-11-03 (Street bar ~$3.6B Q4 revenue), Etherlink SU-144/1.6T 7060XE7 ramp commentary, and neocloud/AI-capex sentiment swings into year-end.",
+    "earnings_date": "2026-11-03",
+    "fundamental": "Arista's own IR press release (dated 2026-10-06) sets Q3 2026 results for Tuesday 2026-11-03 after the close (call 1:30 PM PT), i.e. 10 trading sessions away, outside the 5-session window. No guidance change in the last 2 weeks: Q3 guide stands at ~$3.3B revenue, 62-64% non-GAAP GM, 48-49% op margin; Street expects Q3 $3.33B/$1.08 EPS and Q4 $3.6B/$1.15. One analyst move this week: TD Cowen cut its target $250 to $205 on 2026-10-20 (Buy kept); consensus still Buy (2 Strong Buy/20 Buy/2 Hold, avg target ~$233), so a target trim rather than an estimate or guidance cut - scored 0.",
+    "next_catalyst": "Q3 2026 earnings + Q4 guide 2026-11-03 after close",
+    "sentiment": "Mood is shaken but not broken: the stock fell 18% from its 2026-10-09 record ($216.74) to $176.98 on 10-16 on neocloud credit worries (CoreWeave bond yields ~15%), hot inflation/oil and an 8-day chip-index slide, with no Arista-specific shortfall, guidance cut, lawsuit or customer loss; it bounced +3.4% on 10-19 and slipped -1% today. Bull case: debt-free, $13.3B cash, ~40% growth, SU-144 rack-scale Ethernet with Meta/Microsoft as partners, P/E compressed to ~38x NTM; bear case: Nvidia Spectrum-X bundling, hyperscaler concentration (Microsoft/Meta), neocloud customer financing strain and heavy 10b5-1 insider selling. Primary sources: StockTwits (score 53 Neutral, 49% bullish, normal volume, dip-buyers, no change vs baseline), SEC Form 4, Capitol Trades; X and Reddit unavailable; news from Yahoo/TIKR, Motley Fool, MarketBeat, TradingKey (opinion/secondary).",
+    "smart_money": "Form 4s filed 2026-10-08/09/13 show CEO Jayshree Ullal selling ~716K shares on 2026-10-06 to 10-09 at $211-$217 under a Rule 10b5-1 plan adopted 2025-11-14 (scheduled, not discretionary); MarketBeat also lists 10b5-1 sales by Kenneth Duda (09-21) and director Mark Templeton (10-01), and no open-market insider buy in 30 days (SEC EDGAR CIK 0001596532). Congress: Rep. McCaul SELL $15K-50K executed 2026-08-04 but disclosed 2026-10-16 (71-day lag, stale), Rep. Khanna small BUYs 07-20 and 08-24; no cluster (Capitol Trades). Score 0: no discretionary sale inside 10 days, no buy."
+   },
+   "recorded_at": "2026-10-20T21:00:25+00:00",
+   "research_view": "WATCH",
+   "rule_action": "A: FILLED today; B: FILLED today; C: FILLED today",
+   "score": 0,
+   "sentiment_basis": "agent",
+   "sentiment_direction": "down",
+   "source_times": {
+    "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-fell-18-034336396.html": "2026-10-19",
+    "https://finance.yahoo.com/news/arista-shares-fall-meta-nvidia-140026560.html": "2026-02-18",
+    "https://stocktwits.com/symbol/ANET": "2026-10-20 16:50",
+    "https://www.arista.com/company/news/press-release/24817-pr-20261006": "2026-10-06",
+    "https://www.capitoltrades.com/issuers/429822": "2026-10-20 16:50",
+    "https://www.fool.com/investing/2026/10/19/arista-networks-is-heading-for-a-big-test-on-nov-3/": "2026-10-19 16:30",
+    "https://www.marketbeat.com/instant-alerts/analyst-arista-networks-nyse-anet-price-target-cut-to-20500-by-analysts-at-td-cowen-2026-10-20/": "2026-10-20",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532&type=4&owner=include": "2026-10-20 16:50",
+    "https://www.tradingkey.com/news/market-movers/262219135-market-movers-anet-20261015": "2026-10-15 16:15"
+   },
+   "sources": [
+    "https://www.arista.com/company/news/press-release/24817-pr-20261006",
+    "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-fell-18-034336396.html",
+    "https://www.marketbeat.com/instant-alerts/analyst-arista-networks-nyse-anet-price-target-cut-to-20500-by-analysts-at-td-cowen-2026-10-20/",
+    "https://www.fool.com/investing/2026/10/19/arista-networks-is-heading-for-a-big-test-on-nov-3/",
+    "https://www.tradingkey.com/news/market-movers/262219135-market-movers-anet-20261015",
+    "https://finance.yahoo.com/news/arista-shares-fall-meta-nvidia-140026560.html",
+    "https://stocktwits.com/symbol/ANET",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532&type=4&owner=include",
+    "https://www.capitoltrades.com/issuers/429822"
+   ],
+   "state": "SETUP",
+   "sym": "ANET",
+   "unknown": [],
+   "veto_reason": "",
+   "vetoed": false
+  },
+  {
+   "close": 534.74,
+   "components": {
+    "catalyst": 1,
+    "fundamentals": 1,
+    "sentiment": -1,
+    "smart_money": 0,
+    "technical": 0
+   },
+   "confidence": "normal",
+   "criteria": "v1 (2026-10-20)",
+   "date": "2026-10-20",
+   "fwd_20": null,
+   "fwd_5": null,
+   "id": "2026-10-20-AMD",
+   "rating": 4,
+   "reasons": {
+    "against": "The stock is still 34.6% above its 200-day at ~199x trailing / ~40x forward earnings while chips post their longest losing streak since 2008 on $100 oil, a 5.1% 10-year and growing doubts about $1T hyperscaler capex; late-October hyperscaler earnings could cut capex expectations before AMD even reports, and Nov 3 is a binary print where 'demand ahead of forecast' is already in the price, with the $477.26 stop only ~11% below.",
+    "catalysts": "Q3 2026 earnings on Nov 3 (Helios ramp, Q4 guide, 2027 data-center doubling confirmation), hyperscaler capex prints in late October, UBS (Dec 1) and Barclays (Dec 9) tech conferences, and Arm/Qualcomm bench-trial closing arguments next week as sector noise.",
+    "earnings_date": "2026-11-03",
+    "fundamental": "AMD's own IR press release (Oct 6, 2026) sets Q3 2026 results for Tuesday Nov 3, 2026 after the close (call 5 p.m. ET) - 10 trading sessions away, outside the 5-session veto window. No guidance cut: Q3 guide is ~$13B revenue, management says Helios demand is running ahead of forecast and data-center revenue should more than double in 2027. Last two weeks saw target raises (Citi $575->$800 and Mizuho $580->$705 on Oct 6; KeyBanc $725 maintained Oct 15; Wedbush $600 and Truist Buy reiterated Oct 20); consensus Strong Buy, 55 analysts, avg target $636; BofA $720 (Oct 14) and BNP $960 headlines seen but not verified.",
+    "next_catalyst": "Q3 2026 earnings 2026-11-03 after close",
+    "sentiment": "Mood is cooling, not broken: StockTwits (primary) reads 49/Neutral, 44% bullish, LOW message volume - attention faded after the Sep-Oct run; Form 4 and Capitol Trades were primary; X and Reddit were unavailable. Bear case (news last 7 days): 8-session SOX losing streak (longest since 2008), AMD -18.6% from its Oct 6 close at one point, driven by oil >$100, 10-yr 5.10%, BofA strategist warning on $1T hyperscaler capex, plus Arm/Qualcomm verdict noise on Oct 16 - all sector/macro, no AMD-specific negative catalyst found. Bull case: 2 GW Anthropic MI450 deployment, OpenAI/Meta commitments, Helios shipping, 2027 DC doubling; Street still raising targets. No verified lawsuit/regulatory/customer-loss event, so no sentiment veto.",
+    "smart_money": "SEC Form 4: EVP Forrest Norrod sold 17,262 sh on 2026-10-15 at $535-543 (filed 2026-10-19) under a Rule 10b5-1 plan adopted 2026-05-20, a monthly exercise-and-sell identical to his 2026-09-15 sale; CEO Lisa Su sold ~94,900 sh on 2026-09-10 under a 10b5-1 plan adopted 2026-06-08. All scheduled, none discretionary, and no open-market insider purchase in 30 days. Capitol Trades: Rep. Ro Khanna small BUY (1K-15K) traded 2026-09-04, published 2026-10-09 (33-day lag); otherwise mixed small Aug-Sep trades, no cluster."
+   },
+   "recorded_at": "2026-10-20T21:00:25+00:00",
+   "research_view": "HOLD",
+   "rule_action": "A: FILLED today; C: FILLED today",
+   "score": 1,
+   "sentiment_basis": "agent",
+   "sentiment_direction": "down",
+   "source_times": {
+    "https://247wallst.com/investing/2026/10/16/arm-and-amd-fall-5-as-qualcomm-verdict-adds-to-chip-selloff-taiwan-semiconductor-slips/": "2026-10-16 14:10",
+    "https://247wallst.com/investing/2026/10/20/amd-stock-price-prediction-is-the-ai-chip-opportunity-bigger-than-wall-street-thinks/": "2026-10-20",
+    "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-just-fell-8-161520543.html": "2026-10-17 09:15",
+    "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results": "2026-10-06 16:15",
+    "https://stockanalysis.com/stocks/amd/forecast/": "2026-10-20",
+    "https://stocktwits.com/symbol/AMD": "2026-10-20 16:50",
+    "https://www.capitoltrades.com/issuers/429505": "2026-10-20 16:50",
+    "https://www.fxleaders.com/news/2026/10/14/amd-stock-forecast-bofa-price-target-ai-demand/": "2026-10-14",
+    "https://www.quiverquant.com/news/AMD+slides+as+chip+selloff+continues+and+investors+reassess+AI+spending": "2026-10-16",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=4&owner=include": "2026-10-20 16:50"
+   },
+   "sources": [
+    "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+    "https://stockanalysis.com/stocks/amd/forecast/",
+    "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-just-fell-8-161520543.html",
+    "https://247wallst.com/investing/2026/10/16/arm-and-amd-fall-5-as-qualcomm-verdict-adds-to-chip-selloff-taiwan-semiconductor-slips/",
+    "https://247wallst.com/investing/2026/10/20/amd-stock-price-prediction-is-the-ai-chip-opportunity-bigger-than-wall-street-thinks/",
+    "https://www.quiverquant.com/news/AMD+slides+as+chip+selloff+continues+and+investors+reassess+AI+spending",
+    "https://www.fxleaders.com/news/2026/10/14/amd-stock-forecast-bofa-price-target-ai-demand/",
+    "https://stocktwits.com/symbol/AMD",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=4&owner=include",
+    "https://www.capitoltrades.com/issuers/429505"
+   ],
+   "state": "NEAR",
+   "sym": "AMD",
+   "unknown": [],
+   "veto_reason": "",
+   "vetoed": false
+  }
+ ],
  "social_evidence": [
+  {
+   "baseline": {
+    "avg_bullish_pct": null,
+    "avg_sentiment": null,
+    "avg_x_posts": null,
+    "days": 0,
+    "typical_volume": null
+   },
+   "change_summary": "first observation; baseline starts today",
+   "changes": [],
+   "collected_at": "2026-10-20 16:50 ET",
+   "congress": {
+    "findings": [
+     {
+      "lag_days": 116,
+      "politician": "Alan Armstrong (R, Senate, OK)",
+      "published": "2026-07-22",
+      "size": "1K-15K",
+      "traded": "2026-03-27",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 34,
+      "politician": "Ro Khanna (D, House, CA)",
+      "published": "2026-07-08",
+      "size": "1K-15K",
+      "traded": "2026-06-02",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 39,
+      "politician": "Ro Khanna",
+      "published": "2026-06-11",
+      "size": "1K-15K",
+      "traded": "2026-05-01",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 13,
+      "politician": "Ro Khanna",
+      "published": "2026-06-11",
+      "size": "1K-15K",
+      "traded": "2026-05-27",
+      "type": "BUY"
+     }
+    ],
+    "reading": "Nothing published in the last 30 days; last disclosures were small Khanna/Armstrong trades in June-July. No cluster. Confidence: high (records), low (signal).",
+    "url": "https://www.capitoltrades.com/issuers/434055"
+   },
+   "date": "2026-10-20",
+   "fed_to": "research agents, portfolio manager, independent reviewer (packet)",
+   "id": "2026-10-20-PM",
+   "method": "read-only browsing in the desktop app's browser pane (StockTwits, SEC EDGAR, Capitol Trades); X attempted in the owner's Chrome; primary sources, not news summaries",
+   "price_change_5d_pct": 0.31,
+   "reddit": {
+    "unavailable": "blocked by Reddit (HTTP 403 to cloud) and by browser platform restrictions"
+   },
+   "sec_form4": {
+    "cik": "0001413329",
+    "filings_read": 3,
+    "findings": [
+     {
+      "acc": "0001628280-26-032735",
+      "filed": "2026-05-08",
+      "owner": "Michel Combes, Director",
+      "plan": "n/a (plan award, not open market)",
+      "prices": "$169.93",
+      "shares_total": "1,119",
+      "transaction_dates": [
+       "2026-05-06"
+      ],
+      "type": "Award (code A, director stock compensation)"
+     },
+     {
+      "acc": "0001628280-26-032734",
+      "filed": "2026-05-08",
+      "owner": "Werner Geissler, Director",
+      "plan": "n/a",
+      "prices": "$169.93",
+      "shares_total": "1,119",
+      "transaction_dates": [
+       "2026-05-06"
+      ],
+      "type": "Award (code A)"
+     },
+     {
+      "acc": "0001628280-26-032733",
+      "filed": "2026-05-08",
+      "owner": "Kalpana Morparia, Director",
+      "plan": "n/a",
+      "prices": "$169.93",
+      "shares_total": "1,119",
+      "transaction_dates": [
+       "2026-05-06"
+      ],
+      "type": "Award (code A)"
+     }
+    ],
+    "reading": "The newest Form 4s on PM's EDGAR page are May 2026 director stock awards; no open-market insider purchase or sale filed in the last 30 days. Confidence: high (primary filings).",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001413329&type=4&owner=include"
+   },
+   "signal_score": 0,
+   "stocktwits": {
+    "bullish_pct": 50,
+    "earnings_banner": "Earnings Oct 21",
+    "message_volume": "Normal Msg Vol",
+    "reading": "Retail mood bullish (score 69, 50% of votes bullish, normal volume); posts are about the Q3 report due before the open on Oct 21 and the recent breakout to a 52-week high. No specific negative catalyst in the feed.",
+    "sample_posts": [
+     {
+      "text": "Reports before the open Wednesday; Zacks consensus $2.31 EPS on $11.42B revenue (+3.1%/+5.3% y/y); consensus sits above the company's own Q3 guide of $2.20-2.25, so IQOS and ZYN have to do the work.",
+      "time": "Oct 17",
+      "user": "KryptonResearch14"
+     },
+     {
+      "text": "Buckle up - earnings before the open tomorrow.",
+      "time": "Oct 20 12:57 PM",
+      "user": "27R"
+     },
+     {
+      "text": "Breakout towards $215.",
+      "time": "Oct 15",
+      "user": "scdtrader213"
+     },
+     {
+      "text": "Printed a new 52-week high today.",
+      "time": "Oct 15",
+      "user": "Stocktwits52wHighs"
+     },
+     {
+      "text": "Why the big swing down?",
+      "time": "Oct 15",
+      "user": "Oldpuck"
+     }
+    ],
+    "sentiment_label": "Bullish",
+    "sentiment_score": 69,
+    "url": "https://stocktwits.com/symbol/PM"
+   },
+   "sym": "PM",
+   "x": {
+    "unavailable": "X showed its login/onboarding page in the owner's Chrome at 16:48 ET (session not signed in); no sign-in attempted, nothing posted"
+   }
+  },
+  {
+   "baseline": {
+    "avg_bullish_pct": null,
+    "avg_sentiment": null,
+    "avg_x_posts": null,
+    "days": 0,
+    "typical_volume": null
+   },
+   "change_summary": "2 congressional sells published in 30 days",
+   "changes": [
+    {
+     "detail": "2 congressional sells published in 30 days",
+     "kind": "congress_cluster",
+     "severity": -1
+    }
+   ],
+   "collected_at": "2026-10-20 16:50 ET",
+   "congress": {
+    "findings": [
+     {
+      "lag_days": 27,
+      "politician": "Sheldon Whitehouse (D, Senate, RI)",
+      "published": "2026-10-01",
+      "size": "15K-50K",
+      "traded": "2026-09-04",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 27,
+      "politician": "Sheldon Whitehouse",
+      "published": "2026-10-01",
+      "size": "15K-50K",
+      "traded": "2026-09-04",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 28,
+      "politician": "Scott Franklin (R, House, FL)",
+      "published": "2026-09-18",
+      "size": "1K-15K",
+      "traded": "2026-08-20",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 28,
+      "politician": "Scott Franklin",
+      "published": "2026-09-18",
+      "size": "1K-15K",
+      "traded": "2026-08-20",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 8,
+      "politician": "Ro Khanna (D, House, CA)",
+      "published": "2026-09-07",
+      "size": "100K-250K",
+      "traded": "2026-08-27",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 12,
+      "politician": "Steve Cohen (D, House, TN)",
+      "published": "2026-08-18",
+      "size": "100K-250K",
+      "traded": "2026-08-05",
+      "type": "BUY"
+     }
+    ],
+    "reading": "Two Whitehouse sells (15K-50K each, same day Sep 4) published Oct 1 and two Franklin sells published Sep 18 - four sells published inside 30 days, which the rule counts as a sell cluster; two larger buys (Khanna, Cohen, 100K-250K) in August. Mixed; no signal demonstrated.",
+    "url": "https://www.capitoltrades.com/issuers/432796"
+   },
+   "date": "2026-10-20",
+   "fed_to": "research agents, portfolio manager, independent reviewer (packet)",
+   "id": "2026-10-20-JPM",
+   "method": "read-only browsing in the desktop app's browser pane (StockTwits, SEC EDGAR, Capitol Trades); X attempted in the owner's Chrome; primary sources, not news summaries",
+   "price_change_5d_pct": 1.16,
+   "reddit": {
+    "unavailable": "blocked by Reddit (HTTP 403 to cloud) and by browser platform restrictions"
+   },
+   "sec_form4": {
+    "cik": "0000019617",
+    "filings_read": 3,
+    "findings": [
+     {
+      "acc": "0001225208-26-008428",
+      "filed": "2026-10-15",
+      "owner": "Stephen B. Burke, Director",
+      "plan": "n/a",
+      "prices": "$0",
+      "shares_total": "30,000",
+      "transaction_dates": [
+       "2026-10-14"
+      ],
+      "type": "Gift (code G, contribution to a non-profit)"
+     },
+     {
+      "acc": "0001225208-26-008053",
+      "filed": "2026-10-01",
+      "owner": "Virginia M. Rometty, Director",
+      "plan": "n/a",
+      "prices": "$330.83",
+      "shares_total": "121",
+      "transaction_dates": [
+       "2026-09-30"
+      ],
+      "type": "Award (code A, retainer deferral)"
+     },
+     {
+      "acc": "0001225208-26-008052",
+      "filed": "2026-10-01",
+      "owner": "Phebe N. Novakovic, Director",
+      "plan": "n/a",
+      "prices": "$330.83",
+      "shares_total": "121",
+      "transaction_dates": [
+       "2026-09-30"
+      ],
+      "type": "Award (code A, retainer deferral)"
+     }
+    ],
+    "reading": "A director gift of 30,000 shares (Oct 14) and two retainer deferrals; no open-market purchase or discretionary sale in the last 30 days. Note: the name search first returned a JPMorgan trust entity (CIK 0001325347); the issuer CIK 0000019617 was used. Confidence: high.",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019617&type=4&owner=only"
+   },
+   "signal_score": -1,
+   "stocktwits": {
+    "bullish_pct": 47,
+    "earnings_banner": "Reported Earnings Oct 13",
+    "message_volume": "Normal Msg Vol",
+    "reading": "Score 36 (Bearish label) with 47% bullish votes and normal volume; the bearish label reflects the Oct 13 headline miss and macro commentary rather than any new company-specific item today. Quality: medium.",
+    "sample_posts": [
+     {
+      "text": "Claims JPMorgan named Bitcoin its top-returning asset for the next 10-15 years (unverified).",
+      "time": "Oct 20 10:36 AM",
+      "user": "PhishTourFunds"
+     },
+     {
+      "text": "Q3: EPS $5.57 vs $5.93 est (miss), revenue $50.17B vs $51.23B est (miss); NII $27.04B +12.8%; new $50B buyback; dividend raised to $1.65; no guidance.",
+      "time": "Oct 13",
+      "user": "cmgventure"
+     },
+     {
+      "text": "GAAP EPS $5.75 +13.4% y/y; revenue $50.17B +6.5% y/y.",
+      "time": "Oct 13",
+      "user": "StocktwitsEarnings"
+     },
+     {
+      "text": "JPM Delta One note warning of a rising stagflation factor and headwinds for high-flying tech.",
+      "time": "Oct 5",
+      "user": "SamsonCapital"
+     },
+     {
+      "text": "Earnings don't matter, market goes up regardless.",
+      "time": "Oct 13",
+      "user": "CitronGemini"
+     }
+    ],
+    "sentiment_label": "Bearish",
+    "sentiment_score": 36,
+    "url": "https://stocktwits.com/symbol/JPM"
+   },
+   "sym": "JPM",
+   "x": {
+    "unavailable": "X showed its login/onboarding page in the owner's Chrome at 16:48 ET (session not signed in); no sign-in attempted, nothing posted"
+   }
+  },
+  {
+   "baseline": {
+    "avg_bullish_pct": null,
+    "avg_sentiment": null,
+    "avg_x_posts": null,
+    "days": 0,
+    "typical_volume": null
+   },
+   "change_summary": "3 congressional buys published in 30 days (trade dates lag disclosures)",
+   "changes": [
+    {
+     "detail": "3 congressional buys published in 30 days (trade dates lag disclosures)",
+     "kind": "congress_cluster",
+     "severity": 1
+    }
+   ],
+   "collected_at": "2026-10-20 16:50 ET",
+   "congress": {
+    "findings": [
+     {
+      "lag_days": 12,
+      "politician": "Ro Khanna (D, House, CA)",
+      "published": "2026-10-09",
+      "size": "1K-15K",
+      "traded": "2026-09-25",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 33,
+      "politician": "Ro Khanna",
+      "published": "2026-10-09",
+      "size": "15K-50K",
+      "traded": "2026-09-04",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 27,
+      "politician": "Lloyd Doggett (D, House, TX)",
+      "published": "2026-10-06",
+      "size": "1K-15K",
+      "traded": "2026-09-08",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 16,
+      "politician": "Thomas Kean Jr (R, House, NJ)",
+      "published": "2026-09-14",
+      "size": "1K-15K",
+      "traded": "2026-08-27",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 22,
+      "politician": "John Boozman (R, Senate, AR)",
+      "published": "2026-09-11",
+      "size": "1K-15K",
+      "traded": "2026-08-20",
+      "type": "SELL"
+     }
+    ],
+    "reading": "Three small congressional buys published Oct 6-9 (Khanna x2, Doggett), executed Sep 4-25 at prices below today's. This meets the 'congress_cluster' rule (>=2 buys in 30 days) - small tickets, no demonstrated predictive value.",
+    "url": "https://www.capitoltrades.com/issuers/432782"
+   },
+   "date": "2026-10-20",
+   "fed_to": "research agents, portfolio manager, independent reviewer (packet)",
+   "id": "2026-10-20-JNJ",
+   "method": "read-only browsing in the desktop app's browser pane (StockTwits, SEC EDGAR, Capitol Trades); X attempted in the owner's Chrome; primary sources, not news summaries",
+   "price_change_5d_pct": 4.32,
+   "reddit": {
+    "unavailable": "blocked by Reddit (HTTP 403 to cloud) and by browser platform restrictions"
+   },
+   "sec_form4": {
+    "cik": "0000200406",
+    "filings_read": 3,
+    "findings": [
+     {
+      "acc": "0000200406-26-000185",
+      "filed": "2026-09-10",
+      "owner": "Daniel E. Pinto, Director",
+      "plan": "n/a",
+      "prices": "$276.31",
+      "shares_total": "113",
+      "transaction_dates": [
+       "2026-09-08"
+      ],
+      "type": "Award (code A, deferred share units for retainer)"
+     },
+     {
+      "acc": "0000200406-26-000184",
+      "filed": "2026-09-10",
+      "owner": "Eugene A. Woods, Director",
+      "plan": "n/a",
+      "prices": "$276.31",
+      "shares_total": "136",
+      "transaction_dates": [
+       "2026-09-08"
+      ],
+      "type": "Award (code A, DSU)"
+     },
+     {
+      "acc": "0000200406-26-000183",
+      "filed": "2026-09-10",
+      "owner": "Marillyn A. Hewson, Director",
+      "plan": "n/a",
+      "prices": "$276.31",
+      "shares_total": "181",
+      "transaction_dates": [
+       "2026-09-08"
+      ],
+      "type": "Award (code A, DSU)"
+     }
+    ],
+    "reading": "Newest Form 4s (Sep 10) are director fee deferrals into share units; no open-market insider buy or sale in the last 30 days. Confidence: high.",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000200406&type=4&owner=include"
+   },
+   "signal_score": 1,
+   "stocktwits": {
+    "bullish_pct": 50,
+    "earnings_banner": "Reported Earnings Oct 13",
+    "message_volume": "Normal Msg Vol",
+    "reading": "Score 52 (Neutral), 50% bullish, normal volume. The JNJ feed is dominated by SELLAS (SLS) micro-cap promoters pushing an unverified takeover story; nothing company-specific about JNJ itself beyond the Oct 13 beat. No negative catalyst. Quality: low (promotional).",
+    "sample_posts": [
+     {
+      "text": "Q3 2026 highlights: EPS $2.59 vs $2.52 est; revenue $25.40B beat.",
+      "time": "Oct 13",
+      "user": "cmgventure"
+     },
+     {
+      "text": "Speculation that J&J could acquire SELLAS (SLS) ahead of Merck.",
+      "time": "Oct 15",
+      "user": "Duncan74"
+     },
+     {
+      "text": "SLS/JNJ takeover promotion posts (several per day from the same account).",
+      "time": "Oct 20 3:39 PM",
+      "user": "SellasgpsCurativeBAT11"
+     },
+     {
+      "text": "List of 'connections' between JNJ and SLS suggesting an acquisition.",
+      "time": "Oct 11",
+      "user": "Stonker39"
+     },
+     {
+      "text": "Wants the CEO to update on acquisitions.",
+      "time": "Oct 12",
+      "user": "TooHot_toTouch"
+     }
+    ],
+    "sentiment_label": "Neutral",
+    "sentiment_score": 52,
+    "url": "https://stocktwits.com/symbol/JNJ"
+   },
+   "sym": "JNJ",
+   "x": {
+    "unavailable": "X showed its login/onboarding page in the owner's Chrome at 16:48 ET (session not signed in); no sign-in attempted, nothing posted"
+   }
+  },
+  {
+   "baseline": {
+    "avg_bullish_pct": null,
+    "avg_sentiment": null,
+    "avg_x_posts": null,
+    "days": 0,
+    "typical_volume": null
+   },
+   "change_summary": "crowd 75% bullish while price -8.2% over 5 sessions",
+   "changes": [
+    {
+     "detail": "crowd 75% bullish while price -8.2% over 5 sessions",
+     "kind": "divergence",
+     "severity": -1
+    }
+   ],
+   "collected_at": "2026-10-20 16:50 ET",
+   "congress": {
+    "findings": [
+     {
+      "lag_days": 116,
+      "politician": "Alan Armstrong (R, Senate, OK)",
+      "published": "2026-07-22",
+      "size": "1K-15K",
+      "traded": "2026-03-27",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 28,
+      "politician": "Ro Khanna (D, House, CA)",
+      "published": "2026-05-13",
+      "size": "1K-15K",
+      "traded": "2026-04-13",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 32,
+      "politician": "Ro Khanna",
+      "published": "2026-03-12",
+      "size": "1K-15K",
+      "traded": "2026-02-05",
+      "type": "SELL"
+     }
+    ],
+    "reading": "Nothing published since July; no congressional activity around the Q3 report.",
+    "url": "https://www.capitoltrades.com/issuers/431946"
+   },
+   "date": "2026-10-20",
+   "fed_to": "research agents, portfolio manager, independent reviewer (packet)",
+   "id": "2026-10-20-GM",
+   "method": "read-only browsing in the desktop app's browser pane (StockTwits, SEC EDGAR, Capitol Trades); X attempted in the owner's Chrome; primary sources, not news summaries",
+   "price_change_5d_pct": -8.23,
+   "reddit": {
+    "unavailable": "blocked by Reddit (HTTP 403 to cloud) and by browser platform restrictions"
+   },
+   "sec_form4": {
+    "cik": "0001467858",
+    "filings_read": 3,
+    "findings": [
+     {
+      "acc": "0001866710-26-000007",
+      "filed": "2026-08-03",
+      "owner": "Grant Michael Dixton, EVP",
+      "plan": "10b5-1 flag set (1)",
+      "prices": "$88.44",
+      "shares_total": "40,000",
+      "transaction_dates": [
+       "2026-07-30",
+       "2026-08-03"
+      ],
+      "type": "Sale (40,000 sh after RSU vesting/tax withholding)"
+     },
+     {
+      "acc": "0001878943-26-000006",
+      "filed": "2026-07-31",
+      "owner": "Sterling Anderson, EVP",
+      "plan": "n/a",
+      "prices": "$89.40",
+      "shares_total": "95,951 acquired / 48,820 withheld",
+      "transaction_dates": [
+       "2026-07-29"
+      ],
+      "type": "RSU conversion and tax withholding (codes M/F), no sale"
+     },
+     {
+      "acc": "0001976795-26-000012",
+      "filed": "2026-07-29",
+      "owner": "Rory Harvey, EVP",
+      "plan": "10b5-1 flag set (1)",
+      "prices": "$86.95",
+      "shares_total": "8,882",
+      "transaction_dates": [
+       "2026-07-27"
+      ],
+      "type": "Sale"
+     }
+    ],
+    "reading": "No Form 4 since early August; the July/August executive sales were flagged 10b5-1 and are outside the 10-day window. No insider purchase in 30 days. Confidence: high.",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467858&type=4&owner=include"
+   },
+   "signal_score": -1,
+   "stocktwits": {
+    "bullish_pct": 75,
+    "earnings_banner": "Reported Q3 today (Oct 20) before the open; stock -6.84%",
+    "message_volume": "Extremely High Msg Vol",
+    "reading": "Extremely bullish crowd (score 77, 75% bullish) with extremely high message volume on a -6.8% day: classic dip-buying crowd after a beat-and-narrow quarter. Divergence between crowd and price. Quality: medium.",
+    "sample_posts": [
+     {
+      "text": "Q3: EPS $3.70 vs $3.69 est, revenue $50.02B vs $48.78B est; adj. auto FCF $5.88B +40%; new $20B buyback; FY26 EBIT-adj narrowed to $14.5-15.5B, EPS raised at the low end to $12.75-13.75.",
+      "time": "Oct 20 7:53 AM",
+      "user": "cmgventure"
+     },
+     {
+      "text": "Tightened guidance and got slammed; 6x forward PE, $13-15B FCF, $20B buyback - overdone.",
+      "time": "Oct 20 1:40 PM",
+      "user": "jrk77"
+     },
+     {
+      "text": "-8% after earnings but $20B buyback approved; reversal incoming?",
+      "time": "Oct 20 1:18 PM",
+      "user": "peloswing"
+     },
+     {
+      "text": "Bears holding the line; wants the buyback to start today.",
+      "time": "Oct 20 3:19 PM",
+      "user": "TaoPaoMan"
+     },
+     {
+      "text": "Blames tariffs and higher operating costs.",
+      "time": "Oct 20 10:41 AM",
+      "user": "bhunts4"
+     }
+    ],
+    "sentiment_label": "Extremely Bullish",
+    "sentiment_score": 77,
+    "url": "https://stocktwits.com/symbol/GM"
+   },
+   "sym": "GM",
+   "x": {
+    "unavailable": "X showed its login/onboarding page in the owner's Chrome at 16:48 ET (session not signed in); no sign-in attempted, nothing posted"
+   }
+  },
+  {
+   "baseline": {
+    "avg_bullish_pct": 50,
+    "avg_sentiment": 52,
+    "avg_x_posts": 4,
+    "days": 1,
+    "typical_volume": "normal"
+   },
+   "change_summary": "no material change vs baseline",
+   "changes": [],
+   "collected_at": "2026-10-20 16:50 ET",
+   "congress": {
+    "findings": [
+     {
+      "lag_days": 71,
+      "politician": "Michael McCaul (R, House, TX)",
+      "published": "2026-10-16",
+      "size": "15K-50K",
+      "traded": "2026-08-04",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 11,
+      "politician": "Ro Khanna (D, House, CA)",
+      "published": "2026-09-07",
+      "size": "1K-15K",
+      "traded": "2026-08-24",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 18,
+      "politician": "Ro Khanna",
+      "published": "2026-08-12",
+      "size": "1K-15K",
+      "traded": "2026-07-20",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 116,
+      "politician": "Alan Armstrong (R, Senate, OK)",
+      "published": "2026-07-22",
+      "size": "1K-15K",
+      "traded": "2026-03-27",
+      "type": "BUY"
+     }
+    ],
+    "reading": "Unchanged from Oct 19: one small McCaul sell published Oct 16 (executed Aug 4). No cluster.",
+    "url": "https://www.capitoltrades.com/issuers/429822"
+   },
+   "date": "2026-10-20",
+   "fed_to": "research agents, portfolio manager, independent reviewer (packet)",
+   "id": "2026-10-20-ANET",
+   "method": "read-only browsing in the desktop app's browser pane (StockTwits, SEC EDGAR, Capitol Trades); X attempted in the owner's Chrome; primary sources, not news summaries",
+   "price_change_5d_pct": -11.41,
+   "reddit": {
+    "unavailable": "blocked by Reddit (HTTP 403 to cloud) and by browser platform restrictions"
+   },
+   "sec_form4": {
+    "cik": "0001596532",
+    "filings_read": 3,
+    "findings": [
+     {
+      "acc": "0001596532-26-000244",
+      "filed": "2026-10-13",
+      "owner": "Jayshree Ullal, CEO and Chairperson",
+      "plan": "Rule 10b5-1 plan adopted 2025-11-14 (for relatives)",
+      "prices": "$217.05-$217.10",
+      "shares_total": "158,543 across six lines (direct and indirect)",
+      "transaction_dates": [
+       "2026-10-08",
+       "2026-10-09"
+      ],
+      "type": "Sale"
+     },
+     {
+      "acc": "0001596532-26-000242",
+      "filed": "2026-10-09",
+      "owner": "Jayshree Ullal, CEO and Chairperson",
+      "plan": "Rule 10b5-1 plan adopted 2025-11-14",
+      "prices": "$217.14",
+      "shares_total": "96,992",
+      "transaction_dates": [
+       "2026-10-07"
+      ],
+      "type": "Sale"
+     },
+     {
+      "acc": "0001596532-26-000240",
+      "filed": "2026-10-08",
+      "owner": "Jayshree Ullal, CEO and Chairperson",
+      "plan": "Rule 10b5-1 plan adopted 2025-11-14",
+      "prices": "$211.36-$213.06",
+      "shares_total": "460,374 across nine lines",
+      "transaction_dates": [
+       "2026-10-06"
+      ],
+      "type": "Sale"
+     }
+    ],
+    "reading": "Unchanged from Oct 19: the three newest filings are CEO sales Oct 6-9 under a 10b5-1 plan (scheduled, not discretionary); no new Form 4 since Oct 13 and no insider purchase in 30 days. Confidence: high.",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532&type=4&owner=include"
+   },
+   "signal_score": 0,
+   "stocktwits": {
+    "bullish_pct": 49,
+    "earnings_banner": "Earnings Nov 3",
+    "message_volume": "Normal Msg Vol",
+    "reading": "Score 53 (Neutral) today vs 'neutral-to-bullish' yesterday; 49% bullish, normal volume. Same dip-buying voices as Oct 19; no new posts since the Oct 19 session and no negative catalyst in the feed.",
+    "sample_posts": [
+     {
+      "text": "Added ANET, CRDO, BE, DDOG, CRWD; premarket green faded most of the past month but today seems stronger; deep discount vs a few days ago.",
+      "time": "Oct 19",
+      "user": "MKRReformed"
+     },
+     {
+      "text": "Last week's dip was an easy buy; expects large gains over the next few years.",
+      "time": "Oct 19",
+      "user": "Iwannagofast1"
+     },
+     {
+      "text": "Doubled position after the drop touched the average cost.",
+      "time": "Oct 15",
+      "user": "deeprocks"
+     },
+     {
+      "text": "Went from greed to fear quickly; still fundamentally strong (no debt, peak margins, 40% revenue growth, buyback).",
+      "time": "Oct 15",
+      "user": "EZER"
+     },
+     {
+      "text": "Waiting for $150 to buy.",
+      "time": "Oct 15",
+      "user": "HannibalTunis"
+     }
+    ],
+    "sentiment_label": "Neutral",
+    "sentiment_score": 53,
+    "url": "https://stocktwits.com/symbol/ANET"
+   },
+   "sym": "ANET",
+   "x": {
+    "unavailable": "X showed its login/onboarding page in the owner's Chrome at 16:48 ET (session not signed in); no sign-in attempted, nothing posted"
+   }
+  },
+  {
+   "baseline": {
+    "avg_bullish_pct": null,
+    "avg_sentiment": null,
+    "avg_x_posts": null,
+    "days": 0,
+    "typical_volume": null
+   },
+   "change_summary": "first observation; baseline starts today",
+   "changes": [],
+   "collected_at": "2026-10-20 16:50 ET",
+   "congress": {
+    "findings": [
+     {
+      "lag_days": 33,
+      "politician": "Ro Khanna (D, House, CA)",
+      "published": "2026-10-09",
+      "size": "1K-15K",
+      "traded": "2026-09-04",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 23,
+      "politician": "Gil Cisneros (D, House, CA)",
+      "published": "2026-09-11",
+      "size": "1K-15K",
+      "traded": "2026-08-18",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 32,
+      "politician": "Ro Khanna",
+      "published": "2026-09-07",
+      "size": "1K-15K",
+      "traded": "2026-08-03",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 49,
+      "politician": "Gil Cisneros",
+      "published": "2026-09-07",
+      "size": "1K-15K",
+      "traded": "2026-07-17",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 45,
+      "politician": "Tony Wied (R, House, WI)",
+      "published": "2026-08-10",
+      "size": "100K-250K",
+      "traded": "2026-06-09",
+      "type": "SELL"
+     }
+    ],
+    "reading": "One small Khanna buy published Oct 9 (executed Sep 4 near $500); otherwise mixed small trades in August-September. No cluster.",
+    "url": "https://www.capitoltrades.com/issuers/429505"
+   },
+   "date": "2026-10-20",
+   "fed_to": "research agents, portfolio manager, independent reviewer (packet)",
+   "id": "2026-10-20-AMD",
+   "method": "read-only browsing in the desktop app's browser pane (StockTwits, SEC EDGAR, Capitol Trades); X attempted in the owner's Chrome; primary sources, not news summaries",
+   "price_change_5d_pct": -11.69,
+   "reddit": {
+    "unavailable": "blocked by Reddit (HTTP 403 to cloud) and by browser platform restrictions"
+   },
+   "sec_form4": {
+    "cik": "0000002488",
+    "filings_read": 3,
+    "findings": [
+     {
+      "acc": "0000002488-26-000184",
+      "filed": "2026-10-19",
+      "owner": "Forrest E. Norrod, EVP & GM Data Center Solutions",
+      "plan": "Rule 10b5-1 plan adopted 2026-05-20",
+      "prices": "$535.15-$543.03",
+      "shares_total": "17,262",
+      "transaction_dates": [
+       "2026-10-15"
+      ],
+      "type": "Sale (option exercise at $84.85 and sale of 17,262 sh)"
+     },
+     {
+      "acc": "0000002488-26-000180",
+      "filed": "2026-09-17",
+      "owner": "Forrest E. Norrod, EVP & GM DSG",
+      "plan": "Rule 10b5-1 plan adopted 2026-05-20",
+      "prices": "$498.30-$506.88",
+      "shares_total": "17,261",
+      "transaction_dates": [
+       "2026-09-15"
+      ],
+      "type": "Sale (option exercise and sale)"
+     },
+     {
+      "acc": "0000002488-26-000178",
+      "filed": "2026-09-14",
+      "owner": "Lisa T. Su, Chair, President & CEO",
+      "plan": "Rule 10b5-1 plan adopted 2026-06-08",
+      "prices": "$503.72-$515.55",
+      "shares_total": "~94,900 sold",
+      "transaction_dates": [
+       "2026-09-10"
+      ],
+      "type": "Sale (plus a 35,000-share gift)"
+     }
+    ],
+    "reading": "New since the last look: EVP Norrod sold 17,262 shares on Oct 15 at $535-543 (filed Oct 19), a monthly 10b5-1 exercise-and-sell identical to Sep 15. CEO Su's Sep 10 sales were also 10b5-1. Scheduled, not discretionary; no insider purchase in 30 days. Confidence: high.",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=4&owner=include"
+   },
+   "signal_score": 0,
+   "stocktwits": {
+    "bullish_pct": 44,
+    "earnings_banner": "none shown (next report early November)",
+    "message_volume": "Low Msg Vol",
+    "reading": "Score 49 (Neutral), 44% bullish, LOW message volume - attention has faded after the September-October run; themes are 'AI demand gap', 'earnings pivot', 'sector squeeze'. No company-specific negative catalyst in the feed. Quality: medium.",
+    "sample_posts": [
+     {
+      "text": "Pulled back $130 before the next earnings report; doubts a further $50-100 drop after earnings.",
+      "time": "Oct 19",
+      "user": "xxxfactor"
+     },
+     {
+      "text": "Regrets closing a $530 call; notes oil dropping and yields easing.",
+      "time": "Oct 20 10:24 AM",
+      "user": "AMCRemembers"
+     },
+     {
+      "text": "Accuses analysts of pumping for institutions to dump on retail.",
+      "time": "Oct 20 1:16 PM",
+      "user": "PATTL"
+     },
+     {
+      "text": "Blames wars and elevated oil prices for growth-stock weakness.",
+      "time": "Oct 20 8:20 AM",
+      "user": "dumplingbuming"
+     },
+     {
+      "text": "Media pushing 'AI is bad' articles ahead of midterms; long-term holder.",
+      "time": "Oct 19",
+      "user": "BlueFir"
+     }
+    ],
+    "sentiment_label": "Neutral",
+    "sentiment_score": 49,
+    "url": "https://stocktwits.com/symbol/AMD"
+   },
+   "sym": "AMD",
+   "x": {
+    "unavailable": "X showed its login/onboarding page in the owner's Chrome at 16:48 ET (session not signed in); no sign-in attempted, nothing posted"
+   }
+  },
   {
    "baseline": {
     "days": 0

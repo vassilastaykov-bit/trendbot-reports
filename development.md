@@ -1,5 +1,5 @@
 # TrendBot — development log
-Updated 2026-10-20T15:58+00:00.
+Updated 2026-10-20T21:22+00:00.
 
 ## Implementation (current)
 - Software version 10 (trading rules unchanged since 2026-10-19); execution: signal at close T, fill at open T+1, 5bp slippage, no commission, dividends not credited
