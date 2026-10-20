@@ -1,0 +1,503 @@
+{
+ "generated_at": "2026-10-20T14:38+00:00",
+ "reviews": [
+  {
+   "id": "test-2026-10-19",
+   "date": "2026-10-19",
+   "status": "failed",
+   "automated": true,
+   "reviewer": "OpenAI gpt-5 via API (attempted)",
+   "created_at": null,
+   "response_at": "2026-10-20T01:35:30+00:00",
+   "decided_at": null,
+   "proposed": null,
+   "packet": "TRENDBOT INDEPENDENT REVIEW PACKET \u2014 INTEGRATION TEST (HYPOTHETICAL DATA, NOT A LIVE TRADE)\nThis packet exists only to test the Claude <-> OpenAI review bridge. The ticker, prices and research below are invented. Review it exactly as you would a real packet.\n\nYou are an independent, adversarial reviewer. Challenge each proposed paper trade: technical signal quality, fundamental assumptions, sentiment evidence, seasonal/regime assumptions, catalysts, concentration, sizing, risk/reward, missing or contradictory information, and whether it genuinely meets the rules. Reply for EACH ticker with one of: APPROVE / APPROVE WITH CONCERNS / CHALLENGE / REJECT, followed by 2-5 sentences. Your assessment is advisory.\n\nRULES: buy only names above a rising 200-day average whose 3-month rate of change was >= +15% in the last 60 sessions and has cooled to between -3% and +5%. Orders fill at the next open (+0.05%). Exit on a close below the 200-day average, a close 10% below entry, or after 63 sessions. Equal weight, max 5 positions, no leverage. Paper trading.\n\nPORTFOLIO B NOW (hypothetical): equity $100,000, cash $60,000, held: QRS (12 sessions, +3.1%), TUV (30 sessions, -4.0%); pending orders: none.\n\n=== XYZ \u2014 PROPOSED BUY at the next open, size ~$20,000 (equal weight) ===\nTechnical (close 2026-10-19, hypothetical): price $142.10, 200-day $118.40 (price is +20.0% above), 200-day slope +3.1% over 20 sessions, 3-month change +2.4% (peaked at +19% 35 sessions ago). Exit signals: close below $118.40 (-16.7%) or a close 10% below entry; each sells at the next open, so a gap can make the loss larger.\nAgents: fundamentals=ok, sentiment=ok.\nFundamentals note (hypothetical): earnings on Nov 12 (17 sessions away). Two analyst target raises last week; consensus EPS for the quarter revised up 4% in 30 days.\nSentiment note (hypothetical): StockTwits 61/bullish, message volume 2x normal after a product announcement; X not available; Reddit unavailable.\nSmart money (hypothetical): CFO sold 8,000 shares on Oct 9 (not under a 10b5-1 plan, filed Oct 13); no congressional trades.\nCatalysts: product launch event Oct 28; earnings Nov 12 (inside the hold).\nPrimary sources: Form 4 acc 0000000000-26-000001 (hypothetical); StockTwits symbol page (hypothetical).\nFor: trend intact, momentum cooled from +19% to +2%. Against: discretionary CFO sale 10 days ago; attention spike may mark a short-term top; holding through earnings.\nCLAUDE PORTFOLIO MANAGER'S PROVISIONAL VIEW: lean buy \u2014 rule met, catalysts ahead, but the discretionary insider sale is the item I would most want challenged.\n\n=== ABC \u2014 PROPOSED BUY at the next open, size ~$20,000 ===\nTechnical (hypothetical): price $55.00, 200-day $54.20 (+1.5% above), 200-day slope +0.2% over 20 sessions, 3-month change -2.9% (peaked at +15.5% 58 sessions ago).\nAgents: fundamentals=ok, sentiment=ok. Earnings Oct 22 (3 sessions away) \u2014 NOTE: the fundamentals agent should have vetoed this under the 5-session rule but marked it ok.\nSentiment: StockTwits 48/neutral, normal volume. Smart money: nothing found.\nFor: technically in the band. Against: earnings in 3 sessions; barely above a nearly flat 200-day; the agent's \"ok\" contradicts the packet's own earnings date.\nCLAUDE PORTFOLIO MANAGER'S PROVISIONAL VIEW: lean skip \u2014 the earnings date should have triggered a veto.\n\nSEASONALITY: Q3 earnings season (Oct 10-Nov 15) tests bullish on SPY since 1993 (+3.3% vs +1.2% normal, 85% positive, n=33). Context only.\n\nPlease answer in this exact format: TICKER: VERDICT \u2014 reasoning ... then OVERALL: one paragraph.\n",
+   "reviewer_response": "",
+   "reviewer_verdicts": {},
+   "pm_decisions": null,
+   "decision_summary": null,
+   "bridge_status": "unavailable"
+  },
+  {
+   "id": "review-2026-10-19",
+   "date": "2026-10-19",
+   "status": "decided",
+   "automated": false,
+   "reviewer": "ChatGPT (pasted by the owner in chat)",
+   "created_at": "2026-10-19T22:05+00:00",
+   "response_at": "2026-10-19T22:39+00:00",
+   "decided_at": "2026-10-19T22:39+00:00",
+   "proposed": [
+    "AMD",
+    "ANET",
+    "JNJ",
+    "JPM"
+   ],
+   "packet": "TRENDBOT INDEPENDENT REVIEW PACKET \u2014 signals from the close of 2026-10-19\n\nYou are an independent, adversarial reviewer. Challenge each proposed paper trade: technical signal quality, fundamental assumptions, sentiment evidence, seasonal/regime assumptions, catalysts, concentration, sizing, risk/reward, missing or contradictory information, and whether it genuinely meets the rules. Reply for EACH ticker with one of: APPROVE / APPROVE WITH CONCERNS / CHALLENGE / REJECT, followed by 2-5 sentences of reasoning. Your assessment is advisory; the portfolio manager decides and records whether it accepted your view.\n\nRULES: buy only names above a rising 200-day average whose 3-month rate of change was >= +15% in the last 60 sessions and has cooled to between -3% and +5%. Orders fill at the next open (+0.05%). Exit on a close below the 200-day average or after 63 sessions. Equal weight, max 5 positions, no leverage. Paper trading.\n\nPORTFOLIO B NOW: equity $100,000, cash $100,000, held: none; pending orders: none. SPY 766.48, QQQ 718.36.\n\n=== AMD \u2014 PROPOSED BUY at the next open, size ~$20,000 (equal weight) ===\nTechnical (close 2026-10-19): price $538.05, 200-day $395.87 (price is +35.9% above), 200-day slope +11.00% over 20 sessions, 3-month change -1.2%. Risk: the exit is a close below $395.87 = -26.4% from here.\nAgents: fundamentals=ok, sentiment=ok.\nFundamentals note: Earnings Nov 3, outside the window. The ~20% drop from the Oct 8 record was a sector-wide chip selloff (hot CPI, yields, AI-spend worries), not company news. Arete raised its target to $612 this week; BNP $960; BofA $720.\nSentiment note: Bull: OpenAI 6-gigawatt deal, Helios rack launch Oct 12, data-centre revenue doubling. Bear: 130x trailing earnings, AI capex doubts, insider selling. StockTwits turned bearish Oct 12-14; r/wallstreetbets still bullish. Shaky but not panicked.\nCatalysts:   Earnings: \nSources: https://finviz.com/news/399552/amd-to-report-fiscal-third-quarter-2026-financial-results; https://www.benzinga.com/trading-ideas/movers/26/10/62366533/why-is-amd-stock-falling-on-wednesday; https://altindex.com/wallstreetbets  Sources unavailable: Direct Reddit/X/StockTwits threads were not retrievable via search; sentiment reflects news coverage and aggregator summaries.\nFor: trend intact, pullback has reset. Against: Reports Nov 3 inside the hold; 130x trailing earnings; exit is 26% below entry so a loss can be large.\n\n=== ANET \u2014 PROPOSED BUY at the next open, size ~$20,000 (equal weight) ===\nTechnical (close 2026-10-19): price $182.95, 200-day $162.9 (price is +12.3% above), 200-day slope +4.75% over 20 sessions, 3-month change +4.8%. Risk: the exit is a close below $162.9 = -11.0% from here.\nAgents: fundamentals=ok, sentiment=ok.\nFundamentals note: Earnings Nov 3, outside the window. No guidance cut. Weiss cut to Hold Oct 6, BNP Paribas upgraded to Strong Buy Oct 16. Heavy insider selling near the record high helped the 17-18% pullback from Oct 9.\nSentiment note: Bull: AI data-centre networking demand, Q2 revenue +38%, Oct 7 rack-scale Ethernet launch with AMD, Broadcom, Meta, Microsoft. Bear: 40x forward earnings, insider sales, Nvidia competition. Mood cautious after the drop; no specific negative catalyst.\nCatalysts:   Earnings: \nSources: https://www.marketbeat.com/earnings/reports/2026-11-3-arista-networks-inc-stock/; https://moneycheck.com/arista-networks-anet-stock-falls-3-after-ceo-sells-34m-in-stock; https://www.ad-hoc-news.de/boerse/news/corporate-news/bnp-paribas-exane-upgrades-arista-networks-stock-to-strong-buy/70359085  Sources unavailable: Direct Reddit/X/StockTwits threads were not retrievable via search; sentiment reflects news coverage and aggregator summaries.\nFor: trend intact, pullback has reset. Against: Reports Nov 3 inside the hold; heavy insider selling near the top; 17% drawdown from the Oct 9 high.\n\n=== JNJ \u2014 PROPOSED BUY at the next open, size ~$20,000 (equal weight) ===\nTechnical (close 2026-10-19): price $253.79, 200-day $242.55 (price is +4.6% above), 200-day slope +2.41% over 20 sessions, 3-month change +1.8%. Risk: the exit is a close below $242.55 = -4.4% from here.\nAgents: fundamentals=ok, sentiment=ok.\nFundamentals note: Already reported Oct 13: beat on sales and EPS and raised full-year guidance, but fell 4-6% on weak MedTech and 2027 dilution from two deals. RBC and Wells trimmed targets, kept buy ratings. Next report late January.\nSentiment note: Bull: Tremfya and oncology growth, $5.5B talc settlement in July removes the biggest overhang, dividend safety. Bear: Stelara \u221254%, weak MedTech, routine law-firm 'investigation' press release Oct 17. Mood cautious; several frame the dip as a buy.\nCatalysts:   Earnings: \nSources: https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q3-2026-results-raises-2026-guidance/default.aspx; https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62363208/these-analysts-cut-their-forecasts-on-johnson-johnson-after-q3-results  Sources unavailable: Direct Reddit/X/StockTwits threads were not retrievable via search; sentiment reflects news coverage and aggregator summaries.\nFor: trend intact, pullback has reset. Against: Fell 4-6% on earnings day; MedTech weak; 2027 dilution; low-volatility name where the strategy historically does less well.\n\n=== JPM \u2014 PROPOSED BUY at the next open, size ~$20,000 (equal weight) ===\nTechnical (close 2026-10-19): price $333.53, 200-day $319.55 (price is +4.4% above), 200-day slope +0.69% over 20 sessions, 3-month change -2.9%. Risk: the exit is a close below $319.55 = -4.2% from here.\nAgents: fundamentals=ok, sentiment=ok.\nFundamentals note: Already reported Oct 13: first EPS miss since 2022 on a securities loss, but revenue +8% and the bank raised its interest-income outlook for 2026 and 2027. Morgan Stanley target to $377, Goldman $392. Next report mid-January.\nSentiment note: StockTwits flipped extremely bullish on earnings day as the stock rose despite the miss. Bears cite 2.5x book value and Dimon's warnings about deficits and inflation. Mood mildly positive to neutral.\nCatalysts:   Earnings: \nSources: https://finance.yahoo.com/markets/article/jpmorgan-profit-misses-analyst-estimates-as-jamie-dimon-warns-economic-forces-shift-under-the-surface-112446859.html; https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-nyse-jpm-given-new-37700-price-target-at-morgan-stanley-2026-10-14/  Sources unavailable: Direct Reddit/X/StockTwits threads were not retrievable via search; sentiment reflects news coverage and aggregator summaries.\nFor: trend intact, pullback has reset. Against: First EPS miss since 2022; Fed decision Oct 28; stop is only 4% away so whipsaw risk is high.\n\nSEASONALITY / REGIME: see the seasonality block in the dashboard (context only; it does not change rules).\n\nPlease answer in this exact format so the reply can be parsed:\nTICKER: VERDICT \u2014 reasoning\n...\nOVERALL: one paragraph on portfolio-level concerns (concentration, correlation, sizing).",
+   "reviewer_response": "AMD: CHALLENGE \u2014 The mechanical entry conditions appear satisfied, but the stock is approximately 36% above its 200-day moving average despite a roughly 20% recent pullback. This may represent deterioration in shorter-term momentum rather than a healthy consolidation. The November 3 earnings event, elevated valuation, and recent semiconductor-sector volatility introduce substantial risk. I recommend reconsidering the entry until there is stronger evidence of stabilization. This is an advisory challenge, not a mechanical-rule violation.\n\nANET: CHALLENGE \u2014 The stock has declined approximately 16% from its October 9 high, a significant selloff over a short period. The October 19 rebound does not establish that the decline has stabilized. Recent insider sales deserve context: the CEO's reported sales were conducted under a prearranged trading plan and should not automatically be interpreted as a negative discretionary signal. I recommend reconsidering the entry based on recent price stability and earnings risk before committing capital.\n\nJNJ: APPROVE WITH CONCERNS \u2014 The technical criteria appear satisfied, and the company's recently increased guidance provides credible fundamental support. Its proximity to the 200-day moving average provides a relatively nearby technical exit signal, although execution losses can exceed that distance. The fundamental assessment should be corrected to reflect that the $5.5 billion talc settlement remains conditional rather than completely resolving litigation uncertainty. Momentum is relatively modest, but I do not identify a sufficient reason to veto the purchase.\n\nJPM: APPROVE WITH CONCERNS \u2014 The technical entry criteria appear satisfied, and the company's improved interest-income outlook supports the fundamental case. However, the 200-day moving average has risen only 0.69% over 20 sessions, indicating limited trend strength. The recent earnings disappointment and October 19 price decline introduce short-term uncertainty. I would permit the trade under the existing rules while monitoring for a breakdown below the 200-day average.\n\nOVERALL: I challenge AMD and ANET because both experienced substantial recent declines despite remaining above rising 200-day averages. A momentum-reset signal alone does not establish that selling pressure has ended. Together they would represent approximately 40% exposure to correlated AI-infrastructure-related equities if both were purchased at the proposed sizes. The sentiment evidence is also incomplete: direct Reddit, X, and StockTwits research was unavailable, so aggregator summaries should not be treated as independently verified social sentiment. Seasonality should remain contextual rather than determine trade eligibility. I recommend that the portfolio manager independently evaluate these challenges, document whether it accepts or overrides them, and preserve all rejected opportunities for subsequent performance comparison. Do not change the technical-only portfolios based on this review.",
+   "reviewer_verdicts": null,
+   "pm_decisions": {
+    "AMD": {
+     "decision": "skip",
+     "reason": "Challenge accepted, mainly on concentration and risk geometry, not on the rule (which is met). Of the four proposals AMD has by far the widest distance to its 200-day exit (-26%), so the 10% stop, not the trend, would govern the exit, and earnings on Nov 3 land inside the hold. Buying both AMD and ANET would put 40% of the account in two correlated AI-infrastructure names; taking only one halves that. I chose to keep ANET (tighter exit, insider sales were under a pre-set plan, BNP upgrade) and skip AMD. This is a discretionary call that Portfolio A does not make: A buys AMD at the open, so the cost or benefit of this decision will be measured directly.",
+     "reviewer_summary": "36% above the 200-day after a ~20% drop; may be momentum deterioration not consolidation; Nov 3 earnings, valuation, sector volatility; with ANET ~40% in correlated AI names.",
+     "reviewer_verdict": "CHALLENGE"
+    },
+    "ANET": {
+     "decision": "buy",
+     "reason": "Challenge overridden, with the concentration point addressed by skipping AMD. The rule is met (price 12% above a rising 200-day, 3-month change +4.8% after a +15% run). The reviewer's own note that the CEO's sales were a pre-arranged plan removes the main bearish item; the Oct 16 BNP Paribas upgrade and the Oct 7 rack-scale Ethernet launch are the catalysts. Risk: 200-day exit 11% below and the 10% stop in between; earnings Nov 3 inside the hold is accepted as a known risk, consistent with the no-earnings-exit decision. Waiting for 'stabilization' is not a defined rule and would make B untestable.",
+     "reviewer_summary": "16% decline from the Oct 9 high; one-day rebound does not prove stabilization; insider sales were under a pre-arranged plan (not a discretionary negative); earnings risk Nov 3.",
+     "reviewer_verdict": "CHALLENGE"
+    },
+    "JNJ": {
+     "decision": "buy",
+     "reason": "Accepted. Rule met at the Oct 19 close (price 4.6% above a rising 200-day, 3-month change +1.8%). I accept the correction: the $5.5B talc settlement still needs 95% claimant participation, so litigation risk is reduced, not gone. Nearest exit of the four (200-day at -4.4%); the 10% stop will rarely be the binding exit here. Earnings are in late January, outside the hold.",
+     "reviewer_summary": "Rule met; raised guidance supports it; talc settlement is conditional, not resolved; exit level is near but losses can exceed it.",
+     "reviewer_verdict": "APPROVE WITH CONCERNS"
+    },
+    "JPM": {
+     "decision": "buy",
+     "reason": "Accepted. Rule met (3-month change -2.9%, inside the band; 200-day rising, though only +0.7% over 20 sessions, the weakest slope of the four). Already reported Oct 13, so no earnings inside the first weeks; Fed decision Oct 28 is the known event. Exit is tight (200-day 4.2% below), which limits the loss if the reviewer's trend-strength concern proves right.",
+     "reviewer_summary": "Rule met; interest-income outlook supports it; 200-day slope only +0.69%/20 sessions; earnings miss and Oct 19 dip add short-term uncertainty.",
+     "reviewer_verdict": "APPROVE WITH CONCERNS"
+    }
+   },
+   "decision_summary": "Buy ANET, JNJ, JPM at the Oct 20 open; skip AMD. Reviewer followed on JNJ, JPM (approve with concerns) and AMD (challenge accepted: widest exit distance, earnings inside hold, AI concentration); reviewer overridden on ANET (challenge; pre-arranged insider sales, upgrade, tighter exit). AMD is logged as a PM rejection and will be followed for comparison; Portfolio A buys it anyway.",
+   "bridge_status": null
+  }
+ ],
+ "recent_runs": [
+  {
+   "date": "2026-10-19",
+   "status": "ok",
+   "alerts": [
+    {
+     "kind": "buy",
+     "portfolio": "A",
+     "sym": "AMD",
+     "text": "Setup at the close ($538.05, 3-mo change -1.2%, 200-day $395.87 rising +11.0%/20d); buys at tomorrow's open."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "A",
+     "sym": "ANET",
+     "text": "Setup at the close ($182.95, 3-mo change +4.8%, 200-day $162.9 rising +4.8%/20d); buys at tomorrow's open."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "A",
+     "sym": "JNJ",
+     "text": "Setup at the close ($253.79, 3-mo change +1.8%, 200-day $242.55 rising +2.4%/20d); buys at tomorrow's open."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "A",
+     "sym": "JPM",
+     "text": "Setup at the close ($333.53, 3-mo change -2.9%, 200-day $319.55 rising +0.7%/20d); buys at tomorrow's open."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "A",
+     "sym": "GM",
+     "text": "Setup at the close ($82.75, 3-mo change +4.3%, 200-day $80.42 rising +0.2%/20d); buys at tomorrow's open."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "B",
+     "sym": "AMD",
+     "text": "Proposed buy ($538.05, 3-mo change -1.2%, above rising 200-day $395.87). Waiting for the independent review; no order until the morning decision."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "B",
+     "sym": "ANET",
+     "text": "Proposed buy ($182.95, 3-mo change +4.8%, above rising 200-day $162.9). Waiting for the independent review; no order until the morning decision."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "B",
+     "sym": "JNJ",
+     "text": "Proposed buy ($253.79, 3-mo change +1.8%, above rising 200-day $242.55). Waiting for the independent review; no order until the morning decision."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "B",
+     "sym": "JPM",
+     "text": "Proposed buy ($333.53, 3-mo change -2.9%, above rising 200-day $319.55). Waiting for the independent review; no order until the morning decision."
+    },
+    {
+     "kind": "watch",
+     "portfolio": "B",
+     "sym": "GM",
+     "text": "Setup vetoed by the fundamental agent: Q3 earnings scheduled for Oct 20, 2026 before the open (inside the 5-trading-day blackout)."
+    },
+    {
+     "kind": "watch",
+     "portfolio": "both",
+     "sym": "",
+     "text": "Day one, restated twice tonight: (1) fills moved from the signal close to the next open; (2) Portfolio B now waits for the independent review before buying. Nothing is held yet. The superseded records are archived, not overwritten."
+    },
+    {
+     "kind": "buy",
+     "portfolio": "C",
+     "sym": "",
+     "text": "Portfolio C (trend only, strongest slope first): orders for AMD, VLO, CRWD, ANET, TSM at the Oct 20 open. No reset condition, no stop-loss. Hypothesis test approved Oct 19."
+    },
+    {
+     "kind": "watch",
+     "portfolio": "both",
+     "sym": "",
+     "text": "From Oct 20, A and B sell when a close is 10% or more below entry (fills next open). Approved Oct 19 after verifying gap handling in tests. C has no stop."
+    }
+   ],
+   "agent_notes": {
+    "AMD": {
+     "catalysts": "Q3 earnings Nov 3 (guide ~$13B); Helios/Helion partner configs in November.",
+     "earnings_date": "2026-11-03",
+     "fundamental": "Earnings Nov 3, outside the window. The ~20% drop from the Oct 8 record was a sector-wide chip selloff (hot CPI, yields, AI-spend worries), not company news. Arete raised its target to $612 this week; BNP $960; BofA $720.",
+     "pm_decision": "SKIP (reviewer: CHALLENGE). Challenge accepted, mainly on concentration and risk geometry, not on the rule (which is met). Of the four proposals AMD has by far the widest distance to its 200-day exit (-26%), so the 10% stop, not the trend, would govern the exit, and earnings on Nov 3 land inside the hold. Buying both AMD and ANET would put 40% of the account in two correlated AI-infrastructure names; taking only one halves that. I chose to keep ANET (tighter exit, insider sales were under a pre-set plan, BNP upgrade) and skip AMD. This is a discretionary call that Portfolio A does not make: A buys AMD at the open, so the cost or benefit of this decision will be measured directly.",
+     "sentiment": "Bull: OpenAI 6-gigawatt deal, Helios rack launch Oct 12, data-centre revenue doubling. Bear: 130x trailing earnings, AI capex doubts, insider selling. StockTwits turned bearish Oct 12-14; r/wallstreetbets still bullish. Shaky but not panicked.",
+     "technical": "Still well above a steeply rising 200-day (396), 3-month change \u22121.2% after a huge run.",
+     "verdict": "BUY"
+    },
+    "ANET": {
+     "catalysts": "Q3 earnings Nov 3; Etherlink rack-scale launch Oct 7.",
+     "earnings_date": "2026-11-03",
+     "fundamental": "Earnings Nov 3, outside the window. No guidance cut. Weiss cut to Hold Oct 6, BNP Paribas upgraded to Strong Buy Oct 16. Heavy insider selling near the record high helped the 17-18% pullback from Oct 9.",
+     "pm_decision": "BUY (reviewer: CHALLENGE). Challenge overridden, with the concentration point addressed by skipping AMD. The rule is met (price 12% above a rising 200-day, 3-month change +4.8% after a +15% run). The reviewer's own note that the CEO's sales were a pre-arranged plan removes the main bearish item; the Oct 16 BNP Paribas upgrade and the Oct 7 rack-scale Ethernet launch are the catalysts. Risk: 200-day exit 11% below and the 10% stop in between; earnings Nov 3 inside the hold is accepted as a known risk, consistent with the no-earnings-exit decision. Waiting for 'stabilization' is not a defined rule and would make B untestable.",
+     "sentiment": "Bull: AI data-centre networking demand, Q2 revenue +38%, Oct 7 rack-scale Ethernet launch with AMD, Broadcom, Meta, Microsoft. Bear: 40x forward earnings, insider sales, Nvidia competition. Mood cautious after the drop; no specific negative catalyst.",
+     "technical": "Above rising 200-day (163), 3-month change +4.8% after a hot run.",
+     "verdict": "BUY"
+    },
+    "GM": {
+     "catalysts": "Q3 earnings Oct 20; Michigan battery centre opening; tariff actions.",
+     "earnings_date": "2026-10-20",
+     "fundamental": "Reports Q3 tomorrow morning, inside the 5-day blackout. No guidance cut; management raised 2026 guidance twice this year. Goldman lifted its target to $112, JPMorgan and UBS trimmed slightly but kept buy ratings. Options price a 5-6% move.",
+     "sentiment": "Mood cautiously bullish into the print: rising profit per vehicle and lower tariff costs on the bull side; falling U.S. and EV sales, recall class actions and an NHTSA probe on the bear side. No fresh shock.",
+     "technical": "Setup is valid (above rising 200-day, 3-month change cooled to +4%). Re-check after earnings.",
+     "verdict": "VETO \u2014 earnings tomorrow (Oct 20)"
+    },
+    "JNJ": {
+     "catalysts": "LIBREXIA-STROKE Phase 3 readout by year-end; Dec 8 investor event with 2027 guidance.",
+     "earnings_date": "late Jan 2027",
+     "fundamental": "Already reported Oct 13: beat on sales and EPS and raised full-year guidance, but fell 4-6% on weak MedTech and 2027 dilution from two deals. RBC and Wells trimmed targets, kept buy ratings. Next report late January.",
+     "pm_decision": "BUY (reviewer: APPROVE WITH CONCERNS). Accepted. Rule met at the Oct 19 close (price 4.6% above a rising 200-day, 3-month change +1.8%). I accept the correction: the $5.5B talc settlement still needs 95% claimant participation, so litigation risk is reduced, not gone. Nearest exit of the four (200-day at -4.4%); the 10% stop will rarely be the binding exit here. Earnings are in late January, outside the hold.",
+     "sentiment": "Bull: Tremfya and oncology growth, $5.5B talc settlement in July removes the biggest overhang, dividend safety. Bear: Stelara \u221254%, weak MedTech, routine law-firm 'investigation' press release Oct 17. Mood cautious; several frame the dip as a buy.",
+     "technical": "Above rising 200-day (243), 3-month change +1.8%.",
+     "verdict": "BUY"
+    },
+    "JPM": {
+     "catalysts": "Fed decision Oct 28; December FOMC; Q4 earnings mid-January.",
+     "earnings_date": "2027-01-14 (approx.)",
+     "fundamental": "Already reported Oct 13: first EPS miss since 2022 on a securities loss, but revenue +8% and the bank raised its interest-income outlook for 2026 and 2027. Morgan Stanley target to $377, Goldman $392. Next report mid-January.",
+     "pm_decision": "BUY (reviewer: APPROVE WITH CONCERNS). Accepted. Rule met (3-month change -2.9%, inside the band; 200-day rising, though only +0.7% over 20 sessions, the weakest slope of the four). Already reported Oct 13, so no earnings inside the first weeks; Fed decision Oct 28 is the known event. Exit is tight (200-day 4.2% below), which limits the loss if the reviewer's trend-strength concern proves right.",
+     "sentiment": "StockTwits flipped extremely bullish on earnings day as the stock rose despite the miss. Bears cite 2.5x book value and Dimon's warnings about deficits and inflation. Mood mildly positive to neutral.",
+     "technical": "Above rising 200-day (320), 3-month change \u22122.9%: the reset.",
+     "verdict": "BUY"
+    }
+   },
+   "intel": [
+    {
+     "agent": "Fundamentals",
+     "importance": "high",
+     "rank": 1,
+     "source": "https://investor.gm.com/news-releases/news-release-details/gm-announces-third-quarter-2026-earnings-conference-call-details",
+     "sym": "GM",
+     "text": "Q3 earnings tomorrow before the open (Oct 20); options price a ~6% move. Technical setup is valid but B vetoed the entry; A will buy at the open regardless.",
+     "time": "2026-10-19 17:00 ET"
+    },
+    {
+     "agent": "Technical",
+     "importance": "high",
+     "rank": 2,
+     "source": "",
+     "sym": "AMD",
+     "text": "Momentum reset: 3-month change -1.2% after a +15% run, price 36% above a 200-day average rising 11% per 20 sessions. Exit level is 26% below, the widest risk of the five.",
+     "time": "2026-10-19 close"
+    },
+    {
+     "agent": "Sentiment",
+     "importance": "medium",
+     "rank": 3,
+     "source": "https://moneycheck.com/arista-networks-anet-stock-falls-3-after-ceo-sells-34m-in-stock",
+     "sym": "ANET",
+     "text": "17-18% pullback from the Oct 9 record driven by insider selling (CEO ~$34M) and a Weiss downgrade; BNP Paribas upgraded to Strong Buy Oct 16. Mood cautious, no specific negative catalyst.",
+     "time": "2026-10-19 17:05 ET"
+    },
+    {
+     "agent": "Smart money",
+     "importance": "medium",
+     "rank": 3,
+     "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532&type=4",
+     "sym": "ANET",
+     "text": "SEC Form 4 (primary source): CEO Jayshree Ullal sold roughly 715,000 shares Oct 6-9 at $211-$217 under a Rule 10b5-1 plan adopted Nov 14, 2025 (scheduled, not discretionary). No insider buys in 30 days. Congress: McCaul sale published Oct 16 was executed Aug 3 (71-day lag); Khanna small buys Jul-Aug.",
+     "time": "2026-10-19 21:25 ET"
+    },
+    {
+     "agent": "Sentiment",
+     "importance": "medium",
+     "rank": 4,
+     "source": "https://altindex.com/wallstreetbets",
+     "sym": "AMD",
+     "text": "StockTwits flipped bearish Oct 12-14 during the chip selloff; r/wallstreetbets still bullish (38 mentions Oct 19). Earnings Nov 3 fall inside the holding period.",
+     "time": "2026-10-19 17:05 ET"
+    },
+    {
+     "agent": "Fundamentals",
+     "importance": "medium",
+     "rank": 5,
+     "source": "https://finance.yahoo.com/markets/article/jpmorgan-profit-misses-analyst-estimates-as-jamie-dimon-warns-economic-forces-shift-under-the-surface-112446859.html",
+     "sym": "JPM",
+     "text": "Reported Oct 13: first EPS miss since 2022 on a $658M securities loss, but raised 2026/2027 net-interest-income outlook. Fed decision Oct 28 is the next catalyst.",
+     "time": "2026-10-19 17:05 ET"
+    },
+    {
+     "agent": "Catalyst",
+     "importance": "medium",
+     "rank": 6,
+     "source": "https://www.investor.jnj.com/investor-news/news-details/2026/Johnson--Johnson-reports-Q3-2026-results-raises-2026-guidance/default.aspx",
+     "sym": "JNJ",
+     "text": "Beat-and-raise on Oct 13 but fell 4-6% on weak MedTech. Upcoming: LIBREXIA-STROKE Phase 3 readout by year-end; Dec 8 investor event with 2027 guidance.",
+     "time": "2026-10-19 17:05 ET"
+    },
+    {
+     "agent": "Sentiment",
+     "importance": "low",
+     "rank": 6,
+     "source": "https://stocktwits.com/symbol/ANET",
+     "sym": "ANET",
+     "text": "StockTwits (read directly): sentiment 52/neutral, 50% bullish, normal message volume; dip-buying language after the Oct 15 drop, no specific negative catalyst. Reddit is blocked in the browser pane; X needs the owner to sign in.",
+     "time": "2026-10-19 21:25 ET"
+    },
+    {
+     "agent": "Catalyst / seasonality",
+     "importance": "low",
+     "rank": 7,
+     "source": "",
+     "sym": "",
+     "text": "Q3 earnings season (Oct 10-Nov 15) has been the strongest tested window on SPY since 1993: +3.3% mean vs +1.2% normal, 85% positive, n=33. November and Nov-Apr also test strong. Context only.",
+     "time": "2026-10-19"
+    }
+   ],
+   "morning": {
+    "events": [
+     {
+      "kind": "watch",
+      "sym": "AMD",
+      "text": "Portfolio manager skipped the buy (reviewer: CHALLENGE). Reason: Challenge accepted, mainly on concentration and risk geometry, not on the rule (which is met). Of the four proposals AMD has by far the widest distance to its 200-day exit (-26%), so the 10% stop, not the trend, would govern the exit, and earnings on Nov 3 land inside the hold. Buying both AMD and ANET would put 40% of the account in two correlated AI-infrastructure names; taking only one halves that. I chose to keep ANET (tighter exit, insider sales were under a pre-set plan, BNP upgrade) and skip AMD. This is a discretionary call that Portfolio A does not make: A buys AMD at the open, so the cost or benefit of this decision will be measured directly."
+     },
+     {
+      "kind": "buy",
+      "sym": "ANET",
+      "text": "Portfolio manager approved the buy (reviewer: CHALLENGE); order for today's open. Reason: Challenge overridden, with the concentration point addressed by skipping AMD. The rule is met (price 12% above a rising 200-day, 3-month change +4.8% after a +15% run). The reviewer's own note that the CEO's sales were a pre-arranged plan removes the main bearish item; the Oct 16 BNP Paribas upgrade and the Oct 7 rack-scale Ethernet launch are the catalysts. Risk: 200-day exit 11% below and the 10% stop in between; earnings Nov 3 inside the hold is accepted as a known risk, consistent with the no-earnings-exit decision. Waiting for 'stabilization' is not a defined rule and would make B untestable."
+     },
+     {
+      "kind": "buy",
+      "sym": "JNJ",
+      "text": "Portfolio manager approved the buy (reviewer: APPROVE WITH CONCERNS); order for today's open. Reason: Accepted. Rule met at the Oct 19 close (price 4.6% above a rising 200-day, 3-month change +1.8%). I accept the correction: the $5.5B talc settlement still needs 95% claimant participation, so litigation risk is reduced, not gone. Nearest exit of the four (200-day at -4.4%); the 10% stop will rarely be the binding exit here. Earnings are in late January, outside the hold."
+     },
+     {
+      "kind": "buy",
+      "sym": "JPM",
+      "text": "Portfolio manager approved the buy (reviewer: APPROVE WITH CONCERNS); order for today's open. Reason: Accepted. Rule met (3-month change -2.9%, inside the band; 200-day rising, though only +0.7% over 20 sessions, the weakest slope of the four). Already reported Oct 13, so no earnings inside the first weeks; Fed decision Oct 28 is the known event. Exit is tight (200-day 4.2% below), which limits the loss if the reviewer's trend-strength concern proves right."
+     }
+    ],
+    "pm_decisions": {
+     "AMD": {
+      "decision": "skip",
+      "reason": "Challenge accepted, mainly on concentration and risk geometry, not on the rule (which is met). Of the four proposals AMD has by far the widest distance to its 200-day exit (-26%), so the 10% stop, not the trend, would govern the exit, and earnings on Nov 3 land inside the hold. Buying both AMD and ANET would put 40% of the account in two correlated AI-infrastructure names; taking only one halves that. I chose to keep ANET (tighter exit, insider sales were under a pre-set plan, BNP upgrade) and skip AMD. This is a discretionary call that Portfolio A does not make: A buys AMD at the open, so the cost or benefit of this decision will be measured directly.",
+      "reviewer_summary": "36% above the 200-day after a ~20% drop; may be momentum deterioration not consolidation; Nov 3 earnings, valuation, sector volatility; with ANET ~40% in correlated AI names.",
+      "reviewer_verdict": "CHALLENGE"
+     },
+     "ANET": {
+      "decision": "buy",
+      "reason": "Challenge overridden, with the concentration point addressed by skipping AMD. The rule is met (price 12% above a rising 200-day, 3-month change +4.8% after a +15% run). The reviewer's own note that the CEO's sales were a pre-arranged plan removes the main bearish item; the Oct 16 BNP Paribas upgrade and the Oct 7 rack-scale Ethernet launch are the catalysts. Risk: 200-day exit 11% below and the 10% stop in between; earnings Nov 3 inside the hold is accepted as a known risk, consistent with the no-earnings-exit decision. Waiting for 'stabilization' is not a defined rule and would make B untestable.",
+      "reviewer_summary": "16% decline from the Oct 9 high; one-day rebound does not prove stabilization; insider sales were under a pre-arranged plan (not a discretionary negative); earnings risk Nov 3.",
+      "reviewer_verdict": "CHALLENGE"
+     },
+     "JNJ": {
+      "decision": "buy",
+      "reason": "Accepted. Rule met at the Oct 19 close (price 4.6% above a rising 200-day, 3-month change +1.8%). I accept the correction: the $5.5B talc settlement still needs 95% claimant participation, so litigation risk is reduced, not gone. Nearest exit of the four (200-day at -4.4%); the 10% stop will rarely be the binding exit here. Earnings are in late January, outside the hold.",
+      "reviewer_summary": "Rule met; raised guidance supports it; talc settlement is conditional, not resolved; exit level is near but losses can exceed it.",
+      "reviewer_verdict": "APPROVE WITH CONCERNS"
+     },
+     "JPM": {
+      "decision": "buy",
+      "reason": "Accepted. Rule met (3-month change -2.9%, inside the band; 200-day rising, though only +0.7% over 20 sessions, the weakest slope of the four). Already reported Oct 13, so no earnings inside the first weeks; Fed decision Oct 28 is the known event. Exit is tight (200-day 4.2% below), which limits the loss if the reviewer's trend-strength concern proves right.",
+      "reviewer_summary": "Rule met; interest-income outlook supports it; 200-day slope only +0.69%/20 sessions; earnings miss and Oct 19 dip add short-term uncertainty.",
+      "reviewer_verdict": "APPROVE WITH CONCERNS"
+     }
+    },
+    "time": "Oct 19, 2026 6:40 pm ET (decision made the evening before, after the reply arrived)"
+   }
+  }
+ ],
+ "journal": [],
+ "social_evidence": [
+  {
+   "baseline": {
+    "days": 0
+   },
+   "change_summary": "first observation; baseline starts today",
+   "changes": [],
+   "collected_at": "2026-10-19 21:25 ET",
+   "congress": {
+    "findings": [
+     {
+      "lag_days": 71,
+      "politician": "Michael McCaul (R, House, TX)",
+      "published": "2026-10-16",
+      "size": "15K-50K",
+      "traded": "2026-08-03",
+      "type": "SELL"
+     },
+     {
+      "lag_days": 11,
+      "politician": "Ro Khanna (D, House, CA)",
+      "published": "2026-09-07",
+      "size": "1K-15K",
+      "traded": "2026-08-23",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 18,
+      "politician": "Ro Khanna",
+      "published": "2026-08-12",
+      "size": "1K-15K",
+      "traded": "2026-07-19",
+      "type": "BUY"
+     },
+     {
+      "lag_days": 116,
+      "politician": "Alan Armstrong (R, Senate, OK)",
+      "published": "2026-07-21",
+      "size": "1K-15K",
+      "traded": "2026-03-26",
+      "type": "BUY"
+     }
+    ],
+    "reading": "Small-ticket congressional trades, mixed direction; the only one published this week (McCaul sell) was executed 71 days earlier at prices well below today's. Transaction date vs disclosure date recorded. Predictive value: none demonstrated; logged for the hypothesis test. Confidence: high that the records are accurate, low that they carry signal.",
+    "url": "https://www.capitoltrades.com/issuers/429822"
+   },
+   "date": "2026-10-19",
+   "fed_to": "Sentiment/Smart-Money agent (ANET), Catalyst agent, portfolio manager, independent reviewer (next packet)",
+   "id": "2026-10-19-ANET",
+   "method": "read-only browsing in the desktop app's browser pane (no login used); primary sources, not news summaries",
+   "sec_form4": {
+    "filings_read": 3,
+    "findings": [
+     {
+      "acc": "0001596532-26-000240",
+      "filed": "2026-10-08",
+      "owner": "Jayshree Ullal, CEO and Chairperson",
+      "plan": "Rule 10b5-1 plan adopted 2025-11-14, for the benefit of relatives",
+      "prices": "$211.36-$213.06",
+      "shares_total": "~460,000 across reported lines (direct and indirect holdings)",
+      "transaction_dates": [
+       "2026-10-06"
+      ],
+      "type": "Sale"
+     },
+     {
+      "acc": "0001596532-26-000242",
+      "filed": "2026-10-09",
+      "owner": "Jayshree Ullal, CEO",
+      "plan": "10b5-1 (2025-11-14)",
+      "prices": "$217.14",
+      "shares_total": "~97,000",
+      "transaction_dates": [
+       "2026-10-07"
+      ],
+      "type": "Sale"
+     },
+     {
+      "acc": "0001596532-26-000244",
+      "filed": "2026-10-13",
+      "owner": "Jayshree Ullal, CEO",
+      "plan": "10b5-1 (2025-11-14)",
+      "prices": "$217.05-$217.10",
+      "shares_total": "~158,000",
+      "transaction_dates": [
+       "2026-10-08",
+       "2026-10-09"
+      ],
+      "type": "Sale"
+     }
+    ],
+    "reading": "All recent CEO sales were under a pre-arranged 10b5-1 plan adopted Nov 2025 \u2014 scheduled, not discretionary. Transaction dates (Oct 6-9) precede the filing dates by 2-4 days. No insider purchases found in the last 30 days. Confidence: high (primary filings).",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532&type=4"
+   },
+   "signal_score": 0,
+   "stocktwits": {
+    "bullish_pct": 50,
+    "message_volume": "normal",
+    "reading": "Retail mood on StockTwits is neutral-to-bullish with dip-buying language; no specific negative catalyst in the last 7 days of posts. Confidence: medium (small public sample, self-selected traders).",
+    "sample_posts": [
+     {
+      "text": "Already had a substantial position up >25%; the drop touched my average; sold Nike and Cisco to double the position.",
+      "time": "Oct 15",
+      "user": "deeprocks"
+     },
+     {
+      "text": "Went from greed to fear extremely quickly; still fundamentally strong: no debt, peak margins, 40% revenue growth, buyback likely used on a dip.",
+      "time": "Oct 15",
+      "user": "EZER"
+     },
+     {
+      "text": "Waiting for $150 before buying.",
+      "time": "Oct 15",
+      "user": "HannibalTunis"
+     },
+     {
+      "text": "Added ANET, CRDO, BE, DDOG, CRWD; today seems stronger, deep discount vs a few days ago.",
+      "time": "Oct 19 7:49 AM",
+      "user": "MKRReformed"
+     },
+     {
+      "text": "Betting low 190s / high 180s is the bottom, then another all-time high before earnings.",
+      "time": "Oct 14",
+      "user": "RobSteals"
+     }
+    ],
+    "sentiment_score": "52 / Neutral",
+    "url": "https://stocktwits.com/symbol/ANET"
+   },
+   "sym": "ANET",
+   "unavailable": {
+    "reddit": "Blocked in both the Claude browser pane and the Chrome extension (platform safety restriction, not user-approvable). Legitimate alternative: Reddit's public read-only JSON endpoints (e.g. r/stocks/search.json) from the cloud \u2014 currently refused by the egress allow-list; needs www.reddit.com added in claude.ai Settings > Capabilities."
+   },
+   "x": {
+    "collected_at": "2026-10-19 21:42 ET",
+    "method": "the owner's own Chrome (signed in) via the Claude in Chrome extension; read-only",
+    "note": "The unfiltered 'latest' feed was dominated by spam accounts promoting a 'stock analyst'; the min_faves:15 filter removes most of it. Quality: medium.",
+    "posts": [
+     {
+      "handle": "@MarketMaestro1",
+      "link": "https://x.com/MarketMaestro1/status/2112165882743124225",
+      "text": "Sold off very sharply last week like everything else; corrections have always been opportunities for this stock.",
+      "time": "2026-10-19T12:56Z"
+     },
+     {
+      "handle": "@carrioresearch",
+      "link": "https://x.com/carrioresearch/status/2112138328128807424",
+      "text": "Arista co-founder Andy Bechtolsheim: demand for OSFP optical modules ~150M this year but just over 120M will ship (supply constraint).",
+      "time": "2026-10-19T11:06Z"
+     },
+     {
+      "handle": "@feyermusic",
+      "link": "https://x.com/feyermusic/status/2111956742330343783",
+      "text": "Lists ANET among 5 AI-infrastructure stocks.",
+      "time": "2026-10-18T23:05Z"
+     },
+     {
+      "handle": "@FranVezz",
+      "link": "https://x.com/FranVezz/status/2111795328110223765",
+      "text": "On respecting risk after the selling pressure (general, mentions ANET).",
+      "time": "2026-10-18T12:23Z"
+     }
+    ],
+    "url": "https://x.com/search?q=%24ANET%20min_faves%3A15%20-filter%3Areplies&f=live"
+   }
+  }
+ ]
+}

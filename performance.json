@@ -1,0 +1,217 @@
+{
+ "generated_at": "2026-10-20T14:38+00:00",
+ "strategy_version": 7,
+ "data_as_of": "2026-10-19",
+ "portfolios": {
+  "A": {
+   "strategy": "technical rule with reset (10% stop from 2026-10-20)",
+   "start_date": "2026-10-19",
+   "start_cash": 100000,
+   "equity": 100000,
+   "return": 0,
+   "cash": 100000,
+   "invested_pct": 0,
+   "realized_pnl": 0,
+   "unrealized_pnl": 0,
+   "max_drawdown": 0,
+   "open_positions": {},
+   "pending_orders": [
+    {
+     "side": "buy",
+     "sym": "AMD",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T21:49:01+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "ANET",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T21:49:01+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "JNJ",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T21:49:01+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "JPM",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T21:49:01+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "GM",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T21:49:01+00:00"
+    }
+   ],
+   "proposed": [],
+   "equity_curve": [
+    [
+     "2026-10-19",
+     100000
+    ]
+   ],
+   "trades_closed": 0
+  },
+  "B": {
+   "strategy": "technical rule with reset + agent veto + independent review + portfolio manager (10% stop from 2026-10-20)",
+   "start_date": "2026-10-19",
+   "start_cash": 100000,
+   "equity": 100000,
+   "return": 0,
+   "cash": 100000,
+   "invested_pct": 0,
+   "realized_pnl": 0,
+   "unrealized_pnl": 0,
+   "max_drawdown": 0,
+   "open_positions": {},
+   "pending_orders": [
+    {
+     "side": "buy",
+     "sym": "ANET",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T22:39:14+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "JNJ",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T22:39:14+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "JPM",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T22:39:14+00:00"
+    }
+   ],
+   "proposed": [],
+   "equity_curve": [
+    [
+     "2026-10-19",
+     100000
+    ]
+   ],
+   "trades_closed": 0
+  },
+  "C": {
+   "strategy": "trend only (above rising 200-day), strongest slope first, no reset; hypothesis portfolio",
+   "start_date": "2026-10-19",
+   "start_cash": 100000,
+   "equity": 100000,
+   "return": 0,
+   "cash": 100000,
+   "invested_pct": 0,
+   "realized_pnl": 0,
+   "unrealized_pnl": 0,
+   "max_drawdown": 0,
+   "open_positions": {},
+   "pending_orders": [
+    {
+     "side": "buy",
+     "sym": "AMD",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T22:26:11+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "VLO",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T22:26:11+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "CRWD",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T22:26:11+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "ANET",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T22:26:11+00:00"
+    },
+    {
+     "side": "buy",
+     "sym": "TSM",
+     "signal_date": "2026-10-19",
+     "placed_at": "2026-10-19T22:26:11+00:00"
+    }
+   ],
+   "proposed": [],
+   "equity_curve": [
+    [
+     "2026-10-19",
+     100000
+    ]
+   ],
+   "trades_closed": 0
+  }
+ },
+ "benchmarks": {
+  "SPY": 0,
+  "QQQ": 0,
+  "start": {
+   "QQQ": 718.36,
+   "SPY": 766.48,
+   "date": "2026-10-19"
+  }
+ },
+ "closed_trades": [],
+ "vetoes_and_rejections": [
+  {
+   "agents": [
+    "portfolio_manager"
+   ],
+   "close_at_veto": 538.05,
+   "date": "2026-10-19",
+   "evidence": "reviewer verdict: CHALLENGE. 36% above the 200-day after a ~20% drop; may be momentum deterioration not consolidation; Nov 3 earnings, valuation, sector volatility; with ANET ~40% in correlated AI names.",
+   "id": "AMD-2026-10-19-pm",
+   "kind": "pm rejection",
+   "outcome": "pending",
+   "reason": "Challenge accepted, mainly on concentration and risk geometry, not on the rule (which is met). Of the four proposals AMD has by far the widest distance to its 200-day exit (-26%), so the 10% stop, not the trend, would govern the exit, and earnings on Nov 3 land inside the hold. Buying both AMD and ANET would put 40% of the account in two correlated AI-infrastructure names; taking only one halves that. I chose to keep ANET (tighter exit, insider sales were under a pre-set plan, BNP upgrade) and skip AMD. This is a discretionary call that Portfolio A does not make: A buys AMD at the open, so the cost or benefit of this decision will be measured directly.",
+   "sym": "AMD",
+   "technical": {
+    "adjclose": 538.05,
+    "close": 538.05,
+    "roc63": -0.0117,
+    "sma200_raw": 395.87,
+    "sma_slope": 0.11
+   }
+  },
+  {
+   "agents": [
+    "fundamental"
+   ],
+   "close_at_veto": 82.75,
+   "date": "2026-10-19",
+   "evidence": "GM investor-relations release announcing the Oct 20 call; TipRanks: options price a ~6% move. No guidance cut; Goldman target to $112, JPMorgan/UBS trimmed targets but kept buy ratings.",
+   "id": "GM-2026-10-19",
+   "kind": "agent veto",
+   "outcome": "pending",
+   "reason": "Q3 earnings scheduled for Oct 20, 2026 before the open (inside the 5-trading-day blackout).",
+   "sym": "GM",
+   "technical": {
+    "adjclose": 82.75,
+    "close": 82.75,
+    "roc63": 0.0427,
+    "sma200_raw": 80.42,
+    "sma_slope": 0.0023
+   }
+  }
+ ],
+ "lessons": {
+  "as_of": "2026-10-19",
+  "basis": "0 completed trades; 1 agent veto (GM) and 1 portfolio-manager rejection (AMD) being followed; 1 review packet sent, 1 reply received (manual: ChatGPT reply pasted by the owner; 0 automated API reviews), 1 decision recorded",
+  "items": [],
+  "reviews": {
+   "automated": 0,
+   "decided": 1,
+   "manual": 1
+  },
+  "weekly_summary": "No completed trades yet. One manual independent review has been received and decided (Oct 19). The first weekly evaluation runs Saturday Oct 24 and will report counts only; conclusions need at least 10 closed trades per portfolio to be called preliminary and 30+ to be called convincing."
+ }
+}
