@@ -1,8 +1,8 @@
 # TrendBot — development log
-Updated 2026-10-20T15:40+00:00.
+Updated 2026-10-20T15:58+00:00.
 
 ## Implementation (current)
-- Software version 9 (trading rules unchanged since 2026-10-19); execution: signal at close T, fill at open T+1, 5bp slippage, no commission, dividends not credited
+- Software version 10 (trading rules unchanged since 2026-10-19); execution: signal at close T, fill at open T+1, 5bp slippage, no commission, dividends not credited
 - Portfolios: {'A': 'technical rule with reset (10% stop from 2026-10-20)', 'B': "same rule + agent veto + independent review + portfolio-manager decision (10% stop); 'agents and PM' policy while the automated reviewer is unavailable, decisions tagged 'no independent review'"}; C: trend only, slope-ranked, no reset, no stop; approved 2026-10-19 as a hypothesis
 - Stop-loss: {'pct': 0.1, 'effective': '2026-10-20', 'applies_to': ['A', 'B'], 'execution': 'checked on the close; sells at the next open with slippage; gaps can exceed 10%'}
 - Order integrity: orders carry placed_at; an order written after 9:30 ET cannot fill at that day's open
@@ -12,7 +12,7 @@ Updated 2026-10-20T15:40+00:00.
 - Seasonality: context only; tested on SPY 1993-2026; never changes a trade
 
 ## Tests
-- engine 11, runner 8, reviewer 6, social 3 = 28 passing (2026-10-20)
+- engine 11, runner 8, reviewer 6, social 3, rating 5 = 33 passing (2026-10-20)
 
 ## Known problems / limitations
 - Price data comes from Yahoo Finance through the owner's PC browser pane; a run is skipped (and reported) if the PC is off.
@@ -32,3 +32,4 @@ Updated 2026-10-20T15:40+00:00.
 - 2026-10-20 v7: Reddit cloud test after allow-listing (HTTP 403 from Reddit; recorded as unavailable); B operating policy 'agents and PM' approved while the automated reviewer is parked; public reports published to GitHub by the evening run.
 - 2026-10-20 v8: automated GPT reviews activated after a passed integration test (gpt-5, ~$0.03/review); earnings blackout made a deterministic engine check (agents and reviewer no longer the only guard); 13 day-one orders filled at the Oct 20 open by an owner-requested fill-only run.
 - 2026-10-20 v9: intraday task (fills recorded shortly after the open; hourly mark-to-market shown on the dashboard; on-demand via Run now); fill timestamps on positions and trades; fills record moved to runs_intraday.
+- 2026-10-20 v10: daily watchlist with frozen 1-5 research rating (criteria v1), research view vs rule action separated, exit conditions/proximity/next catalyst per position, permanent assessment history, weekly predictive-value and cash-adjusted evaluation. No new indicators, agents or portfolios.

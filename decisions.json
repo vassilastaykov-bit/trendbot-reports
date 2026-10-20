@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T15:40+00:00",
+ "generated_at": "2026-10-20T15:58+00:00",
  "reviews": [
   {
    "id": "test-2026-10-20",
@@ -757,6 +757,7 @@
    "votes": {}
   }
  ],
+ "assessments": [],
  "social_evidence": [
   {
    "baseline": {

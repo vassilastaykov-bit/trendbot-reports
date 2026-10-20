@@ -1,5 +1,5 @@
 # TrendBot — latest status
-Generated 2026-10-20T15:40+00:00 (UTC). Software version 9 (trading rules unchanged since 2026-10-19). Data as of close 2026-10-19. Paper trading only; no real money.
+Generated 2026-10-20T15:58+00:00 (UTC). Software version 10 (trading rules unchanged since 2026-10-19). Data as of close 2026-10-19. Paper trading only; no real money.
 
 ## Performance (price-only benchmarks, same start date)
 | Portfolio | Strategy | Equity | Return | Cash | Invested | Max DD | Closed trades |
